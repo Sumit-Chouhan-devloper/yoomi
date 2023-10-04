@@ -7,3 +7,12 @@ body {
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+@media (min-width:1600px) {
+  .hero-right-icon{
+    top: 55%;
+  }
+  .hero-left-icon{
+    top: 58%;
+  }
+}

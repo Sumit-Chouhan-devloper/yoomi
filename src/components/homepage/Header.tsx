@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav.tsx";
 import LogoImage from "../../images/svg/logo.svg";
 import Hero from "./Hero.tsx";
+import HeroBottomLayer from "../../images/png/hero-layer-bottom.png";
+
 // import { HeaderCrossIcons, ToggleIcon } from "../../common/Icons";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
@@ -16,7 +18,12 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-light-sky">
+      <div className="bg-light-sky relative">
+        <img
+          src={HeroBottomLayer}
+          alt="hero-right-icon"
+          className="absolute bottom-0 w-full"
+        />
         <MobileNav
           activeNavOverlay={activeNavOverlay}
           setActiveNavOverlay={setActiveNavOverlay}
@@ -48,7 +55,7 @@ const Header = () => {
                     >
                       Contact Us
                     </a>
-                    <button className="hidden sm:flex justify-center items-center overflow-hidden h-[45px] w-[122px] text-sm text-white hover:text-dark-green font-semibold rounded-[4px] bg-dark-green hover:bg-[#fff] after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
+                    <button className="hidden sm:flex justify-center items-center overflow-hidden h-[45px] w-[122px] text-sm text-white hover:text-dark-green font-semibold rounded-[4px] bg-dark-green after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
                       Get Started
                     </button>
                   </div>
@@ -93,7 +100,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
-        <Hero/>
+        <Hero />
       </div>
     </>
   );
