@@ -27,6 +27,7 @@ export default {
         "light-pink": "#fbe8ff",
         blue: "#431ea6",
         green: "#85b6a6",
+        "dark-green": "#076787",
         "light-purple": "#9d8fcd",
       },
     },
