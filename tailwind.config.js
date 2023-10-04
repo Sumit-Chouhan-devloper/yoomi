@@ -29,6 +29,7 @@ export default {
         green: "#85b6a6",
         "dark-green": "#076787",
         "light-purple": "#9d8fcd",
+        "light-sky": "#F8FDFF",
       },
     },
   },
