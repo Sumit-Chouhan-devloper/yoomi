@@ -1,17 +1,29 @@
 import React from "react";
-import check_icon from "../assets/images/svg/check_icon.svg";
-import tracking_img from "../assets/images/webp/tracking-main-img.webp";
-import box_img from "../assets/images/png/feedback_top-vecter.png"
+import check_icon from "../../assets/images/svg/check_icon.svg";
+import tracking_img from "../../assets/images/webp/tracking-main-img.webp";
+import box_img from "../../assets/images/png/feedback_top-vecter.png";
 const TrackingFeedback = () => {
   return (
     <>
       <section className="relative sm:py-12 py-8">
-        <img className="absolute hidden lg:block top-[-24%] start-0 z-[-1]" src={box_img} alt="box-img" />
+        <img
+          className="absolute hidden lg:block top-[-24%] start-0 z-[-1]"
+          src={box_img}
+          alt="box-img"
+        />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative">
-        <img className="absolute hidden lg:block bottom-[-38%] end-[-10%] z-[-1]" src={box_img} alt="box-img" />
+          <img
+            className="absolute hidden lg:block bottom-[-38%] end-[-10%] z-[-1]"
+            src={box_img}
+            alt="box-img"
+          />
           <div className="flex flex-wrap items-center common_card_shado py-10 lg:py-14">
             <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-5">
-                <img className="w-full min-h-[195px]" src={tracking_img} alt="tracking" />
+              <img
+                className="w-full min-h-[195px]"
+                src={tracking_img}
+                alt="tracking"
+              />
             </div>
             <div className="lg:w-6/12 px-4">
               <p className="ff_Jakarta text-deep-blue text-sm font-semibold uppercase mb-0">

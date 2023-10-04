@@ -32,6 +32,7 @@ export const ToggleIcon = () => {
   );
 };
 
+<<<<<<< HEAD:src/common/Icons.tsx
 export const FooterLogo = () => {
   return (
     <svg
@@ -91,3 +92,5 @@ export const FooterLogo = () => {
     </svg>
   );
 };
+=======
+>>>>>>> 1da04cfe31737791b51f3b6d61ecb1074a8eac0b:src/components/common/Icons.tsx
