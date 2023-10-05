@@ -3,12 +3,18 @@ import HeroLeftIcon from "../../images/png/hero-left-icon.png";
 import HeroRightIcon from "../../images/png/hero-right-icon.png";
 import HeroLeftPot from "../../images/png/hero-left-side-pot.png";
 import HeroRightPot from "../../images/png/hero-right-side-pot.png";
+import { Images } from "../../images";
 const Hero = () => {
   return (
     <>
       <div className="relative min-h-screen">
         <img
           src={HeroLeftIcon}
+          alt="hero-left-icon"
+          className="absolute top-24"
+        />
+        <img
+          src={Images.heroImg}
           alt="hero-left-icon"
           className="absolute top-24"
         />
