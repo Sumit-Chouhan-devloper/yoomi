@@ -7,3 +7,18 @@ body {
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+/* call icon vibrate */
+.HoverTeleIcon:hover img {
+  animation: vibrate 5ms linear infinite;
+}
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

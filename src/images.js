@@ -24,6 +24,10 @@ import checkIcon from "./assets/images/svg/check_icon.svg";
 import trackingFeedbackImg from "./assets/images/webp/tracking-main-img.webp";
 import reportingImg from "./assets/images/webp/Report-main-img.webp";
 import trackingImg from "./assets/images/webp/tracking-with-graff.webp";
+import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
+import commaUp from "./assets/images/svg/comma_upper.svg";
+import commaDown from "./assets/images/svg/comma_lower.svg";
+import starGrup from "./assets/images/svg/StarGrup.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -51,4 +55,8 @@ export const Images = {
   sliderBgImg: sliderBgImg,
   sliderPersonOne: sliderPersonOne,
   sliderPersonTwo: sliderPersonTwo,
+  clintReview1: clintReview1,
+  commaUp: commaUp,
+  commaDown: commaDown,
+  starGrup: starGrup,
 };

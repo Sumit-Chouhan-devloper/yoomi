@@ -1,5 +1,5 @@
 import React from "react";
-// import Footer from "../components/homepage/Footer.tsx";
+import Footer from "../components/homepage/Footer.tsx";
 import Header from "../components/homepage/Header.tsx";
 import TreakingRemote from "../components/homepage/TreakingRemote.tsx";
 import ReportingAnylats from "../components/homepage/ReportingAnylats.tsx";
@@ -11,15 +11,14 @@ const Main = () => {
   return (
     <>
       <div className=" overflow-hidden">
-        {" "}
         <Header />
         <Workout />
         <Feature/>
         <TrackingFeedback />
         <ReportingAnylats />
         <TreakingRemote />
-        <Partners/>
-        {/* <Footer /> */}
+        <Partners />
+        <Footer />
       </div>
     </>
   );

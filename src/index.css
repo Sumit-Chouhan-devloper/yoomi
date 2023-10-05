@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 /* common classes */
-.main-heading {
+.MainHeading {
   font-size: 32px;
   font-weight: normal;
   color: #000;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
-.sub-heading {
+.SubHeading {
   font-size: 16px;
   font-weight: 500;
   color: #431ea6;
