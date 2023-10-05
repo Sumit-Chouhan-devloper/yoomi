@@ -1,44 +1,42 @@
 import React from "react";
-import img_logo_footer from "../../images/svg/logoFooter.svg";
-import msgIcon from "../../images/svg/Gmail-logo.svg";
-import telIcon from "../../images/svg/tele-logo.svg";
+import { Images } from "../../images.js";
+
 const Footer = () => {
   return (
     <>
-      {" "}
       <div className="bg-[#000111] pt-[213px] border-b-[1px] border-solid border-b-[rgba(255,255,255,0.20)]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-between pb-12">
-            <div className="w-3/12">
+            <div className="w-full mb-6 md:mb-0 md:w-6/12 lg:w-3/12">
               <img
                 className="w-[192px] h-[48px]"
-                src={img_logo_footer}
+                src={Images.img_logo_footer}
                 alt=""
               />
-              <p className=" text-white font-light text-xs leading-[150%] max-w-[277px] py-[30px]">
+              <p className="text-white font-light text-xs leading-[150%] max-w-[277px] py-5 md:py-6 lg:py-[30px]">
                 I'm a paragraph. Click here to add your own text and edit me.
                 It’s easy. Just click “Edit Text”{" "}
               </p>
               <a
                 href="mailto:contact@yoomi.com"
-                className="flex font-light text-sm text-white gap-[18px] pb-4">
-                <img src={msgIcon} alt="gmail icon" />
+                className="flex font-light text-sm text-white gap-[18px] pb-4  transition-all ease-linear hover:text-[#808080] ">
+                <img src={Images.msgIcon} alt="gmail icon" />
                 contact@yoomi.com
               </a>
               <a
                 href="tel:+123 456 789"
-                className="flex font-light text-sm text-white gap-[18px]">
-                <img src={telIcon} alt="tel icon" />
+                className="flex font-light text-sm text-white gap-[18px] HoverTeleIcon  transition-all ease-linear hover:text-[#808080] ">
+                <img src={Images.telIcon} alt="tel icon" />
                 +123 456 789
               </a>
             </div>
-            <div className="w-4/12">
+            <div className="max-[450px]:w-full w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
                   <h3 className=" text-xs font-semibold leading-[normal] text-white">
                     About Us
                   </h3>
-                  <ul className="flex flex-col gap-y-[18px] pt-[18px]">
+                  <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px]">
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
@@ -66,7 +64,7 @@ const Footer = () => {
                   <h3 className=" text-xs font-semibold leading-[normal] text-white">
                     Contact Us
                   </h3>
-                  <ul className="flex flex-col gap-y-[18px] pt-[18px]">
+                  <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px]">
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
@@ -94,7 +92,7 @@ const Footer = () => {
                   <h3 className=" text-xs font-semibold leading-[normal] text-white pe-2">
                     News
                   </h3>
-                  <ul className="flex flex-col gap-y-[18px] pt-[18px] items-end">
+                  <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px] items-end">
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
@@ -109,9 +107,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-[22px] bg-[#000111] ">
+      <div className="py-3 md:py-4 lg:py-[22px] bg-[#000111] ">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <ul className="flex gap-x-[23px] justify-end">
+          <ul className="flex gap-x-4 md:gap-x-[23px] justify-end">
             <li>
               <a
                 href="#trems"
