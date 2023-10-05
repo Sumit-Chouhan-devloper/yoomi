@@ -13,7 +13,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
             <a
               onClick={() => setActiveNavOverlay(false)}
               href="#about-us"
-              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               About Us
             </a>
@@ -22,7 +22,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
             <a
               onClick={() => setActiveNavOverlay(false)}
               href="#news"
-              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               News
             </a>
@@ -31,7 +31,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
             <a
               onClick={() => setActiveNavOverlay(false)}
               href="#contact-us"
-              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+              className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               Contact Us
             </a>
@@ -42,7 +42,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
               onClick={() => setActiveNavOverlay(false)}
               aria-current="page"
             >
-              <button className="lg:hidden overflow-hidden flex justify-center items-center h-[40px] w-[122px] text-sm text-white hover:text-dark-green font-semibold rounded-[4px] bg-dark-green hover:bg-[#fff] after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
+              <button className="lg:hidden overflow-hidden flex justify-center items-center h-[40px] w-[122px] text-sm text-white hover:text-deep-blue font-semibold rounded-[4px] bg-deep-blue hover:bg-[#fff] after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
                 Get Started
               </button>
             </a>
