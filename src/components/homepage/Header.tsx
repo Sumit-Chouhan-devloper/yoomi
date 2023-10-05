@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav.tsx";
-import LogoImage from "../../images/svg/logo.svg";
 import Hero from "./Hero.tsx";
-import HeroBottomLayer from "../../images/png/hero-layer-bottom.png";
-import HeroLeftPot from "../../images/png/hero-left-side-pot.png";
-import HeroRightPot from "../../images/png/hero-right-side-pot.png";
-import HeroLeftIcon from "../../images/png/hero-left-icon.png";
-import HeroRightIcon from "../../images/png/hero-right-icon.png";
-// import { HeaderCrossIcons, ToggleIcon } from "../../common/Icons";
+import { Images } from "../../images.js";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
 
@@ -23,27 +17,27 @@ const Header = () => {
     <>
       <div className="bg-light-sky relative min-h-[60vh] min-[992px]:min-h-screen flex flex-col">
         <img
-          src={HeroLeftIcon}
+          src={Images.heroLeftIcon}
           alt="hero-left-icon"
           className="absolute max-[1024px]:top-24 max-[1366px]:top-44 top-24 left-0 max-[1366px]:w-[10%] min-[1600px]:top-40"
         />
         <img
-          src={HeroRightIcon}
+          src={Images.heroRightIcon}
           alt="hero-right-icon"
           className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 top-36 max-[1366px]:w-[15%] min-[1600px]:top-56"
         />
         <img
-          src={HeroBottomLayer}
+          src={Images.heroBottomLayer}
           alt="hero-layer"
           className="absolute bottom-0 w-full"
         />
         <img
-          src={HeroLeftPot}
+          src={Images.heroLeftPot}
           alt="hero-left-pot"
           className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%] min[1600px]:bottom-[55%]"
         />
         <img
-          src={HeroRightPot}
+          src={Images.heroRightPot}
           alt="hero-right-pot"
           className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%] min[1600px]:bottom-[57%]"
         />
@@ -57,7 +51,11 @@ const Header = () => {
               <div className="flex items-center justify-between">
                 <div className="flex-1 flex items-center justify-between">
                   <a href="/">
-                    <img className="w-[80%] sm:w-[100%]" src={LogoImage} alt="logo" />
+                    <img
+                      className="w-[80%] sm:w-[100%]"
+                      src={Images.logoImage}
+                      alt="logo"
+                    />
                   </a>
                   <div className="hidden lg:block">
                     <div className="flex items-center">
