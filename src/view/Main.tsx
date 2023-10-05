@@ -5,24 +5,25 @@ import TreakingRemote from "../components/homepage/TreakingRemote.tsx";
 import ReportingAnylats from "../components/homepage/ReportingAnylats.tsx";
 import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
 import Partners from "../components/homepage/Partners.tsx";
+import Workout from "../components/homepage/Workout.tsx";
+import Feature from "../components/homepage/Feature.tsx";
 import { Review } from "../components/homepage/Review.tsx";
-// import Workout from "../components/homepage/Workout.tsx";
 
 const Main = () => {
   return (
     <>
       <div className=" overflow-hidden">
         <Header />
-        {/* <Workout/> */}
-        {/* <TreakingRemote />
-        <ReportingAnylats />
+        <Workout />
+        <Feature />
         <TrackingFeedback />
-        <Partners/> */}
-        <Review />
+        <ReportingAnylats />
+        <TreakingRemote />
+        <Partners />
+        {/* <Review /> */}
         <Footer />
       </div>
     </>
   );
 };
-
 export default Main;

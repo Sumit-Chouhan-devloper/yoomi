@@ -20,7 +20,7 @@ export function Review() {
             What are Client Think{" "}
             <span className=" font-semibold">About Us</span>
           </h2>
-          <Slider ref={slider} {...settings}>
+          {/* <Slider ref={slider} {...settings}>
             <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
               <div className=" flex flex-col justify-center items-center ">
                 {" "}
@@ -58,44 +58,7 @@ export function Review() {
                 </span>
               </div>
             </div>
-            <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
-              <div className=" flex flex-col justify-center items-center ">
-                {" "}
-                <img
-                  className="w-[74px]"
-                  src={Images.clintReview1}
-                  alt="Review by Clint"
-                />
-                <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
-                  Joy Robert <span className="ps-[6px] text-xs">( USA )</span>
-                </h2>
-                <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
-                  CEO ( yoomi )
-                </h3>
-                <div className="relative">
-                  {" "}
-                  <img
-                    src={Images.commaUp}
-                    className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
-                    alt=" Comma upepr"
-                  />
-                  <img
-                    src={Images.commaDown}
-                    className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
-                    alt="Comma down"
-                  />
-                  <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
-                    I'm a paragraph. Click here to add your own text and edit
-                    me. It’s easy. Just click “Edit Text” or double click me to
-                    add your own content and make changes to the font.
-                  </p>
-                </div>
-                <span className="pt-4">
-                  <img src={Images.starGrup} alt="Star Grup Images" />
-                </span>
-              </div>
-            </div>
-          </Slider>
+          </Slider> */}
           <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
             <div className=" flex flex-col justify-center items-center ">
               {" "}
@@ -191,6 +154,12 @@ export function Review() {
                 />
               </svg>
             </span>
+          </div>
+          <div className="py-[78px] px-[84px] bg-[#076787] rounded-[32px] w-full">
+            <img src={Images.img_logo_footer} alt="" />
+            <h2 className=" ff_Jakarta text-4xl font-normal leading-[110%] texr-white">
+              Sign Up to Join Our Newsletter
+            </h2>
           </div>
         </div>
       </div>

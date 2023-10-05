@@ -13,3 +13,14 @@
   font-weight: 500;
   color: #431ea6;
 }
+.FeatureSlider .slick-list {
+  padding: 0 -18px;
+}
+.slider_arrow:hover svg path {
+  stroke: white !important;
+}
+.CommonCardShado {
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 26px 27px 0px rgba(0, 0, 0, 0.04);
+}
