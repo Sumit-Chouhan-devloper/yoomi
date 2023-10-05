@@ -33,7 +33,7 @@ const Feature = (props) => {
     <>
       <section className="py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-dark-green text-sm font-medium uppercase text-center mb-2">
+          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
             Features
           </p>
           <h2 className="text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
@@ -46,7 +46,7 @@ const Feature = (props) => {
           </p>
           <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between CommonCardShado py-10 lg:py-14 ps-4 pe-4 lg:pe-0">
             <div className="lg:w-5/12">
-              <p className="text-dark-green text-sm font-medium uppercase mb-0 pt-3 sm:pt-6">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-0 pt-3 sm:pt-6">
                 Library
               </p>
               <h3 className="text-black lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[110%]">
@@ -74,7 +74,7 @@ const Feature = (props) => {
                   seconds
                 </p>
               </div>
-              <button className="rounded hover:bg-transparent hover:text-dark-green hover:border-dark-green transition duration-300 h-[51px] px-4 bg-dark-green text-white font-semibold text-sm border border-transparent">
+              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
                 View the Library
               </button>
             </div>
@@ -109,7 +109,7 @@ const Feature = (props) => {
               </Slider>
               <div className="flex gap-5 lg:mt-4 mt-3 justify-center lg:justify-start">
                 <div
-                  className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-dark-green hover:border-hidden"
+                  className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
                   onClick={() => first.current.slickNext()}
                 >
                   <svg
@@ -129,7 +129,7 @@ const Feature = (props) => {
                   </svg>
                 </div>
                 <div
-                  className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-black hover:bg-dark-green hover:border-hidden"
+                  className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
                   onClick={() => first.current.slickPrev()}
                 >
                   <svg
