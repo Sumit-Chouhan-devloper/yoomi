@@ -13,6 +13,9 @@ import partnerIconFour from "./assets/images/png/partner-icon-4.png";
 import partnerIconFive from "./assets/images/png/partner-icon-5.png";
 import feedbackVectorImg from "./assets/images/png/feedback_top-vecter.png";
 import reportingVectorImg from "./assets/images/png/reporting-analytis-bottom-vecter.png";
+import sliderBgImg from "./assets/images/png/exercies-slider-bg-img.png";
+import sliderPersonOne from "./assets/images/png/exercies-slider-men.png";
+import sliderPersonTwo from "./assets/images/png/exercies-slider-men2.png";
 import img_logo_footer from "./assets/images/svg/logoFooter.svg";
 import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
@@ -45,4 +48,7 @@ export const Images = {
   reportingImg: reportingImg,
   reportingVectorImg: reportingVectorImg,
   trackingImg: trackingImg,
+  sliderBgImg: sliderBgImg,
+  sliderPersonOne: sliderPersonOne,
+  sliderPersonTwo: sliderPersonTwo,
 };

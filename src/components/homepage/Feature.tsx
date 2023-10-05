@@ -74,35 +74,37 @@ const Feature = (props) => {
                   seconds
                 </p>
               </div>
-              <button className="rounded hover:bg-transparent hover:text-dark-green hover:border-dark-green transition duration-300 h-[51px] px-4 bg-dark-green text-white font-semibold text-sm border border-transparent">View the Library</button>
+              <button className="rounded hover:bg-transparent hover:text-dark-green hover:border-dark-green transition duration-300 h-[51px] px-4 bg-dark-green text-white font-semibold text-sm border border-transparent">
+                View the Library
+              </button>
             </div>
             <div className="lg:w-6/12 w-full FeatureSlider relative">
-              {/* <img
+              <img
                 className="absolute hidden md:block top-[-10%] end-0"
-                src={Images.slider_bg}
+                src={Images.sliderBgImg}
                 alt="dark-green-Rectangle"
-              /> */}
+              />
               <Slider {...settings} ref={first}>
                 <div className="lg:px-[18px] px-3">
-                  {/* <img
+                  <img
                     className="rounded w-full min-h-[161px]"
-                    src={Images.menExcercies}
+                    src={Images.sliderPersonOne}
                     alt="men"
-                  /> */}
+                  />
                 </div>
                 <div className="lg:px-[18px] px-3">
-                  {/* <img
+                  <img
                     className="rounded w-full min-h-[161px]"
-                    src={Images.menExcercies2}
+                    src={Images.sliderPersonTwo}
                     alt="men"
-                  /> */}
+                  />
                 </div>
                 <div className="lg:px-[18px] px-3">
-                  {/* <img
+                  <img
                     className="rounded w-full min-h-[161px]"
-                    src={Images.menExcercies}
+                    src={Images.sliderPersonOne}
                     alt="men"
-                  /> */}
+                  />
                 </div>
               </Slider>
               <div className="flex gap-5 lg:mt-4 mt-3 justify-center lg:justify-start">
