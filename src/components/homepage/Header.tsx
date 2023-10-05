@@ -61,23 +61,23 @@ const Header = () => {
                     <div className="flex items-center">
                       <a
                         href="#about-us"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-dark-green after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         About Us
                       </a>
                       <a
                         href="#news"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-dark-green after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         News
                       </a>
                       <a
                         href="#contact-us"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-dark-green after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-dark-green after:w-0 hover:after:w-full after:h-[2px]"
+                        className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         Contact Us
                       </a>
-                      <button className="hidden sm:flex justify-center items-center overflow-hidden h-[45px] w-[122px] text-sm text-white hover:text-dark-green font-semibold rounded-[4px] bg-dark-green after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
+                      <button className="hidden sm:flex justify-center items-center overflow-hidden h-[45px] w-[122px] text-sm text-white hover:text-deep-blue font-semibold rounded-[4px] bg-deep-blue after:bg-[#fff] border-solid border-[2px] border-[#076787] z-20 relative duration-300 ease-linear after:absolute after:w-full after:h-0 after:top-0 after:left-0 after:z-[-1] after:duration-300 after:ease-linear hover:after:h-full hover:after:bottom-0">
                         Get Started
                       </button>
                     </div>
