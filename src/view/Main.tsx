@@ -9,10 +9,10 @@ const Main = () => {
   return (
     <>
       <Header />
-      <TreakingRemote />
-      <ReportingAnylats />
-      <TrackingFeedback />
-      {/* <Footer /> */}
+      {/* <TreakingRemote /> */}
+      {/* <ReportingAnylats /> */}
+      {/* <TrackingFeedback /> */}
+      <Footer />
     </>
   );
 };
