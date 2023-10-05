@@ -14,9 +14,9 @@ const Main = () => {
         {" "}
         <Header />
         <Workout/>
-        <TreakingRemote />
-        <ReportingAnylats />
         <TrackingFeedback />
+        <ReportingAnylats />
+        <TreakingRemote />
         <Partners/>
         {/* <Footer /> */}
       </div>
