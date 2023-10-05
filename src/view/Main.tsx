@@ -8,11 +8,14 @@ import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
 const Main = () => {
   return (
     <>
-      <Header />
-      <TreakingRemote />
-      <ReportingAnylats />
-      <TrackingFeedback />
-      {/* <Footer /> */}
+      <div className=" overflow-hidden">
+        {" "}
+        <Header />
+        <TreakingRemote />
+        <ReportingAnylats />
+        <TrackingFeedback />
+        {/* <Footer /> */}
+      </div>
     </>
   );
 };
