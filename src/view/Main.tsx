@@ -5,7 +5,7 @@ import TreakingRemote from "../components/homepage/TreakingRemote.tsx";
 import ReportingAnylats from "../components/homepage/ReportingAnylats.tsx";
 import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
 import Partners from "../components/homepage/Partners.tsx";
-// import Workout from "../components/homepage/Workout.tsx";
+import Workout from "../components/homepage/Workout.tsx";
 
 const Main = () => {
   return (
@@ -13,7 +13,7 @@ const Main = () => {
       <div className=" overflow-hidden">
         {" "}
         <Header />
-        {/* <Workout/> */}
+        <Workout/>
         <TreakingRemote />
         <ReportingAnylats />
         <TrackingFeedback />

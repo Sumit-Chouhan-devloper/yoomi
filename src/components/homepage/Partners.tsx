@@ -12,21 +12,41 @@ const Partners = () => {
           Recognized by Leading{" "}
           <span className="font-semibold">Healthcare Institutions</span>
         </p>
-        <div className="flex justify-center lg:justify-between mt-4 sm:mt-9 gap-5 flex-wrap">
-          <div className="mt-2 sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white">
-            <img src={Images.partnerIconOne} alt="partner-icon-1" className="w-[50%] sm:w-[100px]" />
+        <div className="flex justify-center min-[1025px]:justify-between] mt-4 sm:mt-9 gap-5 flex-wrap">
+          <div className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear">
+            <img
+              src={Images.partnerIconOne}
+              alt="partner-icon-1"
+              className="w-[50%] sm:w-[100px]"
+            />
           </div>
-          <div className="mt-2 sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white">
-            <img src={Images.partnerIconTwo} alt="partner-icon-1" className="w-[50%] sm:w-[100px]" />
+          <div className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear">
+            <img
+              src={Images.partnerIconTwo}
+              alt="partner-icon-1"
+              className="w-[50%] sm:w-[100px]"
+            />
           </div>
-          <div className="mt-2 sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white">
-            <img src={Images.partnerIconThree} alt="partner-icon-1" className="w-[50%] sm:w-[100px]" />
+          <div className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear">
+            <img
+              src={Images.partnerIconThree}
+              alt="partner-icon-1"
+              className="w-[50%] sm:w-[100px]"
+            />
           </div>
-          <div className="mt-2 sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white">
-            <img src={Images.partnerIconFour} alt="partner-icon-1" className="w-[50%] sm:w-[100px]" />
+          <div className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear">
+            <img
+              src={Images.partnerIconFour}
+              alt="partner-icon-1"
+              className="w-[50%] sm:w-[100px]"
+            />
           </div>
-          <div className="mt-2 sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white">
-            <img src={Images.partnerIconFive} alt="partner-icon-1" className="w-[50%] sm:w-[100px]" />
+          <div className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear">
+            <img
+              src={Images.partnerIconFive}
+              alt="partner-icon-1"
+              className="w-[50%] sm:w-[100px]"
+            />
           </div>
         </div>
       </div>

@@ -14,6 +14,7 @@ import partnerIconFive from "./assets/images/png/partner-icon-5.png";
 import img_logo_footer from "./assets/images/svg/logoFooter.svg";
 import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
+import workoutIcon from "./assets/images/svg/workout-img.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -31,4 +32,5 @@ export const Images = {
   img_logo_footer: img_logo_footer,
   msgIcon: msgIcon,
   telIcon: telIcon,
+  workoutIcon: workoutIcon,
 };
