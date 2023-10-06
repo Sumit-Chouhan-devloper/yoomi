@@ -40,14 +40,14 @@ const Feature = () => {
           <h2 className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
-          <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 xl:mb-28">
+          <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[55px]">
             Yoomi is more than just a regular remote monitoring solution. Our
             product supports patients and providers through every step of the
             rehabilitation process
           </p>
           <div className="flex lg:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-10 lg:py-[80px] ps-4 pe-4 lg:pe-0">
             <div className="lg:w-5/12">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-2  pt-3 sm:pt-6">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2  pt-3 sm:pt-6 lg:pt-0">
                 Library
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%]">
