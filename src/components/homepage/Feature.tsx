@@ -10,11 +10,11 @@ const Feature = () => {
     infinite: true,
     arrows: false,
     speed: 500,
-    slidesToShow: 1.1,
+    slidesToShow: 1.03,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1023,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -111,15 +111,13 @@ const Feature = () => {
               <div className="flex gap-5 mt-[10px] justify-center lg:justify-start">
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickNext()}
-                >
+                  onClick={() => first.current.slickNext()}>
                   <svg
                     width="7"
                     height="11"
                     viewBox="0 0 7 11"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M6.05726 1.18284L1.67187 5.56823L6.05726 9.95361"
                       stroke="black"
@@ -131,15 +129,13 @@ const Feature = () => {
                 </div>
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickPrev()}
-                >
+                  onClick={() => first.current.slickPrev()}>
                   <svg
                     width="7"
                     height="11"
                     viewBox="0 0 7 11"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M1.15953 1.18284L5.54492 5.56823L1.15953 9.95361"
                       stroke="black"

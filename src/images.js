@@ -93,4 +93,10 @@ export const Images = {
   knowMoreSlide4: knowMoreSlide4,
   knowMoreBigSeminar: knowMoreBigSeminar,
   forecastIcon: forecastIcon,
+  knowMoreSlide1:knowMoreSlide1,
+  knowMoreSlide2:knowMoreSlide2,
+  knowMoreSlide3:knowMoreSlide3,
+  knowMoreSlide4:knowMoreSlide4,
+  knowMoreBigSeminar:knowMoreBigSeminar,
+  forecastIcon:forecastIcon,
 };
