@@ -33,6 +33,11 @@ import starGrup from "./assets/images/svg/StarGrup.svg";
 import committedLogoHippa from "./assets/images/png/commited_hippa_logo.png"
 import committedLogoFda from "./assets/images/png/commited_fda_logo.png"
 import committedLogoApta from "./assets/images/png/commited_apta_logo.png"
+import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png"
+import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png"
+import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png"
+import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png"
+import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp"
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -69,4 +74,9 @@ export const Images = {
   committedLogoHippa:committedLogoHippa,
   committedLogoFda:committedLogoFda,
   committedLogoApta:committedLogoApta,
+  knowMoreSlide1:knowMoreSlide1,
+  knowMoreSlide2:knowMoreSlide2,
+  knowMoreSlide3:knowMoreSlide3,
+  knowMoreSlide4:knowMoreSlide4,
+  knowMoreBigSeminar:knowMoreBigSeminar,
 };

@@ -12,6 +12,7 @@ import BackToTop from "../components/common/BackToTopButton.tsx";
 import OurPlatForm from "../components/homepage/OurPlatForm.tsx";
 import AboutUs from "../components/homepage/AboutUs.tsx";
 import Committed from "../components/homepage/Committed.tsx";
+import KnowMore from "../components/homepage/KnowMore.tsx";
 const Main = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const Main = () => {
         <Partners />
         <AboutUs />
         <Committed/>
+        <KnowMore/>
         <Footer />
         <BackToTop/>
       </div>
