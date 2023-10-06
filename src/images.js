@@ -23,6 +23,7 @@ import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
 import workoutIcon from "./assets/images/svg/workout-img.svg";
 import checkIcon from "./assets/images/svg/check_icon.svg";
+import profitProgressIcon from "./assets/images/svg/profit-progress-bar.svg";
 import trackingFeedbackImg from "./assets/images/webp/tracking-main-img.webp";
 import reportingImg from "./assets/images/webp/Report-main-img.webp";
 import trackingImg from "./assets/images/webp/tracking-with-graff.webp";
@@ -69,4 +70,5 @@ export const Images = {
   committedLogoHippa:committedLogoHippa,
   committedLogoFda:committedLogoFda,
   committedLogoApta:committedLogoApta,
+  profitProgressIcon:profitProgressIcon,
 };

@@ -12,6 +12,7 @@ import BackToTop from "../components/common/BackToTopButton.tsx";
 import OurPlatForm from "../components/homepage/OurPlatForm.tsx";
 import AboutUs from "../components/homepage/AboutUs.tsx";
 import Committed from "../components/homepage/Committed.tsx";
+import ForecastProfits from "../components/homepage/ForecastProfits.tsx";
 const Main = () => {
   return (
     <>
@@ -22,7 +23,8 @@ const Main = () => {
         <TrackingFeedback />
         <ReportingAnylats />
         <TreakingRemote />
-        <OurPlatForm/>
+        <OurPlatForm />
+        <ForecastProfits/>
         <Partners />
         <AboutUs />
         <Committed/>

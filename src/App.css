@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 body {
   font-family: "Inter", sans-serif;
@@ -6,6 +7,10 @@ body {
 
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.ff_lexend {
+  font-family: 'Lexend', sans-serif;
 }
 
 /* call icon vibrate */
@@ -53,4 +58,9 @@ body {
     -webkit-transform: translateY(-7px);
     transform: translateY(-7px);
   }
+}
+
+.forecast_box_bg {
+  background: rgba(7, 103, 135, 0.08);
+  box-shadow: 0px 0px 13px 0px rgba(60, 27, 78, 0.21) inset;
 }
