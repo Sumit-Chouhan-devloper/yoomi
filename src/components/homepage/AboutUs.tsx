@@ -3,7 +3,7 @@ import { Images } from "../../images";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { aboutUsSlider } from "../common/Helper.tsx";
 const AboutUs = () => {
   const settings = {
     dots: false,
@@ -25,80 +25,51 @@ const AboutUs = () => {
             <span className=" font-semibold">About Us</span>
           </h2>
           <Slider {...settings} ref={thirdSlider}>
-            <div className=" !flex !justify-center ">
-              <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
-                <div className=" flex flex-col justify-center items-center ">
-                  <img
-                    className="w-[74px]"
-                    src={Images.clintReview1}
-                    alt="Review by Clint"
-                  />
-                  <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
-                    Joy Robert <span className="ps-[6px] text-xs">( USA )</span>
-                  </h2>
-                  <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
-                    CEO ( yoomi )
-                  </h3>
-                  <div className="relative">
-                    <img
-                      src={Images.commaUp}
-                      className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
-                      alt=" Comma upepr"
-                    />
-                    <img
-                      src={Images.commaDown}
-                      className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
-                      alt="Comma down"
-                    />
-                    <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
-                      I'm a paragraph. Click here to add your own text and edit
-                      me. It’s easy. Just click “Edit Text” or double click me
-                      to add your own content and make changes to the font.
-                    </p>
+            {aboutUsSlider.map((data, i) => (
+              <>
+                <div className=" !flex !justify-center h-full ">
+                  <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
+                    <div className=" flex flex-col justify-center items-center ">
+                      <img
+                        className="w-[74px]"
+                        src={data.clientImage}
+                        alt="Review by Clint"
+                      />
+                      <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
+                        {data.clientName}{" "}
+                        <span className="ps-[6px] text-xs">
+                          {data.clientLocation}
+                        </span>
+                      </h2>
+                      <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
+                        {data.clientPost}
+                      </h3>
+                      <div className="relative">
+                        <img
+                          src={Images.commaUp}
+                          className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
+                          alt=" Comma upepr"
+                        />
+                        <img
+                          src={Images.commaDown}
+                          className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
+                          alt="Comma down"
+                        />
+                        <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
+                          {data.clientReview}
+                        </p>
+                      </div>
+                      <span className="pt-4">
+                        <img
+                          src={data.clientStarReview}
+                          alt="Star Grup Images"
+                        />
+                      </span>
+                    </div>
                   </div>
-                  <span className="pt-4">
-                    <img src={Images.starGrup} alt="Star Grup Images" />
-                  </span>
                 </div>
-              </div>
-            </div>
-            <div className=" !flex !justify-center ">
-              <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
-                <div className=" flex flex-col justify-center items-center ">
-                  <img
-                    className="w-[74px]"
-                    src={Images.clintReview1}
-                    alt="Review by Clint"
-                  />
-                  <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
-                    Joy Robert <span className="ps-[6px] text-xs">( USA )</span>
-                  </h2>
-                  <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
-                    CEO ( yoomi )
-                  </h3>
-                  <div className="relative">
-                    <img
-                      src={Images.commaUp}
-                      className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
-                      alt=" Comma upepr"
-                    />
-                    <img
-                      src={Images.commaDown}
-                      className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
-                      alt="Comma down"
-                    />
-                    <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
-                      I'm a paragraph. Click here to add your own text and edit
-                      me. It’s easy. Just click “Edit Text” or double click me
-                      to add your own content and make changes to the font.
-                    </p>
-                  </div>
-                  <span className="pt-4">
-                    <img src={Images.starGrup} alt="Star Grup Images" />
-                  </span>
-                </div>
-              </div>
-            </div>
+              </>
+            ))}
           </Slider>
           <div className=" flex justify-center items-center gap-3">
             <span className="">
@@ -159,7 +130,22 @@ const AboutUs = () => {
           </div>
           <div className="py-[78px] px-[84px] bg-[#076787] rounded-[32px]">
             <div className="">
-              <img src={Images.img_logo_footer} alt="" />
+              <img src={Images.img_logo_footer} alt="Logo Yoomi" />
+              <h2 className=" ff_Jakarta text-4xl font-normal text-white pt-7 pb-12">
+                Sign Up to Join
+                <span className=" font-semibold"> Our Newsletter</span>
+              </h2>
+              <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  className="pr-2 pl-3 py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
+                  required
+                />
+                <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear">
+                  Get Started
+                </button>
+              </form>
             </div>
           </div>
         </div>
