@@ -24,17 +24,17 @@ const Committed = () => {
               </p>
             </div>
             <div className="xl:w-5/12 lg:w-6/12">
-              <div className="flex lg:items-center flex-col md:flex-row mt-9 lg:mt-0">
+              <div className="flex lg:items-center  flex-col md:flex-row mt-9 lg:mt-0">
                 <div className="md:me-[34px] sm:flex lg:flex-col md:gap-0 sm:gap-[34px]">
-                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] flex justify-center items-center w-[208px] rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                  <div className="h-[170px] w-[170px] sm:h-[208px] sm:w-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] flex justify-center items-center  rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
                     <img src={Images.committedLogoHippa} alt="logo" />
                   </div>
-                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] lg:mt-[34px] mt-[34px] sm:mt-0 md:ms-[34px] lg:ms-0 flex justify-center items-center w-[208px] rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                  <div className=" sm:h-[208px] h-[170px] w-[170px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] lg:mt-[34px] mt-[34px] sm:mt-0 md:ms-[34px] lg:ms-0 flex justify-center items-center sm:w-[208px] rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
                     <img src={Images.committedLogoFda} alt="logo" />
                   </div>
                 </div>
                 <div className="flex justify-center mt-[34px] md:mt-0">
-                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] w-[208px] flex justify-center items-center rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                  <div className="sm:h-[208px] h-[170px] w-[170px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] sm:w-[208px] flex justify-center items-center rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
                     <img src={Images.committedLogoApta} alt="logo" />
                   </div>
                 </div>
