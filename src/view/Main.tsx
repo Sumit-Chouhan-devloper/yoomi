@@ -7,7 +7,8 @@ import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
 import Partners from "../components/homepage/Partners.tsx";
 import Workout from "../components/homepage/Workout.tsx";
 import Feature from "../components/homepage/Feature.tsx";
-import { Review } from "../components/homepage/Review.tsx";
+// import { Review } from "../components/homepage/Review.tsx";
+import BackToTop from "../components/common/BackToTopButton.jsx";
 
 const Main = () => {
   return (
@@ -22,6 +23,7 @@ const Main = () => {
         <Partners />
         {/* <Review /> */}
         <Footer />
+        <BackToTop/>
       </div>
     </>
   );
