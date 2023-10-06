@@ -9,7 +9,7 @@ const TreakingRemote = () => {
           src={Images.feedbackVectorImg}
           alt="box-img"
         />
-        <div className="container pb-8  sm:pb-12 lg:mb-12 xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-7 xl:py-[110px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
