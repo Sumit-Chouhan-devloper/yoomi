@@ -20,32 +20,32 @@ const KnowMore = () => {
             </span>
           </h3>
           <div>
-            <div className="slider-for max-w-[946px] mx-auto lg:mt-16 mt-12">
-              <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)}>
+            <div className="slider-for max-w-[946px] mx-auto lg:mt-16 mt-8">
+              <Slider asNavFor={nav2}fade={true} ref={(slider1) => setNav1(slider1)}>
                 <div>
                   <img
-                    className="w-full"
+                    className="w-full min-h[160px]"
                     src={Images.knowMoreBigSeminar}
                     alt="seminar-img"
                   />
                 </div>
                 <div>
                   <img
-                    className="w-full"
+                    className="w-full min-h[160px]"
                     src={Images.knowMoreBigSeminar}
                     alt="seminar-img"
                   />
                 </div>
                 <div>
                   <img
-                    className="w-full"
+                    className="w-full min-h[160px]"
                     src={Images.knowMoreBigSeminar}
                     alt="seminar-img"
                   />
                 </div>
                 <div>
                   <img
-                    className="w-full"
+                    className="w-full min-h[160px]"
                     src={Images.knowMoreBigSeminar}
                     alt="seminar-img"
                   />
@@ -60,42 +60,47 @@ const KnowMore = () => {
                 swipeToSlide={true}
                 focusOnSelect={true}
                 infinite={false}
+                arrows={false}
+                responsive= {[
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow:3,
+                        swipeToSlide:true,
+                        focusOnSelect:true,
+                        dots:true,
+                      }
+                    },
+                  ]}
               >
-                <div className="px-3 pt-10 cursor-pointer">
+                <div className="px-3 sm:pt-12 pt-5 cursor-pointer">
                   <img
-                    className="w-[152px] h-[114px]"
+                    className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
                 </div>
-                <div className="px-3 pt-10 cursor-pointer">
+                <div className="px-3 sm:pt-12 pt-5  cursor-pointer">
                   <img
-                    className="w-[152px] h-[114px]"
+                    className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide1}
                     alt="hospital-room"
                   />
                 </div>
-                <div className="px-3 pt-10 cursor-pointer">
+                <div className="px-3 sm:pt-12 pt-5 cursor-pointer">
                   <img
-                    className="w-[152px] h-[114px]"
+                    className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
                 </div>
-                <div className="px-3 pt-10 cursor-pointer">
+                <div className="px-3 sm:pt-12 pt-5 cursor-pointer">
                   <img
-                    className="w-[152px] h-[114px]"
+                    className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide1}
                     alt="hospital-room"
                   />
                 </div>
-                {/* <div className="px-3 pt-10">
-                  <img
-                    className="w-[152px] h-[114px]"
-                    src={Images.knowMoreSlide1}
-                    alt="hospital-room"
-                  />
-                </div> */}
               </Slider>
             </div>
           </div>
