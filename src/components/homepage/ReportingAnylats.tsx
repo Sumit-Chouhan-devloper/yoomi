@@ -4,9 +4,9 @@ import { Images } from "../../images.js";
 const ReportingAnylats = () => {
   return (
     <>
-      <div className="pb-12 sm:py-12">
+      <div className="py-7 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="flex flex-wrap flex-col-reverse lg:flex-row CommonCardShado py-10 lg:py-14 lg:items-center relative">
+          <div className="flex flex-wrap flex-col-reverse lg:flex-row CommonCardShado py-10 lg:py-12 lg:items-center relative">
             <img
               className="absolute bottom-0 start-0 hidden lg:block"
               src={Images.reportingVectorImg}
