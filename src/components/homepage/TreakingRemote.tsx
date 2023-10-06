@@ -10,7 +10,7 @@ const TreakingRemote = () => {
           alt="box-img"
         />
         <div className="container pb-8  sm:pb-12 lg:mb-12 xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 lg:py-16 xl:py-[87px] justify-center lg:justify-start">
+          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-7 xl:py-[110px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
                 className="w-full min-h-[207px]"
@@ -18,7 +18,7 @@ const TreakingRemote = () => {
                 alt="tracking"
               />
             </div>
-            <div className="lg:w-6/12 px-4 lg:ps-12">
+            <div className="lg:w-6/12 px-4 lg:ps-12 lg:pb-12">
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
