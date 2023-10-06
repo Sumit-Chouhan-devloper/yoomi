@@ -4,7 +4,7 @@ import { Images } from "../../images.js";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#000111] pt-[213px] border-b-[1px] border-solid border-b-[rgba(255,255,255,0.20)]">
+      <div className="bg-[#000111] pt-[100px]  md:pt-[150px] lg:pt-[190px]  xl:pt-[213px] border-b-[1px] border-solid border-b-[rgba(255,255,255,0.20)]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-between pb-12">
             <div className="w-full mb-6 md:mb-0 md:w-6/12 lg:w-3/12">

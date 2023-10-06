@@ -34,6 +34,10 @@ import starGrup from "./assets/images/svg/StarGrup.svg";
 import committedLogoHippa from "./assets/images/png/commited_hippa_logo.png"
 import committedLogoFda from "./assets/images/png/commited_fda_logo.png"
 import committedLogoApta from "./assets/images/png/commited_apta_logo.png"
+import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.svg";
+import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
+import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
+import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -71,4 +75,8 @@ export const Images = {
   committedLogoFda:committedLogoFda,
   committedLogoApta:committedLogoApta,
   profitProgressIcon:profitProgressIcon,
+  yomiFooterNewesCharacter: yomiFooterNewesCharacter,
+  yomiAboutPlusICO: yomiAboutPlusICO,
+  yomiAboutPlusICOsec: yomiAboutPlusICOsec,
+  Yoomi_translatecard_icon: Yoomi_translatecard_icon,
 };

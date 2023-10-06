@@ -12,23 +12,32 @@ const AboutUs = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: true,
   };
   const thirdSlider = React.useRef(null);
   return (
     <>
-      <div className=" pt-[73.3px] pb-[62.5px]">
+      <div className=" pt-14 md:pt-16 lg:pt-[73.3px] pb-5 relative">
+        <img
+          className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
+          src={Images.yomiAboutPlusICO}
+          alt=""
+        />
+        <img
+          className=" absolute bottom-[38%] right-[0px] translate-x-[0%] sm:w-24 md:w-28 xl:w-40 min-w-[100px] max-w-[6%] "
+          src={Images.yomiAboutPlusICOsec}
+          alt=""
+        />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
           <h3 className="SubHeading text-center pb-2">CLIENT review</h3>
-          <h2 className="MainHeading text-center pb-[52px]">
+          <h2 className="MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
             What are Client Think
-            <span className=" font-semibold">About Us</span>
+            <span className=" font-semibold"> About Us</span>
           </h2>
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
               <>
-                <div className=" !flex !justify-center h-full ">
-                  <div className="pt-[76px] pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-[168px] mb-[26px] ">
+                <div className="!flex !justify-center bg-white ">
+                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_2px_10px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-12  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[168px] mb-[26px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
                         className="w-[74px]"
@@ -47,12 +56,12 @@ const AboutUs = () => {
                       <div className="relative">
                         <img
                           src={Images.commaUp}
-                          className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
+                          className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
                           alt=" Comma upepr"
                         />
                         <img
                           src={Images.commaDown}
-                          className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
+                          className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
                           alt="Comma down"
                         />
                         <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
@@ -82,7 +91,7 @@ const AboutUs = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle
-                  className=" group-hover:fill-[#076787] group-hover:stroke-none"
+                  className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
                   cy="17.4227"
                   r="16.8655"
@@ -110,7 +119,7 @@ const AboutUs = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle
-                  className=" group-hover:fill-[#076787] group-hover:stroke-none"
+                  className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
                   cy="17.4227"
                   r="16.8655"
@@ -128,24 +137,48 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <div className="py-[78px] px-[84px] bg-[#076787] rounded-[32px]">
-            <div className="">
-              <img src={Images.img_logo_footer} alt="Logo Yoomi" />
-              <h2 className=" ff_Jakarta text-4xl font-normal text-white pt-7 pb-12">
-                Sign Up to Join
-                <span className=" font-semibold"> Our Newsletter</span>
-              </h2>
-              <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
-                <input
-                  type="email"
-                  placeholder="Enter Your Email"
-                  className="pr-2 pl-3 py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
-                  required
+          <div className="pb-5 pt-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative">
+            <img
+              className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
+              src={Images.Yoomi_translatecard_icon}
+              alt="Yoomi_translatecard_icon"
+            />
+            <div className="flex flex-wrap justify-between">
+              <div className="lg:w-6/12">
+                <div className="flex flex-col justify-center h-full">
+                  {" "}
+                  <div>
+                    {" "}
+                    <img
+                      className="w-44 sm:w-[250px] md:w-[228px]"
+                      src={Images.img_logo_footer}
+                      alt="Logo Yoomi"
+                    />
+                  </div>{" "}
+                  <h2 className="ff_Jakarta text-[24px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12">
+                    Sign Up to Join
+                    <span className=" font-semibold"> Our Newsletter</span>
+                  </h2>
+                  <form className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
+                    <input
+                      type="email"
+                      placeholder="Enter Your Email"
+                      className="pr-3 md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
+                      required
+                    />
+                    <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
+                      Get Started
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
+                <img
+                  className="max-[600px]:w-1/2"
+                  src={Images.yomiFooterNewesCharacter}
+                  alt=""
                 />
-                <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear">
-                  Get Started
-                </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
