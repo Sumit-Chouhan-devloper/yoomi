@@ -52,48 +52,50 @@ const KnowMore = () => {
                 </div>
               </Slider>
             </div>
-            <div className="slider-nav max-w-[700px] mx-auto mt-10">
+            <div className="slider-nav max-w-[700px] mx-auto" id="small_images">
               <Slider
                 asNavFor={nav1}
                 ref={(slider2) => setNav2(slider2)}
                 slidesToShow={4}
                 swipeToSlide={true}
-                focusOnSelect={true}>
-                <div className="px-3">
-                  <img
-                    className="w-[152px] h-[114px]"
-                    src={Images.knowMoreSlide1}
-                    alt="hospital-room"
-                  />
-                </div>
-                <div className="px-3">
+                focusOnSelect={true}
+                infinite={false}
+              >
+                <div className="px-3 pt-10 cursor-pointer">
                   <img
                     className="w-[152px] h-[114px]"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
                 </div>
-                <div className="px-3">
-                  <img
-                    className="w-[152px] h-[114px]"
-                    src={Images.knowMoreSlide3}
-                    alt="hospital-room"
-                  />
-                </div>
-                <div className="px-3">
-                  <img
-                    className="w-[152px] h-[114px]"
-                    src={Images.knowMoreSlide4}
-                    alt="hospital-room"
-                  />
-                </div>
-                <div className="px-3">
+                <div className="px-3 pt-10 cursor-pointer">
                   <img
                     className="w-[152px] h-[114px]"
                     src={Images.knowMoreSlide1}
                     alt="hospital-room"
                   />
                 </div>
+                <div className="px-3 pt-10 cursor-pointer">
+                  <img
+                    className="w-[152px] h-[114px]"
+                    src={Images.knowMoreSlide2}
+                    alt="seminar-img"
+                  />
+                </div>
+                <div className="px-3 pt-10 cursor-pointer">
+                  <img
+                    className="w-[152px] h-[114px]"
+                    src={Images.knowMoreSlide1}
+                    alt="hospital-room"
+                  />
+                </div>
+                {/* <div className="px-3 pt-10">
+                  <img
+                    className="w-[152px] h-[114px]"
+                    src={Images.knowMoreSlide1}
+                    alt="hospital-room"
+                  />
+                </div> */}
               </Slider>
             </div>
           </div>
