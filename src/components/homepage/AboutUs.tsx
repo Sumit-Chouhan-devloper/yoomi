@@ -22,6 +22,11 @@ const AboutUs = () => {
           src={Images.yomiAboutPlusICO}
           alt=""
         />
+        <img
+          className=" absolute bottom-[38%] right-[0px] translate-x-[0%] sm:w-24 md:w-28 xl:w-40 min-w-[100px] max-w-[6%] "
+          src={Images.yomiAboutPlusICOsec}
+          alt=""
+        />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
           <h3 className="SubHeading text-center pb-2">CLIENT review</h3>
           <h2 className="MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
@@ -51,12 +56,12 @@ const AboutUs = () => {
                       <div className="relative">
                         <img
                           src={Images.commaUp}
-                          className=" absolute top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
+                          className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
                           alt=" Comma upepr"
                         />
                         <img
                           src={Images.commaDown}
-                          className=" absolute bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
+                          className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
                           alt="Comma down"
                         />
                         <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
@@ -132,7 +137,12 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <div className="pb-5 pt-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px]">
+          <div className="pb-5 pt-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative">
+            <img
+              className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
+              src={Images.Yoomi_translatecard_icon}
+              alt="Yoomi_translatecard_icon"
+            />
             <div className="flex flex-wrap justify-between">
               <div className="lg:w-6/12">
                 <div className="flex flex-col justify-center h-full">

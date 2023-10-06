@@ -30,6 +30,8 @@ import commaDown from "./assets/images/svg/comma_lower.svg";
 import starGrup from "./assets/images/svg/StarGrup.svg";
 import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.svg";
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
+import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
+import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -63,4 +65,6 @@ export const Images = {
   starGrup: starGrup,
   yomiFooterNewesCharacter: yomiFooterNewesCharacter,
   yomiAboutPlusICO: yomiAboutPlusICO,
+  yomiAboutPlusICOsec: yomiAboutPlusICOsec,
+  Yoomi_translatecard_icon: Yoomi_translatecard_icon,
 };
