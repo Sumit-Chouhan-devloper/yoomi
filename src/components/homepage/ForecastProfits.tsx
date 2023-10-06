@@ -6,9 +6,13 @@ const ForecastProfits = () => {
     <>
       <div className="bg-[#F5F8F9] relative">
         <div className="absolute bottom-[50px]">
-          <img src={Images.forecastIcon} alt="forecastImg" className="hidden xl:block xl:w-[70%]" />
+          <img
+            src={Images.forecastIcon}
+            alt="forecastImg"
+            className="hidden xl:block xl:w-[70%]"
+          />
         </div>
-        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 pt-20 pb-[100px] sm:pb-[53px]">
+        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 sm:pt-20 py-10 sm:pb-[53px]">
           <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
             Forecast your profits
           </p>

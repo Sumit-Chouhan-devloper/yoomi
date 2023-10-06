@@ -10,7 +10,7 @@ const TreakingRemote = () => {
           alt="box-img"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-7 xl:py-[110px] justify-center lg:justify-start">
+          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 xl:py-[110px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
                 className="w-full min-h-[207px]"
@@ -24,7 +24,10 @@ const TreakingRemote = () => {
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%] lg:pe-12">
                 Remote Therapeutic
-                <span className="font-semibold mb-0"> Monitoring + Billing</span>
+                <span className="font-semibold mb-0">
+                  {" "}
+                  Monitoring + Billing
+                </span>
               </h3>
               <p className="font-normal text-sm opacity-70 sm:mb-9 mb-5">
                 Enhance patient care with remote monitoring, and enable
