@@ -38,6 +38,7 @@ import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.s
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
 import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
+import forecastIcon from "./assets/images/svg/forecastIcon.svg";
 import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png"
 import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png"
 import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png"
@@ -89,4 +90,5 @@ export const Images = {
   knowMoreSlide3:knowMoreSlide3,
   knowMoreSlide4:knowMoreSlide4,
   knowMoreBigSeminar:knowMoreBigSeminar,
+  forecastIcon:forecastIcon,
 };
