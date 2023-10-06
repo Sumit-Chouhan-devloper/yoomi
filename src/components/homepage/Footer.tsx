@@ -18,7 +18,7 @@ const Footer = () => {
                 src={Images.img_logo_footer}
                 alt=""
               />
-              <p className="text-white font-light text-xs leading-[150%] max-w-[277px] py-5 md:py-6 lg:py-[30px]">
+              <p className="text-white font-light text-xs leading-[150%] sm:max-w-[277px] py-5 md:py-6 lg:py-[30px]">
                 I'm a paragraph. Click here to add your own text and edit me.
                 It’s easy. Just click “Edit Text”{" "}
               </p>

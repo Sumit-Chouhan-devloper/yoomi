@@ -16,11 +16,14 @@ import reportingVectorImg from "./assets/images/png/reporting-analytis-bottom-ve
 import sliderBgImg from "./assets/images/png/exercies-slider-bg-img.png";
 import sliderPersonOne from "./assets/images/png/exercies-slider-men.png";
 import sliderPersonTwo from "./assets/images/png/exercies-slider-men2.png";
+import ourPlateformSide from "./assets/images/png/ourplateform-right-img.png";
+import plateformBoxVacter from "./assets/images/png/plateform_box_vacter.png";
 import img_logo_footer from "./assets/images/svg/logoFooter.svg";
 import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
 import workoutIcon from "./assets/images/svg/workout-img.svg";
 import checkIcon from "./assets/images/svg/check_icon.svg";
+import profitProgressIcon from "./assets/images/svg/profit-progress-bar.svg";
 import trackingFeedbackImg from "./assets/images/webp/tracking-main-img.webp";
 import reportingImg from "./assets/images/webp/Report-main-img.webp";
 import trackingImg from "./assets/images/webp/tracking-with-graff.webp";
@@ -28,11 +31,19 @@ import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
 import commaUp from "./assets/images/svg/comma_upper.svg";
 import commaDown from "./assets/images/svg/comma_lower.svg";
 import starGrup from "./assets/images/svg/StarGrup.svg";
+import committedLogoHippa from "./assets/images/png/commited_hippa_logo.png";
+import committedLogoFda from "./assets/images/png/commited_fda_logo.png";
+import committedLogoApta from "./assets/images/png/commited_apta_logo.png";
 import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.svg";
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
 import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
 import footerSideicon from "./assets/images/svg/footerIcon.svg";
+import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png";
+import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png";
+import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png";
+import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png";
+import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -64,9 +75,20 @@ export const Images = {
   commaUp: commaUp,
   commaDown: commaDown,
   starGrup: starGrup,
+  ourPlateformSide: ourPlateformSide,
+  plateformBoxVacter: plateformBoxVacter,
+  committedLogoHippa: committedLogoHippa,
+  committedLogoFda: committedLogoFda,
+  committedLogoApta: committedLogoApta,
+  profitProgressIcon: profitProgressIcon,
   yomiFooterNewesCharacter: yomiFooterNewesCharacter,
   yomiAboutPlusICO: yomiAboutPlusICO,
   yomiAboutPlusICOsec: yomiAboutPlusICOsec,
   Yoomi_translatecard_icon: Yoomi_translatecard_icon,
   footerSideicon: footerSideicon,
+  knowMoreSlide1: knowMoreSlide1,
+  knowMoreSlide2: knowMoreSlide2,
+  knowMoreSlide3: knowMoreSlide3,
+  knowMoreSlide4: knowMoreSlide4,
+  knowMoreBigSeminar: knowMoreBigSeminar,
 };

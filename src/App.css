@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 body {
   font-family: "Inter", sans-serif;
@@ -7,18 +8,64 @@ body {
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+.ff_lexend {
+  font-family: 'Lexend', sans-serif;
+}
+
 /* call icon vibrate */
 .HoverTeleIcon:hover img {
   animation: vibrate 5ms linear infinite;
 }
+
 @keyframes vibrate {
   0% {
     transform: rotate(0deg);
   }
+
   50% {
     transform: rotate(8deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* BACK TO TOP */
+.topscroll {
+  border: 2px solid #fff;
+  background-color: #076787;
+  -webkit-animation: move 2s ease-in-out infinite;
+  -webkit-animation: up-down 2.5s ease-in-out infinite;
+  animation: up-down 2.5s ease-in-out infinite;
+}
+
+.topscroll:hover {
+  -webkit-box-shadow: 0 0 17px #076787;
+  box-shadow: 0 0 17px #076787;
+}
+
+@-webkit-keyframes up-down {
+  50% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes up-down {
+  50% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}
+
+.forecast_box_bg {
+  background: rgba(7, 103, 135, 0.08);
+  box-shadow: 0px 0px 13px 0px rgba(60, 27, 78, 0.21) inset;
+}
+
+#small_images .slick-current{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }

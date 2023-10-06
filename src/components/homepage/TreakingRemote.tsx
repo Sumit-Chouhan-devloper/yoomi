@@ -22,7 +22,7 @@ const TreakingRemote = () => {
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
-              <h3 className="text-black lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-5 mb-3 leading-[110%] lg:pe-12">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-5 mb-3 leading-[110%] lg:pe-12">
                 Remote Therapeutic
                 <span className="font-semibold"> Monitoring + Billing</span>
               </h3>
@@ -31,7 +31,7 @@ const TreakingRemote = () => {
                 providers to generate over $160 per patient per month in
                 additional revenue
               </p>
-              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm">
                 Check Out the Demo
               </button>
             </div>
