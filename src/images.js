@@ -16,6 +16,8 @@ import reportingVectorImg from "./assets/images/png/reporting-analytis-bottom-ve
 import sliderBgImg from "./assets/images/png/exercies-slider-bg-img.png";
 import sliderPersonOne from "./assets/images/png/exercies-slider-men.png";
 import sliderPersonTwo from "./assets/images/png/exercies-slider-men2.png";
+import ourPlateformSide from "./assets/images/png/ourplateform-right-img.png";
+import plateformBoxVacter from "./assets/images/png/plateform_box_vacter.png";
 import img_logo_footer from "./assets/images/svg/logoFooter.svg";
 import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
@@ -59,4 +61,6 @@ export const Images = {
   commaUp: commaUp,
   commaDown: commaDown,
   starGrup: starGrup,
+  ourPlateformSide: ourPlateformSide,
+  plateformBoxVacter: plateformBoxVacter,
 };

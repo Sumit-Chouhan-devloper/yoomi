@@ -28,6 +28,7 @@ export default {
         blue: "#431ea6",
         green: "#85b6a6",
         "deep-blue": "#076787",
+        skyblue: "#82B2C2",
         "light-purple": "#9d8fcd",
         "light-sky": "#F8FDFF",
       },
