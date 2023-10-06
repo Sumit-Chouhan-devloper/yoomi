@@ -7,7 +7,7 @@ import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
 import Partners from "../components/homepage/Partners.tsx";
 import Workout from "../components/homepage/Workout.tsx";
 import Feature from "../components/homepage/Feature.tsx";
-import { Review } from "../components/homepage/Review.tsx";
+import AboutUs from "../components/homepage/AboutUs.tsx";
 
 const Main = () => {
   return (
@@ -20,7 +20,7 @@ const Main = () => {
         <ReportingAnylats />
         <TreakingRemote />
         <Partners />
-        {/* <Review /> */}
+        <AboutUs />
         <Footer />
       </div>
     </>
