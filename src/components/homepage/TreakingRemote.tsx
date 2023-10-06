@@ -22,7 +22,7 @@ const TreakingRemote = () => {
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
-              <h3 className="text-black lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-5 mb-3 leading-[110%] lg:pe-12">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-5 mb-3 leading-[110%] lg:pe-12">
                 Remote Therapeutic
                 <span className="font-semibold"> Monitoring + Billing</span>
               </h3>

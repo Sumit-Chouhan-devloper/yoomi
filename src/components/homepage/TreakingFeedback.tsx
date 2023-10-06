@@ -27,7 +27,7 @@ const TrackingFeedback = () => {
               <p className="text-deep-blue text-sm font-medium uppercase mb-0">
                 TRACKING
               </p>
-              <h3 className="text-black lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">
                 Cutting Edge Motion
                 <span className="font-semibold"> Tracking/ Feedback</span>
               </h3>

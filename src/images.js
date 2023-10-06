@@ -30,6 +30,9 @@ import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
 import commaUp from "./assets/images/svg/comma_upper.svg";
 import commaDown from "./assets/images/svg/comma_lower.svg";
 import starGrup from "./assets/images/svg/StarGrup.svg";
+import committedLogoHippa from "./assets/images/png/commited_hippa_logo.png"
+import committedLogoFda from "./assets/images/png/commited_fda_logo.png"
+import committedLogoApta from "./assets/images/png/commited_apta_logo.png"
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -63,4 +66,7 @@ export const Images = {
   starGrup: starGrup,
   ourPlateformSide: ourPlateformSide,
   plateformBoxVacter: plateformBoxVacter,
+  committedLogoHippa:committedLogoHippa,
+  committedLogoFda:committedLogoFda,
+  committedLogoApta:committedLogoApta,
 };

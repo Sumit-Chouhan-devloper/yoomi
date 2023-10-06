@@ -37,7 +37,7 @@ const Feature = () => {
           <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
             Features
           </p>
-          <h2 className="text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
+          <h2 className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
           <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 xl:mb-28">
@@ -50,7 +50,7 @@ const Feature = () => {
               <p className="text-deep-blue text-sm font-medium uppercase mb-0 pt-3 sm:pt-6">
                 Library
               </p>
-              <h3 className="text-black lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[110%]">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[110%]">
                 Extensive Exercise
                 <span className=" font-semibold"> Library</span>
               </h3>
