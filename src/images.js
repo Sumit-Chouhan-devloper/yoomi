@@ -38,12 +38,21 @@ import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.s
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
 import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
+<<<<<<< HEAD
 import footerSideicon from "./assets/images/svg/footerIcon.svg";
 import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png";
 import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png";
 import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png";
 import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png";
 import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp";
+=======
+import forecastIcon from "./assets/images/svg/forecastIcon.svg";
+import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png"
+import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png"
+import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png"
+import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png"
+import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp"
+>>>>>>> 2392ff0c1088be837d67c809d0fc82dd6efaf972
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -85,10 +94,19 @@ export const Images = {
   yomiAboutPlusICO: yomiAboutPlusICO,
   yomiAboutPlusICOsec: yomiAboutPlusICOsec,
   Yoomi_translatecard_icon: Yoomi_translatecard_icon,
+<<<<<<< HEAD
   footerSideicon: footerSideicon,
   knowMoreSlide1: knowMoreSlide1,
   knowMoreSlide2: knowMoreSlide2,
   knowMoreSlide3: knowMoreSlide3,
   knowMoreSlide4: knowMoreSlide4,
   knowMoreBigSeminar: knowMoreBigSeminar,
+=======
+  knowMoreSlide1:knowMoreSlide1,
+  knowMoreSlide2:knowMoreSlide2,
+  knowMoreSlide3:knowMoreSlide3,
+  knowMoreSlide4:knowMoreSlide4,
+  knowMoreBigSeminar:knowMoreBigSeminar,
+  forecastIcon:forecastIcon,
+>>>>>>> 2392ff0c1088be837d67c809d0fc82dd6efaf972
 };

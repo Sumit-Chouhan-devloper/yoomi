@@ -3,7 +3,7 @@ import { Images } from "../../images.js";
 const TrackingFeedback = () => {
   return (
     <>
-      <div className="relative py-7 lg:py-12">
+      <div className="relative py-[30px] sm:py-10 lg:py-12">
         <img
           className="absolute hidden md:block md:top-[-15%] lg:top-[-24%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
@@ -15,7 +15,7 @@ const TrackingFeedback = () => {
             src={Images.feedbackVectorImg}
             alt="box-img"
           />
-          <div className="flex flex-wrap items-center CommonCardShado py-10 lg:py-14">
+          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 lg:py-14">
             <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-5">
               <img
                 className="w-full min-h-[195px]"
@@ -24,7 +24,7 @@ const TrackingFeedback = () => {
               />
             </div>
             <div className="lg:w-6/12 px-4">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-0">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2 lg:mb-0">
                 TRACKING
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">

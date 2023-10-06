@@ -32,9 +32,9 @@ const Feature = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="py-7 lg:py-12">
+      <section className="py-[30px] sm:py-10 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
+          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2 lg:mb-0">
             Features
           </p>
           <h2 className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
@@ -45,12 +45,12 @@ const Feature = () => {
             product supports patients and providers through every step of the
             rehabilitation process
           </p>
-          <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-between CommonCardShado py-10 lg:py-14 ps-4 pe-4 lg:pe-0">
+          <div className="flex lg:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-10 lg:py-[80px] ps-4 pe-4 lg:pe-0">
             <div className="lg:w-5/12">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-0 pt-3 sm:pt-6">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2  pt-3 sm:pt-6">
                 Library
               </p>
-              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[110%]">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%]">
                 Extensive Exercise
                 <span className=" font-semibold"> Library</span>
               </h3>
@@ -79,7 +79,7 @@ const Feature = () => {
                 View the Library
               </button>
             </div>
-            <div className="lg:w-6/12 w-full FeatureSlider relative">
+            <div className="lg:w-6/12 w-full FeatureSlider relative md:mt-[30px] lg:mt-0">
               <img
                 className="absolute hidden md:block top-[-10%] end-0"
                 src={Images.sliderBgImg}
@@ -108,7 +108,7 @@ const Feature = () => {
                   />
                 </div>
               </Slider>
-              <div className="flex gap-5 lg:mt-4 mt-3 justify-center lg:justify-start">
+              <div className="flex gap-5 mt-[10px] justify-center lg:justify-start">
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
                   onClick={() => first.current.slickNext()}>
