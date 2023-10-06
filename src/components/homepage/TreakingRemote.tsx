@@ -3,14 +3,14 @@ import { Images } from "../../images.js";
 const TreakingRemote = () => {
   return (
     <>
-      <div className="relative py-7 lg:py-12">
+      <div className="relative py-7 lg:pt-12 xl:pb-[166px]">
         <img
           className="absolute hidden md:block bottom-[4%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
           alt="box-img"
         />
         <div className="container pb-8  sm:pb-12 lg:mb-12 xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="flex flex-wrap items-center CommonCardShado py-10 lg:py-16 xl:py-[87px] justify-center lg:justify-start">
+          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 lg:py-16 xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
                 className="w-full min-h-[207px]"
@@ -22,9 +22,9 @@ const TreakingRemote = () => {
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
-              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-5 mb-3 leading-[110%] lg:pe-12">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%] lg:pe-12">
                 Remote Therapeutic
-                <span className="font-semibold"> Monitoring + Billing</span>
+                <span className="font-semibold mb-0"> Monitoring + Billing</span>
               </h3>
               <p className="font-normal text-sm opacity-70 sm:mb-9 mb-5">
                 Enhance patient care with remote monitoring, and enable
