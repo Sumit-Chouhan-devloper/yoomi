@@ -3,14 +3,14 @@ import { Images } from "../../images.js";
 const Committed = () => {
   return (
     <>
-      <div className="py-12">
+      <div className="lg:py-12 py-8 xl:py-24">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="flex flex-wrap justify-between w-full items-center">
-            <div className="w-4/12">
-              <p className="text-deep-blue text-sm font-medium uppercase">
+          <div className="flex flex-wrap justify-center lg:justify-between w-full items-center">
+            <div className="xl:w-4/12 lg:w-5/12">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2">
                 The Best for you
               </p>
-              <h3 className="text-black lg:text-[32px] ff_Jakarta md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">
+              <h3 className="text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl ff_Jakarta  mb-4 font-normal leading-[120%]">
                 Committed to Industry-Standard
                 <span className="font-semibold"> Compliance and Safety</span>
               </h3>
@@ -23,22 +23,22 @@ const Committed = () => {
                 Therapy.
               </p>
             </div>
-            <div className="w-5/12">
-                <div className="flex items-center">
-                    <div className="me-[34px]">
-                        <div className="h-[208px] w-[208px] rounded bg-white border border-solid border-[#E6F0F3]">
-                            
-                        </div>
-                        <div className="h-[208px] mt-[34px] w-[208px] rounded bg-white border border-solid border-[#E6F0F3]">
-                            
-                        </div>
-                    </div>
-                    <div>
-                    <div className="h-[208px] w-[208px] rounded bg-white border border-solid border-[#E6F0F3]">
-                            
-                            </div>
-                    </div>
+            <div className="xl:w-5/12 lg:w-6/12">
+              <div className="flex lg:items-center flex-col md:flex-row mt-9 lg:mt-0">
+                <div className="md:me-[34px] sm:flex lg:flex-col md:gap-0 sm:gap-[34px]">
+                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] flex justify-center items-center w-[208px] rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                    <img src={Images.committedLogoHippa} alt="logo" />
+                  </div>
+                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] lg:mt-[34px] mt-[34px] sm:mt-0 md:ms-[34px] lg:ms-0 flex justify-center items-center w-[208px] rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                    <img src={Images.committedLogoFda} alt="logo" />
+                  </div>
                 </div>
+                <div className="flex justify-center mt-[34px] md:mt-0">
+                  <div className="h-[208px] shadow-lg shadow-[0px 26px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04)] w-[208px] flex justify-center items-center rounded bg-white border border-solid border-[#E6F0F3] hover:shadow-[unset] duration-300 ease-linear">
+                    <img src={Images.committedLogoApta} alt="logo" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
