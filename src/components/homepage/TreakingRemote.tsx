@@ -31,7 +31,7 @@ const TreakingRemote = () => {
                 providers to generate over $160 per patient per month in
                 additional revenue
               </p>
-              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm">
                 Check Out the Demo
               </button>
             </div>

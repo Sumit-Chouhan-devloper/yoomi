@@ -58,7 +58,7 @@ const TrackingFeedback = () => {
                   Requires no custom hardware, sensors, or equipment
                 </p>
               </div>
-              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm">
                 Test it Yourself
               </button>
             </div>

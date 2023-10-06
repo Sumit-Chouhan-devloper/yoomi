@@ -75,7 +75,7 @@ const Feature = () => {
                   seconds
                 </p>
               </div>
-              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm">
                 View the Library
               </button>
             </div>
@@ -111,13 +111,15 @@ const Feature = () => {
               <div className="flex gap-5 lg:mt-4 mt-3 justify-center lg:justify-start">
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickNext()}>
+                  onClick={() => first.current.slickNext()}
+                >
                   <svg
                     width="7"
                     height="11"
                     viewBox="0 0 7 11"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M6.05726 1.18284L1.67187 5.56823L6.05726 9.95361"
                       stroke="black"
@@ -129,13 +131,15 @@ const Feature = () => {
                 </div>
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickPrev()}>
+                  onClick={() => first.current.slickPrev()}
+                >
                   <svg
                     width="7"
                     height="11"
                     viewBox="0 0 7 11"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M1.15953 1.18284L5.54492 5.56823L1.15953 9.95361"
                       stroke="black"
