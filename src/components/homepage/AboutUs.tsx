@@ -35,49 +35,44 @@ const AboutUs = () => {
           </h2>
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
-              <>
-                <div className="!flex !justify-center bg-white ">
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_2px_10px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-12  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[168px] mb-[26px] ">
-                    <div className=" flex flex-col justify-center items-center ">
-                      <img
-                        className="w-[74px]"
-                        src={data.clientImage}
-                        alt="Review by Clint"
-                      />
-                      <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
-                        {data.clientName}{" "}
-                        <span className="ps-[6px] text-xs">
-                          {data.clientLocation}
-                        </span>
-                      </h2>
-                      <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
-                        {data.clientPost}
-                      </h3>
-                      <div className="relative">
-                        <img
-                          src={Images.commaUp}
-                          className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
-                          alt=" Comma upepr"
-                        />
-                        <img
-                          src={Images.commaDown}
-                          className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
-                          alt="Comma down"
-                        />
-                        <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
-                          {data.clientReview}
-                        </p>
-                      </div>
-                      <span className="pt-4">
-                        <img
-                          src={data.clientStarReview}
-                          alt="Star Grup Images"
-                        />
+              <div className="!flex !justify-center bg-white" key={i}>
+                <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_2px_10px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-12  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[168px] mb-[26px] ">
+                  <div className=" flex flex-col justify-center items-center ">
+                    <img
+                      className="w-[74px]"
+                      src={data.clientImage}
+                      alt="Review by Clint"
+                    />
+                    <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
+                      {data.clientName}{" "}
+                      <span className="ps-[6px] text-xs">
+                        {data.clientLocation}
                       </span>
+                    </h2>
+                    <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
+                      {data.clientPost}
+                    </h3>
+                    <div className="relative">
+                      <img
+                        src={Images.commaUp}
+                        className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
+                        alt=" Comma upepr"
+                      />
+                      <img
+                        src={Images.commaDown}
+                        className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
+                        alt="Comma down"
+                      />
+                      <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
+                        {data.clientReview}
+                      </p>
                     </div>
+                    <span className="pt-4">
+                      <img src={data.clientStarReview} alt="Star Grup Images" />
+                    </span>
                   </div>
                 </div>
-              </>
+              </div>
             ))}
           </Slider>
           <div className=" flex justify-center items-center gap-3">
@@ -89,50 +84,53 @@ const AboutUs = () => {
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
                   cy="17.4227"
                   r="16.8655"
                   stroke="black"
-                  stroke-width="0.877078"
+                  strokeWidth="0.877078"
                 />
                 <path
                   className=" group-hover:stroke-[#fff]"
                   d="M19.4479 13.0383L15.0625 17.4237L19.4479 21.8091"
                   stroke="black"
-                  stroke-width="1.75416"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.75416"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
             <span
               onClick={() => thirdSlider?.current?.slickNext()}
-              className=" rotate-180">
+              className=" rotate-180"
+            >
               <svg
                 className=" group"
                 width="35"
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
                   cy="17.4227"
                   r="16.8655"
                   stroke="black"
-                  stroke-width="0.877078"
+                  strokeWidth="0.877078"
                 />
                 <path
                   className=" group-hover:stroke-[#fff]"
                   d="M19.4479 13.0383L15.0625 17.4237L19.4479 21.8091"
                   stroke="black"
-                  stroke-width="1.75416"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.75416"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>

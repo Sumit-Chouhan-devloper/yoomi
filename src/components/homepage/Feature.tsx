@@ -123,9 +123,9 @@ const Feature = () => {
                     <path
                       d="M6.05726 1.18284L1.67187 5.56823L6.05726 9.95361"
                       stroke="black"
-                      stroke-width="1.75416"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.75416"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </div>
@@ -143,9 +143,9 @@ const Feature = () => {
                     <path
                       d="M1.15953 1.18284L5.54492 5.56823L1.15953 9.95361"
                       stroke="black"
-                      stroke-width="1.75416"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.75416"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </div>
