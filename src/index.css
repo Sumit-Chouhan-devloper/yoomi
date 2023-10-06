@@ -3,7 +3,6 @@
 @tailwind utilities;
 /* common classes */
 .MainHeading {
-  font-size: 32px;
   font-weight: normal;
   color: #000;
   font-family: "Plus Jakarta Sans", sans-serif;
