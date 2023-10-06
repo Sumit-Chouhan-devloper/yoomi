@@ -15,7 +15,7 @@ const TrackingFeedback = () => {
             src={Images.feedbackVectorImg}
             alt="box-img"
           />
-          <div className="flex flex-wrap items-center CommonCardShado py-10 lg:py-14">
+          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 lg:py-14">
             <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-5">
               <img
                 className="w-full min-h-[195px]"
@@ -24,7 +24,7 @@ const TrackingFeedback = () => {
               />
             </div>
             <div className="lg:w-6/12 px-4">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-0">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2 lg:mb-0">
                 TRACKING
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">
@@ -58,7 +58,7 @@ const TrackingFeedback = () => {
                   Requires no custom hardware, sensors, or equipment
                 </p>
               </div>
-              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm border border-transparent">
+              <button className="rounded hover:bg-transparent hover:text-deep-blue hover:border-deep-blue transition duration-300 sm:h-[51px] sm:w-[180px] px-4 sm:px-0 h-[45px] bg-deep-blue text-white font-semibold text-sm border border-transparent">
                 Test it Yourself
               </button>
             </div>

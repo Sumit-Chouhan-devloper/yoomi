@@ -5,12 +5,11 @@ import { plateFormData } from "../common/Helper.tsx";
 const OurPlatForm = () => {
   return (
     <>
-      <div className="py-12 bg-[#F5F8F9] relative">
+      <div className=" xl:py-[80px] py-7 lg:py-12 bg-[#F5F8F9] relative">
         <img
-          className="absolute end-0 hidden lg:block top-[4%]"
+          className="absolute end-0 hidden lg:block top-[2%]"
           src={Images.ourPlateformSide}
-          alt="box-group"
-        />
+          alt="box-group"/>
         <div className="container xl:max-w-[1140px] xl:py-12 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
             Platform
