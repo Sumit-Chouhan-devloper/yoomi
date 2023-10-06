@@ -32,7 +32,7 @@ const Feature = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="py-7 lg:py-12">
+      <section className="py-[30px] sm:py-10 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2 lg:mb-0">
             Features
