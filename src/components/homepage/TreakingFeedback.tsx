@@ -7,8 +7,7 @@ const TrackingFeedback = () => {
         <img
           className="absolute hidden md:block md:top-[-15%] lg:top-[-24%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
-          alt="box-img"
-        />
+          alt="box-img"/>
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative">
           <img
             className="absolute hidden md:block md:bottom-[-20%] lg:bottom-[-38%] end-[-10%] z-[-1]"
