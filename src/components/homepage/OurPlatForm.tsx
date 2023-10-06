@@ -5,7 +5,7 @@ import { plateFormData } from "../common/Helper.tsx";
 const OurPlatForm = () => {
   return (
     <>
-      <div className=" xl:py-[80px] py-7 bg-[#F5F8F9] relative">
+      <div className=" xl:py-[80px] py-[30px] sm:py-10 bg-[#F5F8F9] relative">
         <img
           className="absolute end-0 hidden lg:block top-[2%]"
           src={Images.ourPlateformSide}
