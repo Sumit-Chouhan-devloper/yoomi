@@ -28,6 +28,8 @@ import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
 import commaUp from "./assets/images/svg/comma_upper.svg";
 import commaDown from "./assets/images/svg/comma_lower.svg";
 import starGrup from "./assets/images/svg/StarGrup.svg";
+import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.svg";
+import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -59,4 +61,6 @@ export const Images = {
   commaUp: commaUp,
   commaDown: commaDown,
   starGrup: starGrup,
+  yomiFooterNewesCharacter: yomiFooterNewesCharacter,
+  yomiAboutPlusICO: yomiAboutPlusICO,
 };
