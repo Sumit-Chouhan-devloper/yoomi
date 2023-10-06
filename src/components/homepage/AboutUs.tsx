@@ -28,16 +28,18 @@ const AboutUs = () => {
           alt=""
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
-          <h3 className="SubHeading text-center pb-2">CLIENT review</h3>
-          <h2 className="MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
+          <h3 className="SubHeading text-center pb-2 uppercase">
+            CLIENT review
+          </h3>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
               <>
-                <div className="!flex !justify-center bg-white ">
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_2px_10px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-12  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[168px] mb-[26px] ">
+                <div className="!flex !justify-center bg-white rounded-[5px]">
+                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-12  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
                         className="w-[74px]"
@@ -137,7 +139,7 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <div className="pb-5 pt-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative">
+          <div className="pb-5 pt-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10">
             <img
               className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
               src={Images.Yoomi_translatecard_icon}

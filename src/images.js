@@ -32,6 +32,7 @@ import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.s
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
 import Yoomi_translatecard_icon from "./assets/images/svg/Yoomi_translatecard_icon.svg";
+import footerSideicon from "./assets/images/svg/footerIcon.svg";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -67,4 +68,5 @@ export const Images = {
   yomiAboutPlusICO: yomiAboutPlusICO,
   yomiAboutPlusICOsec: yomiAboutPlusICOsec,
   Yoomi_translatecard_icon: Yoomi_translatecard_icon,
+  footerSideicon: footerSideicon,
 };
