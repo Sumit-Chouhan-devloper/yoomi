@@ -17,7 +17,7 @@ import KnowMore from "../components/homepage/KnowMore.tsx";
 const Main = () => {
   return (
     <>
-      <div className=" overflow-hidden">
+      <div className="overflow-hidden">
         <Header />
         <Workout />
         <Feature />
@@ -27,9 +27,9 @@ const Main = () => {
         <OurPlatForm />
         <ForecastProfits/>
         <Partners />
-        <AboutUs />
-        <Committed/>
         <KnowMore/>
+        <Committed/>
+        <AboutUs />
         <Footer />
         <BackToTop/>
       </div>
