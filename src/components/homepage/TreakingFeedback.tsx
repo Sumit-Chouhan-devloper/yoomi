@@ -14,46 +14,46 @@ const TrackingFeedback = () => {
             src={Images.feedbackVectorImg}
             alt="box-img"
           />
-          <div className="flex flex-wrap items-center lg:h-[550px] CommonCardShado py-10 lg:py-14">
-            <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-5">
+          <div className="flex flex-wrap items-center justify-between xl:h-[550px] CommonCardShado py-10 lg:py-14 px-4 sm:px-[34px]">
+            <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-10 xl:pe-0">
               <img
-                className="w-full min-h-[195px]"
+                className="w-full min-h-[195px] drop-shadow-lg"
                 src={Images.trackingFeedbackImg}
                 alt="tracking"
               />
             </div>
-            <div className="lg:w-6/12 px-4">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-2 lg:mb-0">
+            <div className="lg:w-6/12 xl:ps-[65px]">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2 mt-5 lg:mt-0">
                 TRACKING
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal leading-[120%]">
                 Cutting Edge Motion
-                <span className="font-semibold"> Tracking/ Feedback</span>
+                <span className="font-semibold">Tracking/ Feedback</span>
               </h3>
-              <div className="flex pt-3 sm:pt-5 lg:pe-20">
+              <div className="flex pt-3 sm:pt-5">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4 mb-0">
-                  Provides a holistic, real-time analysis of patient exercise
+                <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
+                  Provides a holistic, real-time analysis of patient exercise 
                   form, capturing 300+ data points and critical metrics.
                 </p>
               </div>
-              <div className="flex pt-[9px]  lg:pe-20">
+              <div className="flex pt-[9px] ">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4 mb-0">
+                <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Delivers immediate feedback and guidance to correct and
                   improve exercise form
                 </p>
               </div>
-              <div className="flex pt-[9px]  lg:pe-20">
+              <div className="flex pt-[9px] ">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4">
                   Supported by the most accurate motion-tracking model designed
                   for rehabilitation, Yoomi Vision
                 </p>
               </div>
-              <div className="flex sm:mb-9 mb-5 pt-[9px]">
+              <div className="flex sm:mb-10 mb-5 pt-[9px]">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4 mb-0">
+                <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Requires no custom hardware, sensors, or equipment
                 </p>
               </div>

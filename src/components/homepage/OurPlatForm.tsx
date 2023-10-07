@@ -17,7 +17,7 @@ const OurPlatForm = () => {
           <h2 className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4">
             Through<span className=" font-semibold"> Our Platform</span>
           </h2>
-          <p className="font-normal text-sm opacity-70 text-center">
+          <p className="font-normal text-sm opacity-70 text-center text-black">
             We’ve helped out partners and patients achieve
           </p>
           <div className="flex flex-wrap sm:pt-8 pt-7 xl:pt-[60px] max-w-[861px] justify-center mx-auto gap-[24px] sm:gap-0">
