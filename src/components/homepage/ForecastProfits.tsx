@@ -19,8 +19,9 @@ const ForecastProfits = () => {
         </div>
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 sm:pt-20 py-10 sm:pb-[53px]">
           <p
-            className="text-deep-blue text-sm font-medium uppercase text-center mb-2"
-            data-aos="fade-down">
+            className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2"
+            data-aos="fade-down"
+          >
             Forecast your profits
           </p>
           <h2
@@ -30,15 +31,17 @@ const ForecastProfits = () => {
             <span className="font-semibold"> Reimbursement With Yoomi</span>
           </h2>
           <p
-            className="font-normal text-sm opacity-70 text-center"
-            data-aos="fade-down">
+            className="font-normal text-xs sm:text-sm opacity-70 text-center"
+            data-aos="fade-down"
+          >
             Calculations made using national average*{" "}
           </p>
           <div className="lg:flex justify-between lg:w-[965px] mx-auto pt-8 sm:pt-12">
             <div
               className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center"
-              data-aos="fade-right">
-              <p className="text-sm font-semibold text-white pb-4">
+              data-aos="fade-right"
+            >
+              <p className="text-xs sm:text-sm font-semibold text-white pb-4">
                 Total Patients per month
               </p>
               <div className="h-[32px]">
@@ -60,7 +63,7 @@ const ForecastProfits = () => {
             <div className="mt-4 lg:mt-0" data-aos="zoom-in">
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px]">
                 <div className="flex justify-between items-center">
-                  <p className="text-sm font-semibold text-black sm:pl-4">
+                  <p className="text-xs sm:text-sm font-semibold text-black sm:pl-4">
                     Initial Setup
                   </p>
                   <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[45px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
@@ -72,7 +75,7 @@ const ForecastProfits = () => {
               </div>
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px] mt-4 lg:mt-6">
                 <div className="flex justify-between items-center">
-                  <p className="text-sm font-semibold text-black sm:pl-4 leading-[18px]">
+                  <p className="text-xs sm:text-sm font-semibold text-black sm:pl-4 leading-[18px]">
                     Patient <br className="hidden lg:block" /> Monitoring
                   </p>
                   <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[45px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
@@ -86,7 +89,7 @@ const ForecastProfits = () => {
             <div className="mt-4 lg:mt-0" data-aos="fade-left">
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px]">
                 <div className="flex justify-between items-center">
-                  <p className="text-sm font-semibold text-black sm:pl-4 leading-[18px]">
+                  <p className="text-xs sm:text-sm font-semibold text-black sm:pl-4 leading-[18px]">
                     First <br className="hidden lg:block" /> 20 Minutes
                   </p>
                   <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[45px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
@@ -98,7 +101,7 @@ const ForecastProfits = () => {
               </div>
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px] mt-4 lg:mt-6">
                 <div className="flex justify-between items-center">
-                  <p className="text-sm font-semibold text-black sm:pl-4 leading-[18px]">
+                  <p className="text-xs sm:text-sm font-semibold text-black sm:pl-4 leading-[18px]">
                     Additional <br className="hidden lg:block" /> 20 Minitutes
                   </p>
                   <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[45px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
