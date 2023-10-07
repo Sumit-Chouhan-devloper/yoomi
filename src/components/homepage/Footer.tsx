@@ -8,7 +8,7 @@ const Footer = () => {
         id="contact-us"
       >
         <img
-          className="absolute left-[-1px] top-[55%] "
+          className="absolute left-[-1px] top-[55%] hidden sm:block"
           src={Images.footerSideicon}
           alt="icon"
         />
