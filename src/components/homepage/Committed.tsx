@@ -3,7 +3,7 @@ import { Images } from "../../images.js";
 const Committed = () => {
   return (
     <>
-      <div className=" lg:py-[83px] py-[30px] sm:py-10">
+      <div className=" lg:pb-[83px] lg:pt-[123px] py-[30px] sm:py-10">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center lg:justify-between w-full items-center">
             <div className="lg:w-5/12">

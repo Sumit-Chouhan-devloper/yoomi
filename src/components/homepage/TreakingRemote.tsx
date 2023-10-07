@@ -18,14 +18,14 @@ const TreakingRemote = () => {
                 alt="tracking"
               />
             </div>
-            <div className="lg:w-6/12 lg:px-4 lg:ps-12 lg:pb-12">
+            <div className="lg:w-6/12 lg:px-4 lg:ps-12">
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
-              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%] lg:pe-12">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%]">
                 Remote Therapeutic
-                <span className="font-semibold mb-0 ps-1">
-                  Monitoring + Billing
+                <span className="font-semibold mb-0 lg:block">
+                   Monitoring + Billing
                 </span>
               </h3>
               <p className="font-normal text-sm opacity-70 sm:mb-8 mb-5 text-black">
