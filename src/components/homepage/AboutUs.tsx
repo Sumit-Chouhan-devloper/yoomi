@@ -18,7 +18,7 @@ const AboutUs = () => {
     <>
       <div
         className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative"
-        id="contact-us">
+        id="about-us">
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
           src={Images.yomiAboutPlusICO}
@@ -36,7 +36,7 @@ const AboutUs = () => {
             CLIENT review
           </h3>
           <h2
-            className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
+            className="text-[22px] sm:text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
             >
             What are Client Think
             <span className=" font-semibold"> About Us</span>
@@ -166,7 +166,7 @@ const AboutUs = () => {
                     />
                   </div>{" "}
                   <h2
-                    className="ff_Jakarta text-[19px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
+                    className="ff_Jakarta text-[18px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
                     data-aos="fade-right">
                     Sign Up to Join
                     <span className=" font-semibold"> Our Newsletter</span>

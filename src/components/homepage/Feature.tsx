@@ -40,7 +40,7 @@ const Feature = () => {
             Features
           </p>
           <h2
-            className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]"
+            className="text-black ff_Jakarta text-2xl md:text-[36px] sm:text-5xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]"
           >
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>

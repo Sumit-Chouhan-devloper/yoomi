@@ -11,7 +11,7 @@ const Partners = () => {
           Partners
         </p>
         <p
-          className="text-black ff_Jakarta text-2xl sm:text-6xl font-normal mb-2 lg:px-40 leading-[120%]"
+          className="text-black ff_Jakarta text-[20px] sm:text-6xl font-normal mb-2 lg:px-40 leading-[120%]"
           >
           Recognized by Leading
           <span className="font-semibold"> Healthcare Institutions</span>

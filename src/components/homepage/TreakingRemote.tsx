@@ -31,7 +31,7 @@ const TreakingRemote = () => {
                    Monitoring + Billing
                 </span>
               </h3>
-              <p className="font-normal text-sm opacity-70 sm:mb-8 mb-5 text-black">
+              <p className="font-normal text-xs sm:text-sm opacity-70 sm:mb-8 mb-5 text-black">
                 Enhance patient care with remote monitoring, and enable
                 providers to generate over $160 per patient per month in
                 additional revenue

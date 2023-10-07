@@ -16,7 +16,7 @@ const KnowMore = () => {
             Know More
           </p>
           <h3
-            className="text-black text-center md:text-[36px] sm:text-5xl  text-3xl lg:text-6xl ff_Jakarta font-normal leading-[120%]"
+            className="text-black text-center md:text-[36px] sm:text-5xl text-[20px] lg:text-6xl ff_Jakarta font-normal leading-[120%]"
           >
             And Used by the Biggest
             <span className="font-semibold ps-1">

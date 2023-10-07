@@ -125,7 +125,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-3 md:py-4 lg:py-[22px] bg-[#000] ">
+      <div className="pt-[10px] pb-3 sm:py-3 md:py-4 lg:py-[22px] bg-[#000]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <ul className="flex gap-x-4 md:gap-x-[23px] justify-center lg:justify-end">
             <li>
