@@ -144,3 +144,5 @@ input[type="range"]::-moz-range-thumb {
   box-shadow: -407px 0 0 400px #82b2c2;
 }
 
+/* commited */
+.commited_card:hover{box-shadow: unset !important;}
