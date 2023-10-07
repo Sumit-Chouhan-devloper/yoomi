@@ -14,13 +14,11 @@ const OurPlatForm = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p
             className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2"
-            data-aos="fade-down"
           >
             Platform
           </p>
           <h2
             className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4"
-            data-aos="fade-down"
           >
             Through<span className="font-semibold"> Our Platform</span>
           </h2>

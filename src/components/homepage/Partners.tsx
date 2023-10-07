@@ -7,12 +7,12 @@ const Partners = () => {
       <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center sm:py-10 py-[30px] lg:pb-[113px] lg:pt-[118px]">
         <p
           className="text-deep-blue text-xs sm:text-sm font-medium uppercase pt-5 sm:pt-0"
-          data-aos="fade-down">
+          >
           Partners
         </p>
         <p
           className="text-black ff_Jakarta text-2xl sm:text-6xl font-normal mb-2 lg:px-40 leading-[120%]"
-          data-aos="fade-down">
+          >
           Recognized by Leading
           <span className="font-semibold"> Healthcare Institutions</span>
         </p>

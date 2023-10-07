@@ -32,12 +32,12 @@ const AboutUs = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
           <h3
             className="text-xs sm:text-sm font-medium text-deep-blue text-center pb-2 uppercase"
-            data-aos="fade-down">
+            >
             CLIENT review
           </h3>
           <h2
             className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
-            data-aos="fade-down">
+            >
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
@@ -180,7 +180,7 @@ const AboutUs = () => {
                       className="pr-3 rounded-[5px] md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-black placeholder:text-black opacity-70"
                       required
                     />
-                    <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm text-xs:sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
+                    <button className="w-[122px] h-[35px] sm:h-[47px] text-xs sm text-xs:sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
                       Get Started
                     </button>
                   </form>

@@ -23,7 +23,7 @@ const ReportingAnylats = () => {
                 Track patient progress over time with compliance, pain, RPE, ROM
                 and other key metrics
               </p>
-              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-xs sm:text-sm">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[47px] px-4 bg-deep-blue text-white font-semibold text-xs sm:text-sm">
                 View the Matrics
               </button>
             </div>

@@ -36,19 +36,16 @@ const Feature = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p
             className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2 leading-normal"
-            data-aos="fade-down"
           >
             Features
           </p>
           <h2
             className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]"
-            data-aos="fade-down"
           >
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
           <p
             className="font-normal text-xs sm:text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[80px] leading-normal"
-            data-aos="fade-down"
           >
             Yoomi is more than just a regular remote monitoring solution. Our
             product supports patients and providers through every step of the
@@ -87,7 +84,7 @@ const Feature = () => {
                   seconds
                 </p>
               </div>
-              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-xs sm:text-sm">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[47px] px-4 bg-deep-blue text-white font-semibold text-xs sm:text-sm">
                 View the Library
               </button>
             </div>

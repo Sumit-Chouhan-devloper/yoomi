@@ -12,13 +12,11 @@ const KnowMore = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p
             className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-4"
-            data-aos="fade-down"
           >
             Know More
           </p>
           <h3
             className="text-black text-center md:text-[36px] sm:text-5xl  text-3xl lg:text-6xl ff_Jakarta font-normal leading-[120%]"
-            data-aos="fade-down"
           >
             And Used by the Biggest
             <span className="font-semibold ps-1">
