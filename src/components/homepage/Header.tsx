@@ -4,7 +4,6 @@ import Hero from "./Hero.tsx";
 import { Images } from "../../images.js";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
-
   useEffect(() => {
     if (activeNavOverlay) {
       document.body.classList.add("overflow-y-hidden");
