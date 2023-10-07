@@ -8,7 +8,7 @@ const KnowMore = () => {
   const [nav2, setNav2] = useState();
   return (
     <>
-      <div className="pt-12 pb-6">
+      <div className="lg:pt-12 lg:pb-0 sm:py-10 py-[30px]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-deep-blue text-sm font-medium uppercase text-center mb-4">
             Know More
@@ -20,7 +20,7 @@ const KnowMore = () => {
             </span>
           </h3>
           <div>
-            <div className="slider-for max-w-[946px] mx-auto lg:mt-16 mt-8">
+            <div className="slider-for max-w-[946px] mx-auto lg:mt-[65px] mt-8">
               <Slider
                 asNavFor={nav2}
                 fade={true}
@@ -55,7 +55,7 @@ const KnowMore = () => {
                 </div>
               </Slider>
             </div>
-            <div className="slider-nav max-w-[700px] mx-auto" id="small_images">
+            <div className="slider-nav max-w-[700px] mx-auto mb-4 md:mb-0" id="small_images">
               <Slider
                 asNavFor={nav1}
                 ref={(slider2) => setNav2(slider2)}
@@ -75,28 +75,28 @@ const KnowMore = () => {
                     },
                   },
                 ]}>
-                <div className="px-3 sm:pt-12 pt-5 pb-6 cursor-pointer">
+                <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
                 </div>
-                <div className="px-3 sm:pt-12 pt-5 pb-6  cursor-pointer">
+                <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6  cursor-pointer">
                   <img
                     className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide1}
                     alt="hospital-room"
                   />
                 </div>
-                <div className="px-3 sm:pt-12 pt-5 pb-6 cursor-pointer">
+                <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
                 </div>
-                <div className="px-3 sm:pt-12 pt-5 pb-6 cursor-pointer">
+                <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px]"
                     src={Images.knowMoreSlide1}
