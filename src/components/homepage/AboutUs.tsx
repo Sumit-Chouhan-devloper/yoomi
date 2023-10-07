@@ -42,7 +42,7 @@ const AboutUs = () => {
             {aboutUsSlider.map((data, i) => (
               <>
                 <div className="!flex !justify-center bg-white rounded-[5px] mx-3">
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
+                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
                         className="w-[74px]"
