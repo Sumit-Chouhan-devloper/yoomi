@@ -99,7 +99,7 @@ html {
   box-shadow: 0px 4px 15px 0px rgba(7, 103, 135, 0.15);
 }
 
-input[type="range"] {
+/* input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -143,13 +143,54 @@ input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   border: 1px solid #82b2c2;
   box-shadow: -407px 0 0 400px #82b2c2;
-}
+} */
 
 /* commited */
 .commited_card:hover {
   box-shadow: unset !important;
 }
+/*  */
+.custom-range-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
 
+.custom-range {
+  width: 100%;
+  height: 16px;
+  background: linear-gradient(to right, #ccc 0%, #ccc 100%);
+  appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.custom-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 3px solid #82b2c2;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  /* box-shadow: 4000px 0 0 4px #82b2c2; */
+}
+
+.custom-range::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 3px solid #82b2c2;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .commited_card {
   box-shadow: 0px 26px 27px 0px rgba(0, 0, 0, 0.04),
     0px -16px 27px 0px rgba(0, 0, 0, 0.04);

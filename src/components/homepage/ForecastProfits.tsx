@@ -2,11 +2,16 @@ import React, { useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
-  const [sliderValue, setSliderValue] = useState(100);
-  const handleSliderChange = (e) => {
-    setSliderValue(e.target.value);
-  };
+  // const [sliderValue, setSliderValue] = useState(100);
+  // const handleSliderChange = (e) => {
+  //   setSliderValue(e.target.value);
+  // };
 
+  const [value, setValue] = useState(0);
+  console.log(value, "value");
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
   return (
     <>
       <div className="bg-[#F5F8F9] relative">
@@ -37,18 +42,30 @@ const ForecastProfits = () => {
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value={sliderValue}
-                  onChange={handleSliderChange}
-                  className="range-slider"
-                />
+                <div className="relative max-[400]:w-full w-7/12 lg:w-full mx-auto">
+                  <div
+                    className="custom_bg left-0 top-[1.5px] h-[16px] absolute z-[1] bg-[#82b2c2] w-0 rounded-[10px_0px_0px_10px]"
+                    style={{
+                      width: ` ${
+                        value > 50
+                          ? `calc(${value}% - 4px)`
+                          : `calc(${value}% + 3px)`
+                      }`,
+                      display: ` ${value < 2 ? `none` : ``}`,
+                    }}></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={value}
+                    onChange={handleChange}
+                    className="custom-range"
+                  />
+                </div>
               </div>
               <div className="bg-white w-[140px] lg:w-[174px] h-[40px] lg:h-[50px] rounded-[4px] flex items-center justify-center mt-4 lg:mt-9 mx-auto">
                 <p className="text-xl lg:text-3xl font-semibold text-deep-blue">
-                  {sliderValue}
+                  {value}
                 </p>
               </div>
             </div>
