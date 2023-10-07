@@ -34,21 +34,21 @@ const TrackingFeedback = () => {
                 Cutting Edge Motion
                 <span className="font-semibold">Tracking/ Feedback</span>
               </h3>
-              <div className="flex pt-3 sm:pt-5">
+              <div className="flex pt-3 sm:pt-5 xl:pe-6">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Provides a holistic, real-time analysis of patient exercise
                   form, capturing 300+ data points and critical metrics.
                 </p>
               </div>
-              <div className="flex pt-[9px] ">
+              <div className="flex pt-[9px] xl:pe-6">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Delivers immediate feedback and guidance to correct and
                   improve exercise form
                 </p>
               </div>
-              <div className="flex pt-[9px] ">
+              <div className="flex pt-[9px] xl:pe-6">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4">
                   Supported by the most accurate motion-tracking model designed
