@@ -19,6 +19,11 @@ html {
   font-family: "Lexend", sans-serif;
 }
 
+.overflow-y-hidden {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
 /* call icon vibrate */
 .HoverTeleIcon:hover img {
   animation: vibrate 5ms linear infinite;
@@ -185,4 +190,8 @@ input[type="range"]::-moz-range-thumb {
   border: 3px solid #82b2c2;
   border-radius: 50%;
   cursor: pointer;
+}
+.commited_card {
+  box-shadow: 0px 26px 27px 0px rgba(0, 0, 0, 0.04),
+    0px -16px 27px 0px rgba(0, 0, 0, 0.04);
 }

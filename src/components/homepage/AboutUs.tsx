@@ -18,26 +18,26 @@ const AboutUs = () => {
     <>
       <div
         className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative"
-        id="contact-us">
+        id="about-us">
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
           src={Images.yomiAboutPlusICO}
           alt=""
         />
         <img
-          className=" absolute bottom-[38%] right-[0px] translate-x-[0%] sm:w-24 md:w-28 xl:w-40 min-w-[100px] max-w-[6%] "
+          className="absolute bottom-[38%] right-[0px] translate-x-[0%] sm:w-24 md:w-28 xl:w-40 min-w-[100px] max-w-[6%] "
           src={Images.yomiAboutPlusICOsec}
           alt=""
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
           <h3
-            className="SubHeading text-center pb-2 uppercase"
-            data-aos="fade-down">
+            className="text-xs sm:text-sm font-medium text-deep-blue text-center pb-2 uppercase"
+            >
             CLIENT review
           </h3>
           <h2
-            className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
-            data-aos="fade-down">
+            className="text-[22px] sm:text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
+            >
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                           className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
                           alt="Comma down"
                         />
-                        <p className="text-black text-center max-w-[504px] text-sm leading-[150%] font-normal opacity-70">
+                        <p className="text-black text-center max-w-[504px] text-xs sm:text-sm leading-[150%] font-normal opacity-70">
                           {data.clientReview}
                         </p>
                       </div>
@@ -166,7 +166,7 @@ const AboutUs = () => {
                     />
                   </div>{" "}
                   <h2
-                    className="ff_Jakarta text-[19px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
+                    className="ff_Jakarta text-[18px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
                     data-aos="fade-right">
                     Sign Up to Join
                     <span className=" font-semibold"> Our Newsletter</span>
@@ -177,10 +177,10 @@ const AboutUs = () => {
                     <input
                       type="email"
                       placeholder="Enter Your Email"
-                      className="pr-3 rounded-[5px] md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
+                      className="pr-3 rounded-[5px] md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-black placeholder:text-black opacity-70"
                       required
                     />
-                    <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
+                    <button className="w-[122px] h-[35px] sm:h-[47px] text-xs sm text-xs:sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
                       Get Started
                     </button>
                   </form>

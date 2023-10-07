@@ -4,7 +4,6 @@ import Hero from "./Hero.tsx";
 import { Images } from "../../images.js";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
-
   useEffect(() => {
     if (activeNavOverlay) {
       document.body.classList.add("overflow-y-hidden");
@@ -77,7 +76,7 @@ const Header = () => {
                       >
                         Contact Us
                       </a>
-                      <button className="hidden sm:flex justify-center items-center overflow-hidden h-[45px] w-[122px] text-sm text-white font-semibold rounded-[4px] bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white">
+                      <button className="hidden sm:flex justify-center items-center overflow-hidden h-[47px] w-[122px] text-sm text-white font-semibold rounded-[4px] bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white">
                         Get Started
                       </button>
                     </div>
