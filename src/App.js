@@ -8,6 +8,7 @@ function App() {
    AOS.init({
      duration: 800,
      once: true,
+     anchorPlacement: "top-center",
    });
   return (
     <BrowserRouter>
