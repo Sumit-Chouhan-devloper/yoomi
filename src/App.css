@@ -44,7 +44,7 @@ html {
   background-color: #076787;
   -webkit-animation: move 2s ease-in-out infinite;
   -webkit-animation: up-down 2.5s ease-in-out infinite;
-  animation: up-down 2.5s ease-in-out infinite;
+  animation: up-down 2.5s ease-in-out infinite !important;
 }
 
 .topscroll:hover {

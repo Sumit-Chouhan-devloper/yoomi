@@ -23,8 +23,7 @@ const BackToTop = () => {
       {showButton && (
         <div
           className="topscroll bg-gradient_color fixed h-[45px] w-[45px] right-[15px] bottom-[25px] rounded-full z-[100] flex justify-center items-center cursor-pointer"
-          onClick={() => scrollToTop()}
-        >
+          onClick={() => scrollToTop()}>
           <UpArrowIcon />
         </div>
       )}
@@ -40,8 +39,7 @@ export const UpArrowIcon = () => {
       height="30"
       viewBox="0 0 24 24"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path
         d="M6 17.5901L7.41 19.0001L12 14.4201L16.59 19.0001L18 17.5901L12 11.5901L6 17.5901Z"
         fill="white"

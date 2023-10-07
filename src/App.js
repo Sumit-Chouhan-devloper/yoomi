@@ -1,15 +1,21 @@
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { routes } from "./enums";
 import Main from "./view/Main.tsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 function App() {
-   AOS.init({
-     duration: 800,
-     once: true,
-     anchorPlacement: "top-center",
-   });
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 500,
+      once: true,
+      anchorPlacement: "center",
+    });
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
