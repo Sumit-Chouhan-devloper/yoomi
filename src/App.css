@@ -93,7 +93,7 @@ html {
 .hero_input_shadow {
   box-shadow: 0px 4px 15px 0px rgba(7, 103, 135, 0.15);
 }
-/* 
+
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
@@ -138,50 +138,9 @@ input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   border: 1px solid #82b2c2;
   box-shadow: -407px 0 0 400px #82b2c2;
-} */
+}
 
 /* commited */
 .commited_card:hover {
   box-shadow: unset !important;
-}
-/* CustomSlider.js */
-
-/* Slider container */
-.slider {
-  position: relative;
-  width: 300px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 4px;
-}
-
-/* Track background */
-.track {
-  position: absolute;
-  height: 100%;
-  background: linear-gradient(to right, #ff5733, #33ff57);
-  border-radius: 4px;
-  width: 0%;
-}
-
-/* Thumb */
-.thumb {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #007bff;
-  border-radius: 0%;
-  cursor: grab;
-  transform: translateX(-50%);
-  top: 50%;
-  left: 0%;
-}
-
-/* Scrollbar thumb */
-.scrollbar-thumb {
-  width: 12px;
-  height: 100%;
-  background-color: #333;
-  opacity: 0.5;
-  border-radius: 6px;
 }

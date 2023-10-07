@@ -2,50 +2,9 @@ import React, { useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
-  // const [sliderValue, setSliderValue] = useState(100);
-  // const handleSliderChange = (e) => {
-  //   setSliderValue(e.target.value);
-  // };
-  const [value, setValue] = useState(50);
-
-  const handleChange = (e) => {
-    setValue(e.target.value);
-  };
-
-  const sliderStyle = {
-    position: "relative",
-    width: "300px",
-    height: "8px",
-    backgroundColor: "#ccc",
-    borderRadius: "4px",
-  };
-
-  const trackStyle = {
-    position: "absolute",
-    height: "100%",
-    background: `linear-gradient(to right, #ff5733, #33ff57)`,
-    borderRadius: "4px",
-    width: `${value}%`,
-  };
-
-  const thumbStyle = {
-    position: "absolute",
-    width: "40px",
-    height: "40px",
-    backgroundColor: "red",
-    borderRadius: "50%",
-    cursor: "grab",
-    transform: "translateX(-50%)",
-    top: "50%",
-    left: `${value}%`,
-  };
-
-  const scrollbarThumbStyle = {
-    width: "40px",
-    height: "100%",
-    backgroundColor: "#333",
-    opacity: "0.5",
-    borderRadius: "6px",
+  const [sliderValue, setSliderValue] = useState(100);
+  const handleSliderChange = (e) => {
+    setSliderValue(e.target.value);
   };
 
   return (
@@ -83,36 +42,18 @@ const ForecastProfits = () => {
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                {/* <input
+                <input
                   type="range"
                   min="0"
                   max="100"
                   value={sliderValue}
                   onChange={handleSliderChange}
                   className="range-slider"
-                /> */}
-                <div>
-                  <div style={{ sliderStyle }}>
-                    <div style={{ trackStyle }} />
-                    <div
-                      style={{ thumbStyle }}
-                      draggable="true"
-                      onDrag={(e) => handleChange(e)}
-                    />
-                  </div>
-                  <input
-                    type="range"
-                    min="0"
-                    max="100"
-                    value={value}
-                    onChange={(e) => handleChange(e)}
-                  />
-                  <div style={scrollbarThumbStyle} />
-                </div>
+                />
               </div>
               <div className="bg-white w-[140px] lg:w-[174px] h-[40px] lg:h-[50px] rounded-[4px] flex items-center justify-center mt-4 lg:mt-9 mx-auto">
                 <p className="text-xl lg:text-3xl font-semibold text-deep-blue">
-                  {/* {sliderValue} */}
+                  {sliderValue}
                 </p>
               </div>
             </div>
