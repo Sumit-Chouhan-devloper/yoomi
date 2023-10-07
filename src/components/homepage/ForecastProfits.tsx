@@ -3,7 +3,6 @@ import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
   const [sliderValue, setSliderValue] = useState(100);
-
   const handleSliderChange = (e) => {
     setSliderValue(e.target.value);
   };
@@ -35,12 +34,6 @@ const ForecastProfits = () => {
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                {/* <img
-                  src={Images.profitProgressIcon}
-                  alt="profit-progress-img"
-                  className="mx-auto"
-                /> */}
-
                 <input
                   type="range"
                   min="0"
@@ -49,10 +42,6 @@ const ForecastProfits = () => {
                   onChange={handleSliderChange}
                   className="range-slider"
                 />
-                {/* <div
-                  className=""
-                  style={{ left: `${(sliderValue / 100) * 100}%` }}
-                ></div> */}
               </div>
               <div className="bg-white w-[140px] lg:w-[174px] h-[40px] lg:h-[50px] rounded-[4px] flex items-center justify-center mt-4 lg:mt-9 mx-auto">
                 <p className="text-xl lg:text-3xl font-semibold text-deep-blue">
