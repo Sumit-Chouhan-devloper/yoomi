@@ -16,7 +16,10 @@ const AboutUs = () => {
   const thirdSlider = React.useRef(null);
   return (
     <>
-      <div className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative">
+      <div
+        className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative"
+        id="contact-us"
+      >
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
           src={Images.yomiAboutPlusICO}
@@ -91,7 +94,8 @@ const AboutUs = () => {
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -112,14 +116,16 @@ const AboutUs = () => {
             </span>
             <span
               onClick={() => thirdSlider?.current?.slickNext()}
-              className=" rotate-180">
+              className=" rotate-180"
+            >
               <svg
                 className=" group"
                 width="35"
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -139,7 +145,10 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <div className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10">
+          <div
+            className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"
+            id="news"
+          >
             <img
               className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
               src={Images.Yoomi_translatecard_icon}
