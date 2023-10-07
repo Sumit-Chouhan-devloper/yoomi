@@ -4,14 +4,14 @@ const Hero = () => {
     <>
       <div className="relative flex justify-center">
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center max-[576px]:pt-4 max-[1024px]:pt-8 max-[1440px]:pt-20 max-[1619px]:pt-10 min-[1620px]:pt-40">
-          <h1 className="text-xl sm:text-5xl min-[1200px]:text-8xl font-normal text-black ff_Jakarta sm:px-10 lg:px-36 min-[1200px]:leading-[55px]">
+          <h1 className="text-xl sm:text-5xl min-[1200px]:text-8xl font-normal text-black ff_Jakarta sm:px-10 lg:px-36 min-[1200px]:leading-[55px] animate__animated animate__zoomIn">
             <span className="font-extrabold">Next Generation </span> Patient
             Engagement and RTM Solution<span className="font-semibold">✨</span>
           </h1>
-          <p className="text-xs sm:text-2xl font-normal text-black opacity-70 capitalize pt-2 sm:pt-4">
+          <p className="text-xs sm:text-2xl font-normal text-black opacity-70 capitalize pt-2 sm:pt-4 animate__animated animate__zoomIn">
             Industry leading AI motion-tracking technology
           </p>
-          <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[56.24px] bg-white rounded-[4px] py-[5px] pr-[5px] pl-4 mt-[15px] sm:mt-[50px] mx-auto flex justify-between hero_input_shadow">
+          <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[56.24px] bg-white rounded-[4px] py-[5px] pr-[5px] pl-4 mt-[15px] sm:mt-[50px] mx-auto flex justify-between hero_input_shadow animate__animated animate__zoomIn">
             <input
               type="email"
               placeholder="Enter Your Email"
