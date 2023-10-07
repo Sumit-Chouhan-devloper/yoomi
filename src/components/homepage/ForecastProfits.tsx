@@ -9,7 +9,7 @@ const ForecastProfits = () => {
 
   return (
     <>
-      <div className="bg-[#F5F8F9] relative" id="about-us">
+      <div className="bg-[#F5F8F9] relative">
         <div className="absolute bottom-[50px]">
           <img
             src={Images.forecastIcon}
