@@ -34,42 +34,42 @@ const Feature = () => {
     <>
       <section className="py-[30px] sm:py-10 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2 lg:mb-0">
+          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2 leading-normal">
             Features
           </p>
           <h2 className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
-          <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[55px]">
+          <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[80px] leading-normal">
             Yoomi is more than just a regular remote monitoring solution. Our
             product supports patients and providers through every step of the
             rehabilitation process
           </p>
-          <div className="flex lg:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-10 lg:py-[80px] ps-4 pe-4 lg:pe-0">
-            <div className="lg:w-5/12">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-2  pt-3 sm:pt-6 lg:pt-0">
+          <div className="flex xl:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-10 lg:py-[80px] sm:ps-[34px] px-4 sm:pe-[34px] lg:pe-0">
+            <div className="lg:w-6/12 lg:pe-10">
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2 leading-normal  pt-5 sm:pt-6 lg:pt-0">
                 Library
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%]">
                 Extensive Exercise
-                <span className=" font-semibold"> Library</span>
+                <span className=" font-semibold">Library</span>
               </h3>
-              <div className="flex sm:pt-5 pt-3 pb-3">
+              <div className="flex sm:pt-5 pt-3 pb-[11px]">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4 mb-0">
+                <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Utilize Yoomi’s HEP templates to quickly create and assign
                   programs to your patients
                 </p>
               </div>
               <div className="flex">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4 mb-2">
+                <p className="font-normal text-sm opacity-70 ps-4 mb-[9px] text-black">
                   Choose from our library of exercises for all patient cases
                 </p>
               </div>
-              <div className="flex sm:mb-9 mb-5">
+              <div className="flex sm:mb-[37px] mb-5">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-sm opacity-70 ps-4">
+                <p className="font-normal text-sm opacity-70 ps-4 text-black">
                   Use Yoomi’s industry-leading exercise generation tool to
                   create your own exercises that track adherence and form in
                   seconds
@@ -81,7 +81,7 @@ const Feature = () => {
             </div>
             <div className="lg:w-6/12 w-full FeatureSlider relative md:mt-[30px] lg:mt-0">
               <img
-                className="absolute hidden md:block top-[-10%] end-0"
+                className="absolute hidden md:block md:top-[-15.2%] lg:top-[-10%] end-0"
                 src={Images.sliderBgImg}
                 alt="dark-green-Rectangle"
               />
@@ -108,7 +108,7 @@ const Feature = () => {
                   />
                 </div>
               </Slider>
-              <div className="flex gap-5 mt-[10px] justify-center lg:justify-start">
+              <div className="flex gap-[10px] mt-[10px] justify-center lg:justify-start">
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
                   onClick={() => first.current.slickNext()}>

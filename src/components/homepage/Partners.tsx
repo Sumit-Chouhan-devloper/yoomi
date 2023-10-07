@@ -4,12 +4,12 @@ import { Images } from "../../images.js";
 const Partners = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center pb-10 sm:pb-[160px] sm:pt-24">
+      <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center sm:py-10 py-[30px] lg:pb-[113px] lg:pt-[118px]">
         <p className="text-deep-blue text-sm font-medium uppercase pt-5 sm:pt-0">
           Partners
         </p>
         <p className="text-black ff_Jakarta text-2xl sm:text-6xl font-normal mb-2 lg:px-40 leading-[120%]">
-          Recognized by Leading{" "}
+          Recognized by Leading
           <span className="font-semibold">Healthcare Institutions</span>
         </p>
         <div className="flex justify-center min-[1025px]:justify-between] mt-4 sm:mt-9 gap-5 flex-wrap">
