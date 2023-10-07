@@ -2,9 +2,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { routes } from "./enums";
 import Main from "./view/Main.tsx";
-import "animate.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+   AOS.init({
+     duration: 800,
+     once: true,
+   });
   return (
     <BrowserRouter>
       <Routes>

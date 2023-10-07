@@ -7,7 +7,8 @@ const TrackingFeedback = () => {
         <img
           className="absolute hidden md:block md:top-[-15%] lg:top-[-24%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
-          alt="box-img"/>
+          alt="box-img"
+        />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative">
           <img
             className="absolute hidden md:block md:bottom-[-20%] lg:bottom-[-38%] end-[-10%] z-[-1]"
@@ -15,14 +16,17 @@ const TrackingFeedback = () => {
             alt="box-img"
           />
           <div className="flex flex-wrap items-center justify-between xl:h-[550px] CommonCardShado py-10 lg:py-14 px-4 sm:px-[34px]">
-            <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-10 xl:pe-0">
+            <div
+              className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-10 xl:pe-0"
+              data-aos="fade-right"
+            >
               <img
                 className="w-full min-h-[195px] drop-shadow-lg"
                 src={Images.trackingFeedbackImg}
                 alt="tracking"
               />
             </div>
-            <div className="lg:w-6/12 xl:ps-[65px]">
+            <div className="lg:w-6/12 xl:ps-[65px]" data-aos="fade-left">
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 mt-5 lg:mt-0">
                 TRACKING
               </p>
@@ -33,7 +37,7 @@ const TrackingFeedback = () => {
               <div className="flex pt-3 sm:pt-5">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
-                  Provides a holistic, real-time analysis of patient exercise 
+                  Provides a holistic, real-time analysis of patient exercise
                   form, capturing 300+ data points and critical metrics.
                 </p>
               </div>

@@ -18,18 +18,30 @@ const ForecastProfits = () => {
           />
         </div>
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 sm:pt-20 py-10 sm:pb-[53px]">
-          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2">
+          <p
+            className="text-deep-blue text-sm font-medium uppercase text-center mb-2"
+            data-aos="fade-down"
+          >
             Forecast your profits
           </p>
-          <h2 className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:w-[592px] mx-auto">
+          <h2
+            className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:w-[592px] mx-auto"
+            data-aos="fade-down"
+          >
             Calculate Your
             <span className="font-semibold"> Reimbursement With Yoomi</span>
           </h2>
-          <p className="font-normal text-sm opacity-70 text-center">
+          <p
+            className="font-normal text-sm opacity-70 text-center"
+            data-aos="fade-down"
+          >
             Calculations made using national average*{" "}
           </p>
           <div className="lg:flex justify-between lg:w-[965px] mx-auto pt-8 sm:pt-12">
-            <div className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center">
+            <div
+              className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center"
+              data-aos="fade-right"
+            >
               <p className="text-sm font-semibold text-white pb-4">
                 Total Patients per month
               </p>
@@ -49,7 +61,7 @@ const ForecastProfits = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-4 lg:mt-0">
+            <div className="mt-4 lg:mt-0" data-aos="zoom-in">
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px]">
                 <div className="flex justify-between items-center">
                   <p className="text-sm font-semibold text-black sm:pl-4">
@@ -75,7 +87,7 @@ const ForecastProfits = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-4 lg:mt-0">
+            <div className="mt-4 lg:mt-0" data-aos="fade-left">
               <div className="w-[100%] lg:w-[343px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px]">
                 <div className="flex justify-between items-center">
                   <p className="text-sm font-semibold text-black sm:pl-4 leading-[18px]">
@@ -102,7 +114,10 @@ const ForecastProfits = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[965px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg mx-auto mt-4 lg:mt-6 flex items-center justify-between p-[10px]">
+          <div
+            className="lg:w-[965px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg mx-auto mt-4 lg:mt-6 flex items-center justify-between p-[10px]"
+            data-aos="zoom-in"
+          >
             <p className="sm:text-lg font-normal text-black ff_lexend sm:pl-4 leading-[18px]">
               Potential Reimbursement
             </p>

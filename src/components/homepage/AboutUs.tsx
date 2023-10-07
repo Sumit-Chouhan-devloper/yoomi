@@ -31,10 +31,16 @@ const AboutUs = () => {
           alt=""
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
-          <h3 className="SubHeading text-center pb-2 uppercase">
+          <h3
+            className="SubHeading text-center pb-2 uppercase"
+            data-aos="fade-down"
+          >
             CLIENT review
           </h3>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
+          <h2
+            className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
+            data-aos="fade-down"
+          >
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
@@ -158,7 +164,7 @@ const AboutUs = () => {
               <div className="lg:w-6/12">
                 <div className="flex flex-col justify-center h-full">
                   {" "}
-                  <div>
+                  <div data-aos="fade-right">
                     {" "}
                     <img
                       className="w-44 sm:w-[200px] h-[45px] md:w-[228px] md:h-[55px]"
@@ -166,11 +172,17 @@ const AboutUs = () => {
                       alt="Logo Yoomi"
                     />
                   </div>{" "}
-                  <h2 className="ff_Jakarta text-[19px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12">
+                  <h2
+                    className="ff_Jakarta text-[19px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
+                    data-aos="fade-right"
+                  >
                     Sign Up to Join
                     <span className=" font-semibold"> Our Newsletter</span>
                   </h2>
-                  <form className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
+                  <form
+                    className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center"
+                    data-aos="fade-right"
+                  >
                     <input
                       type="email"
                       placeholder="Enter Your Email"
@@ -183,7 +195,10 @@ const AboutUs = () => {
                   </form>
                 </div>
               </div>
-              <div className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
+              <div
+                className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center"
+                data-aos="fade-left"
+              >
                 <img
                   className="max-[600px]:w-[75%]"
                   src={Images.yomiFooterNewesCharacter}
