@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
+  const [sliderValue, setSliderValue] = useState(100);
+  const handleSliderChange = (e) => {
+    setSliderValue(e.target.value);
+  };
+
   return (
     <>
-      <div className="bg-[#F5F8F9] relative">
+      <div className="bg-[#F5F8F9] relative" id="about-us">
         <div className="absolute bottom-[50px]">
           <img
             src={Images.forecastIcon}
@@ -29,15 +34,18 @@ const ForecastProfits = () => {
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                <img
-                  src={Images.profitProgressIcon}
-                  alt="profit-progress-img"
-                  className="mx-auto"
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value={sliderValue}
+                  onChange={handleSliderChange}
+                  className="range-slider"
                 />
               </div>
               <div className="bg-white w-[140px] lg:w-[174px] h-[40px] lg:h-[50px] rounded-[4px] flex items-center justify-center mt-4 lg:mt-9 mx-auto">
                 <p className="text-xl lg:text-3xl font-semibold text-deep-blue">
-                  100
+                  {sliderValue}
                 </p>
               </div>
             </div>

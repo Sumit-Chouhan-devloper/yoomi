@@ -16,7 +16,9 @@ const AboutUs = () => {
   const thirdSlider = React.useRef(null);
   return (
     <>
-      <div className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative">
+      <div
+        className=" pt-10 md:pt-16 lg:pt-[73.3px] pb-5 relative"
+        id="contact-us">
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
           src={Images.yomiAboutPlusICO}
@@ -39,7 +41,7 @@ const AboutUs = () => {
             {aboutUsSlider.map((data, i) => (
               <>
                 <div className="!flex !justify-center bg-white rounded-[5px] mx-3">
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px]  shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] mt-8 sm:mt-12 lg:mt-[52px] ">
+                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
                         className="w-[74px]"
@@ -139,7 +141,9 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <div className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10">
+          <div
+            className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"
+            id="news">
             <img
               className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
               src={Images.Yoomi_translatecard_icon}

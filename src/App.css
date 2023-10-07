@@ -5,6 +5,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .ff_Jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -69,6 +75,7 @@ body {
   transform: scale(1.2);
   transition: all 0.3s ease-in-out;
 }
+
 #small_images .slick-dots li button:before {
   content: "";
   height: 10px;
@@ -76,8 +83,66 @@ body {
   background-color: #076787 !important;
   border-radius: 50%;
 }
+
 #small_imagesslick-dots li.slick-active button:before {
   opacity: 1;
   background-color: #076787 !important;
   border-radius: 50%;
 }
+
+.hero_input_shadow {
+  box-shadow: 0px 4px 15px 0px rgba(7, 103, 135, 0.15);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+  height: 15px;
+    width: 154px;
+}
+
+/* Track: webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  background: white;
+  border-radius: 16px;
+}
+
+/* Track: Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+  height: 15px;
+  background: white;
+  border-radius: 16px;
+  height: 16px;
+  width: 154px;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 3px solid #82b2c2;
+  box-shadow: -407px 0 0 400px #82b2c2;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #82b2c2;
+  box-shadow: -407px 0 0 400px #82b2c2;
+}
+
+/* commited */
+.commited_card:hover{box-shadow: unset !important;}

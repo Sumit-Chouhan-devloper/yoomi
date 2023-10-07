@@ -1,8 +1,8 @@
 import heroImg from "./assets/images/png/nav-logo.png";
 import logoImage from "./assets/images/svg/logo.svg";
-import heroBottomLayer from "./assets/images/png/hero-layer-bottom.png";
-import heroLeftPot from "./assets/images/png/hero-left-side-pot.png";
-import heroRightPot from "./assets/images/png/hero-right-side-pot.png";
+import heroBottomLayer from "./assets/images/svg/hero-layer-bottom.svg";
+import heroLeftPot from "./assets/images/svg/hero-left-side-pot.svg";
+import heroRightPot from "./assets/images/svg/hero-right-side-pot.svg";
 import heroLeftIcon from "./assets/images/png/hero-left-icon.png";
 import heroRightIcon from "./assets/images/png/hero-right-icon.png";
 import workoutChatImg from "./assets/images/png/workout-chat-img.png";
@@ -23,7 +23,6 @@ import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
 import workoutIcon from "./assets/images/svg/workout-img.svg";
 import checkIcon from "./assets/images/svg/check_icon.svg";
-import profitProgressIcon from "./assets/images/svg/profit-progress-bar.svg";
 import trackingFeedbackImg from "./assets/images/webp/tracking-main-img.webp";
 import reportingImg from "./assets/images/webp/Report-main-img.webp";
 import trackingImg from "./assets/images/webp/tracking-with-graff.webp";
@@ -81,7 +80,6 @@ export const Images = {
   committedLogoHippa: committedLogoHippa,
   committedLogoFda: committedLogoFda,
   committedLogoApta: committedLogoApta,
-  profitProgressIcon: profitProgressIcon,
   yomiFooterNewesCharacter: yomiFooterNewesCharacter,
   yomiAboutPlusICO: yomiAboutPlusICO,
   yomiAboutPlusICOsec: yomiAboutPlusICOsec,

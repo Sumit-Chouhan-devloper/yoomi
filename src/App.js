@@ -5,6 +5,7 @@ import Main from "./view/Main.tsx";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "animate.css";
 
 function App() {
   useEffect(() => {
