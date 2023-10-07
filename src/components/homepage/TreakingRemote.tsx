@@ -19,7 +19,7 @@ const TreakingRemote = () => {
               />
             </div>
             <div
-              className="lg:w-6/12 lg:px-4 lg:ps-12 lg:pb-12"
+              className="lg:w-6/12 lg:px-4 lg:ps-12"
               data-aos="fade-left"
             >
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
