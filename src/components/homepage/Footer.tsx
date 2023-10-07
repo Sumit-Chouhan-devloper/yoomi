@@ -8,29 +8,32 @@ const Footer = () => {
         <img
           className=" absolute left-[-1px] top-[55%] "
           src={Images.footerSideicon}
-          alt=""
+          alt=" footer logo"
         />
+
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-between pb-12">
             <div className="w-full mb-6 md:mb-0 md:w-6/12 lg:w-3/12">
-              <img
-                className="w-[192px] h-[48px]"
-                src={Images.img_logo_footer}
-                alt=""
-              />
+              <a href="/" aria-label="for home page ">
+                <img
+                  className="w-[192px] h-[48px]"
+                  src={Images.img_logo_footer}
+                  alt=""
+                />
+              </a>
               <p className="text-white font-light text-xs leading-[150%] sm:max-w-[277px] py-5 md:py-6 lg:py-[30px]">
                 I'm a paragraph. Click here to add your own text and edit me.
                 It’s easy. Just click “Edit Text”{" "}
               </p>
               <a
                 href="mailto:contact@yoomi.com"
-                className="flex font-light text-sm text-white gap-[18px] pb-4  transition-all ease-linear hover:text-[#808080] ">
+                className="flex font-light text-sm text-white gap-[18px] pb-4  transition-all ease-linear hover:opacity-80 ">
                 <img src={Images.msgIcon} alt="gmail icon" />
                 contact@yoomi.com
               </a>
               <a
                 href="tel:+123 456 789"
-                className="flex font-light text-sm text-white gap-[18px] HoverTeleIcon  transition-all ease-linear hover:text-[#808080] ">
+                className="flex font-light text-sm text-white gap-[18px] HoverTeleIcon  transition-all ease-linear hover:opacity-80 ">
                 <img src={Images.telIcon} alt="tel icon" />
                 +123 456 789
               </a>
@@ -44,21 +47,21 @@ const Footer = () => {
                   <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px]">
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Meet the Team
                       </a>
                     </li>
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Our Mission
                       </a>
                     </li>
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Our Vision{" "}
                       </a>
@@ -72,21 +75,21 @@ const Footer = () => {
                   <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px]">
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Twitter
                       </a>
                     </li>
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Instagram
                       </a>
                     </li>
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Linkedin
                       </a>
@@ -100,7 +103,7 @@ const Footer = () => {
                   <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px] items-end">
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#808080] "
+                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:opacity-80 "
                         href="#team">
                         Recent
                       </a>

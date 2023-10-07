@@ -31,7 +31,7 @@ const AboutUs = () => {
           <h3 className="SubHeading text-center pb-2 uppercase">
             CLIENT review
           </h3>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl MainHeading text-center">
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
@@ -39,7 +39,7 @@ const AboutUs = () => {
             {aboutUsSlider.map((data, i) => (
               <>
                 <div className="!flex !justify-center bg-white rounded-[5px] mx-3">
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
+                  <div className="py-12 lg:pt-[76px] lg:pb-[60px]  shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] lg:shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] mt-8 sm:mt-12 lg:mt-[52px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
                         className="w-[74px]"
@@ -165,7 +165,7 @@ const AboutUs = () => {
                     <input
                       type="email"
                       placeholder="Enter Your Email"
-                      className="pr-3 md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
+                      className="pr-3 rounded-[5px] md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-sm font-medium text-black placeholder:text-black opacity-70"
                       required
                     />
                     <button className="w-[122px] h-[35px] sm:h-[45px] text-xs sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">
