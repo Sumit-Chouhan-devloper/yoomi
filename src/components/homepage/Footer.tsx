@@ -5,8 +5,7 @@ const Footer = () => {
     <>
       <div
         className="bg-[#000] pt-[100px]  md:pt-[150px] lg:pt-[190px]  xl:pt-[213px] border-b-[1px] border-solid border-b-[rgba(255,255,255,0.20)] relative"
-        id="contact-us"
-      >
+        id="contact-us">
         <img
           className="absolute left-[-1px] top-[55%] hidden sm:block"
           src={Images.footerSideicon}
@@ -28,15 +27,13 @@ const Footer = () => {
               </p>
               <a
                 href="mailto:contact@yoomi.com"
-                className="flex font-light text-sm text-white gap-[18px] pb-4  transition-all ease-linear hover:text-[#ddd8d8]"
-              >
+                className="flex font-light text-sm text-white gap-[18px] pb-4  transition-all ease-linear hover:text-[#ddd8d8]">
                 <img src={Images.msgIcon} alt="gmail icon" />
                 contact@yoomi.com
               </a>
               <a
                 href="tel:+123 456 789"
-                className="flex font-light text-sm text-white gap-[18px] HoverTeleIcon  transition-all ease-linear hover:text-[#ddd8d8]"
-              >
+                className="flex font-light text-sm text-white gap-[18px] HoverTeleIcon  transition-all ease-linear hover:text-[#ddd8d8]">
                 <img src={Images.telIcon} alt="tel icon" />
                 +123 456 789
               </a>
@@ -51,24 +48,21 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8] "
-                        href="#team"
-                      >
+                        href="#team">
                         Meet the Team
                       </a>
                     </li>
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Our Mission
                       </a>
                     </li>
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Our Vision
                       </a>
                     </li>
@@ -82,24 +76,21 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Twitter
                       </a>
                     </li>
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Instagram
                       </a>
                     </li>
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Linkedin
                       </a>
                     </li>
@@ -113,8 +104,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
-                      >
+                        href="#team">
                         Recent
                       </a>
                     </li>
@@ -131,27 +121,24 @@ const Footer = () => {
             <li>
               <a
                 href="#trems"
-                aria-label="Trems link"
-                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white "
-              >
+                aria-label="Trems section"
+                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white ">
                 Terms of Service
               </a>
             </li>
             <li>
               <a
                 href="#Privacy"
-                aria-label="Privacy link"
-                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white "
-              >
+                aria-label="Privacy section"
+                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white ">
                 Privacy Policy
               </a>
             </li>
             <li>
               <a
                 href="#Cookies"
-                aria-label="Cookies link"
-                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white "
-              >
+                aria-label="Cookies section"
+                className="text-xs font-normal leading-[normal] text-[#808080] transition-all ease-linear hover:text-white ">
                 Cookies
               </a>
             </li>

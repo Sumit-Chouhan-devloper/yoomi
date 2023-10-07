@@ -7,7 +7,7 @@ const ForecastProfits = () => {
   //   setSliderValue(e.target.value);
   // };
 
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(30);
   console.log(value, "value");
   const handleChange = (e) => {
     setValue(e.target.value);
@@ -34,17 +34,14 @@ const ForecastProfits = () => {
             Calculations made using national average*{" "}
           </p>
           <div className="lg:flex justify-between lg:w-[965px] mx-auto pt-8 sm:pt-12">
-            <div
-              className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center"
-              data-aos="fade-right"
-            >
+            <div className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center">
               <p className="text-xs sm:text-sm font-semibold text-white pb-4">
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                <div className="relative max-[400]:w-full w-7/12 lg:w-full mx-auto">
+                <div className="relative max-[400]:w-full w-7/12 lg:w-[155px] mx-auto">
                   <div
-                    className="custom_bg left-0 top-[1.5px] h-[16px] absolute z-[1] bg-[#82b2c2] w-0 rounded-[10px_0px_0px_10px]"
+                    className="custom_bg left-0 top-[.5px] h-[17.5px] absolute z-[1] bg-[#82b2c2] w-0 rounded-[10px_0px_0px_10px]"
                     style={{
                       width: ` ${
                         value > 50
@@ -69,15 +66,15 @@ const ForecastProfits = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-4 lg:mt-0" data-aos="zoom-in">
+            <div className="mt-4 lg:mt-0">
               <div className="w-[100%] lg:w-[343px] h-[60px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px] flex justify-between items-center">
-                  <p className="text-xs sm:text-sm font-semibold text-black pl-2 sm:pl-4">
-                    Initial Setup
+                <p className="text-xs sm:text-sm font-semibold text-black pl-2 sm:pl-4">
+                  Initial Setup
+                </p>
+                <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
+                  <p className="sm:text-xl lg:text-3xl font-semibold text-white">
+                    $ 40.26
                   </p>
-                  <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
-                    <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                      $ 40.26
-                    </p>
                 </div>
               </div>
               <div className="w-[100%] lg:w-[343px] h-[60px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px] mt-4 lg:mt-6 flex justify-between items-center">
@@ -91,7 +88,7 @@ const ForecastProfits = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-4 lg:mt-0" data-aos="fade-left">
+            <div className="mt-4 lg:mt-0">
               <div className="w-[100%] lg:w-[343px] h-[60px] lg:h-[85px] rounded-[4px] forecast_box_bg p-[10px] flex justify-between items-center">
                 <p className="text-xs sm:text-sm font-semibold text-black pl-2 sm:pl-4 leading-[18px]">
                   First <br className="hidden lg:block" /> 20 Minutes
@@ -114,10 +111,7 @@ const ForecastProfits = () => {
               </div>
             </div>
           </div>
-          <div
-            className="w-[100%] lg:w-[965px] h-[60px] lg:h-[85px] rounded-[4px] forecast_box_bg mx-auto mt-4 lg:mt-6 flex items-center justify-between p-[10px]"
-            data-aos="zoom-in"
-          >
+          <div className="w-[100%] lg:w-[965px] h-[60px] lg:h-[85px] rounded-[4px] forecast_box_bg mx-auto mt-4 lg:mt-6 flex items-center justify-between p-[10px]">
             <p className="sm:text-lg font-normal text-black ff_lexend pl-2 sm:pl-4 leading-[18px]">
               Potential Reimbursement
             </p>
