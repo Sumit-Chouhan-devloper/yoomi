@@ -10,8 +10,6 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      delay: 500,
-      once: true,
       anchorPlacement: "center",
     });
   }, []);
