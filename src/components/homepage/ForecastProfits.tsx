@@ -2,9 +2,50 @@ import React, { useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
-  const [sliderValue, setSliderValue] = useState(100);
-  const handleSliderChange = (e) => {
-    setSliderValue(e.target.value);
+  // const [sliderValue, setSliderValue] = useState(100);
+  // const handleSliderChange = (e) => {
+  //   setSliderValue(e.target.value);
+  // };
+  const [value, setValue] = useState(50);
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
+
+  const sliderStyle = {
+    position: "relative",
+    width: "300px",
+    height: "8px",
+    backgroundColor: "#ccc",
+    borderRadius: "4px",
+  };
+
+  const trackStyle = {
+    position: "absolute",
+    height: "100%",
+    background: `linear-gradient(to right, #ff5733, #33ff57)`,
+    borderRadius: "4px",
+    width: `${value}%`,
+  };
+
+  const thumbStyle = {
+    position: "absolute",
+    width: "40px",
+    height: "40px",
+    backgroundColor: "red",
+    borderRadius: "50%",
+    cursor: "grab",
+    transform: "translateX(-50%)",
+    top: "50%",
+    left: `${value}%`,
+  };
+
+  const scrollbarThumbStyle = {
+    width: "40px",
+    height: "100%",
+    backgroundColor: "#333",
+    opacity: "0.5",
+    borderRadius: "6px",
   };
 
   return (
@@ -20,44 +61,58 @@ const ForecastProfits = () => {
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 sm:pt-20 py-10 sm:pb-[53px]">
           <p
             className="text-deep-blue text-sm font-medium uppercase text-center mb-2"
-            data-aos="fade-down"
-          >
+            data-aos="fade-down">
             Forecast your profits
           </p>
           <h2
             className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:w-[592px] mx-auto"
-            data-aos="fade-down"
-          >
+            data-aos="fade-down">
             Calculate Your
             <span className="font-semibold"> Reimbursement With Yoomi</span>
           </h2>
           <p
             className="font-normal text-sm opacity-70 text-center"
-            data-aos="fade-down"
-          >
+            data-aos="fade-down">
             Calculations made using national average*{" "}
           </p>
           <div className="lg:flex justify-between lg:w-[965px] mx-auto pt-8 sm:pt-12">
             <div
               className="lg:w-[231px] h-[165] lg:h-[195px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] px-4 py-4 text-center"
-              data-aos="fade-right"
-            >
+              data-aos="fade-right">
               <p className="text-sm font-semibold text-white pb-4">
                 Total Patients per month
               </p>
               <div className="h-[32px]">
-                <input
+                {/* <input
                   type="range"
                   min="0"
                   max="100"
                   value={sliderValue}
                   onChange={handleSliderChange}
                   className="range-slider"
-                />
+                /> */}
+                <div>
+                  <div style={{ sliderStyle }}>
+                    <div style={{ trackStyle }} />
+                    <div
+                      style={{ thumbStyle }}
+                      draggable="true"
+                      onDrag={(e) => handleChange(e)}
+                    />
+                  </div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={value}
+                    onChange={(e) => handleChange(e)}
+                  />
+                  <div style={scrollbarThumbStyle} />
+                </div>
               </div>
               <div className="bg-white w-[140px] lg:w-[174px] h-[40px] lg:h-[50px] rounded-[4px] flex items-center justify-center mt-4 lg:mt-9 mx-auto">
                 <p className="text-xl lg:text-3xl font-semibold text-deep-blue">
-                  {sliderValue}
+                  {/* {sliderValue} */}
                 </p>
               </div>
             </div>
@@ -116,8 +171,7 @@ const ForecastProfits = () => {
           </div>
           <div
             className="lg:w-[965px] h-[70px] lg:h-[85px] rounded-[4px] forecast_box_bg mx-auto mt-4 lg:mt-6 flex items-center justify-between p-[10px]"
-            data-aos="zoom-in"
-          >
+            data-aos="zoom-in">
             <p className="sm:text-lg font-normal text-black ff_lexend sm:pl-4 leading-[18px]">
               Potential Reimbursement
             </p>
