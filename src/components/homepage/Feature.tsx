@@ -34,40 +34,52 @@ const Feature = () => {
     <>
       <section className="py-[30px] sm:py-10 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-deep-blue text-sm font-medium uppercase text-center mb-2 leading-normal animate__animated animate__shakeX animate__delay-2s">
+          <p
+            className="text-deep-blue text-sm font-medium uppercase text-center mb-2 leading-normal"
+            data-aos="fade-down"
+          >
             Features
           </p>
-          <h2 className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%] animate__animated animate__fadeIn animate__delay-2s">
+          <h2
+            className="text-black ff_Jakarta md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]"
+            data-aos="fade-down"
+          >
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
-          <p className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[80px] leading-normal animate__animated animate__fadeIn animate__delay-2s">
+          <p
+            className="font-normal text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[80px] leading-normal"
+            data-aos="fade-down"
+          >
             Yoomi is more than just a regular remote monitoring solution. Our
             product supports patients and providers through every step of the
             rehabilitation process
           </p>
           <div className="flex xl:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-10 lg:py-[80px] sm:ps-[34px] px-4 sm:pe-[34px] lg:pe-0">
-            <div className="lg:w-6/12 lg:pe-10">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-2 leading-normal pt-5 sm:pt-6 lg:pt-0 animate__animated animate__shakeX animate__delay-4s">
+            <div
+              className="lg:w-6/12 lg:pe-10"
+              data-aos="fade-right"
+            >
+              <p className="text-deep-blue text-sm font-medium uppercase mb-2 leading-normal pt-5 sm:pt-6 lg:pt-0">
                 Library
               </p>
-              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%] animate__animated animate__fadeIn animate__delay-4s">
+              <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%]">
                 Extensive Exercise
                 <span className=" font-semibold">Library</span>
               </h3>
-              <div className="flex sm:pt-5 pt-3 pb-[11px] animate__animated animate__fadeIn animate__delay-4s">
+              <div className="flex sm:pt-5 pt-3 pb-[11px]">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 mb-0 text-black">
                   Utilize Yoomi’s HEP templates to quickly create and assign
                   programs to your patients
                 </p>
               </div>
-              <div className="flex animate__animated animate__fadeIn animate__delay-4s">
+              <div className="flex">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 mb-[9px] text-black ">
                   Choose from our library of exercises for all patient cases
                 </p>
               </div>
-              <div className="flex sm:mb-[37px] mb-5 animate__animated animate__fadeIn animate__delay-4s">
+              <div className="flex sm:mb-[37px] mb-5">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-sm opacity-70 ps-4 text-black">
                   Use Yoomi’s industry-leading exercise generation tool to
@@ -75,7 +87,7 @@ const Feature = () => {
                   seconds
                 </p>
               </div>
-              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm animate__animated animate__fadeIn animate__delay-4s">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[51px] px-4 bg-deep-blue text-white font-semibold text-sm">
                 View the Library
               </button>
             </div>

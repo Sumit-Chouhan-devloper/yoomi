@@ -24,13 +24,13 @@ const Main = () => {
         <ReportingAnylats />
         <TreakingRemote />
         <OurPlatForm />
-        <ForecastProfits/>
+        <ForecastProfits />
         <Partners />
-        <KnowMore/>
-        <Committed/>
+        <KnowMore />
+        <Committed />
         <AboutUs />
         <Footer />
-        <BackToTop/>
+        <BackToTop />
       </div>
     </>
   );
