@@ -7,14 +7,14 @@ const Committed = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center lg:justify-between w-full items-center">
             <div className="lg:w-5/12"data-aos="fade-right">
-              <p className="text-deep-blue text-sm font-medium uppercase mb-[9px] leading-normal">
+              <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-[9px] leading-normal">
                 The Best for you
               </p>
               <h3 className="text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl ff_Jakarta  mb-4 font-normal leading-[120%]">
                 Committed to Industry-Standard
                 <span className="font-semibold"> Compliance and Safety</span>
               </h3>
-              <p className="font-normal text-sm opacity-70 lg:pe-5 text-black">
+              <p className="font-normal text-xs sm:text-sm opacity-70 lg:pe-5 text-black">
                 Yoomi has signed the American Physical Therapy Association
                 Digital Transparency pledge, illustrating our commitment to the
                 fact that digital "physical therapy" services are only performed

@@ -10,7 +10,7 @@ const TreakingRemote = () => {
           alt="box-img"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pb-4 md:pb-20 xl:pb-0">
-          <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-10  xl:py-[87px] justify-center lg:justify-start">
+          <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12" data-aos="fade-right">
               <img
                 className="w-full min-h-[207px] drop-shadow-lg"
@@ -27,7 +27,7 @@ const TreakingRemote = () => {
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%]">
                 Remote Therapeutic
-                <span className="font-semibold mb-0 lg:block">
+                <span className="font-semibold mb-0 lg:block ps-1 lg:ps-0">
                    Monitoring + Billing
                 </span>
               </h3>
