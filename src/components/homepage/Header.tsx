@@ -14,10 +14,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-light-sky relative min-h-[60vh] min-[992px]:min-h-screen flex flex-col">
+      <div className="bg-light-sky relative min-h-[60vh] lg:min-h-screen min-[992px]:min-h-screen flex flex-col">
         <img
           src={Images.heroLeftIcon}
-          alt="hero-left-icon"
+        alt="hero-left-icon"
           className="absolute max-[1024px]:top-24 max-[1366px]:top-44 top-24 left-0 max-[1366px]:w-[10%] min-[1600px]:top-40"
         />
         <img
