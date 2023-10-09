@@ -46,7 +46,7 @@ const Feature = () => {
             rehabilitation process
           </p>
           <div className="flex xl:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-8 sm:py-10 lg:pt-[70px] lg:pb-[56px] xl:py-[80px] sm:ps-[34px] px-4 sm:pe-[34px] lg:pe-0">
-            <div className="lg:w-6/12 lg:pe-10">
+            <div className="lg:w-6/12 lg:pe-10" data-aos="fade-right">
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-2 leading-normal pt-5 sm:pt-6 lg:pt-0">
                 Library
               </p>

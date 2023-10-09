@@ -18,7 +18,7 @@ const TrackingFeedback = () => {
           <div className="flex flex-wrap items-center justify-between xl:h-[550px] CommonCardShado py-8 sm:py-10 lg:py-14 px-4 sm:px-[34px]">
             <div
               className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-10 xl:pe-0"
-             
+              data-aos="fade-right"
             >
               <img
                 className="w-full min-h-[195px] drop-shadow-lg"
@@ -26,7 +26,7 @@ const TrackingFeedback = () => {
                 alt="tracking"
               />
             </div>
-            <div className="lg:w-6/12 xl:ps-[65px]" >
+            <div className="lg:w-6/12 xl:ps-[65px]" data-aos="fade-left">
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-2 mt-5 lg:mt-0">
                 TRACKING
               </p>
