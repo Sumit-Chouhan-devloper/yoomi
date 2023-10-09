@@ -6,11 +6,11 @@ import heroRightPot from "./assets/images/svg/hero-right-side-pot.svg";
 import heroLeftIcon from "./assets/images/png/hero-left-icon.png";
 import heroRightIcon from "./assets/images/png/hero-right-icon.png";
 import workoutChatImg from "./assets/images/png/workout-chat-img.png";
-import partnerIconOne from "./assets/images/png/partner-icon-1.png";
-import partnerIconTwo from "./assets/images/png/partner-icon-2.png";
-import partnerIconThree from "./assets/images/png/partner-icon-3.png";
-import partnerIconFour from "./assets/images/png/partner-icon-4.png";
-import partnerIconFive from "./assets/images/png/partner-icon-5.png";
+import partnerIconOne from "./assets/images/webp/partner-icon-1.webp";
+import partnerIconTwo from "./assets/images/webp/partner-icon-2.webp";
+import partnerIconThree from "./assets/images/webp/partner-icon-3.webp";
+import partnerIconFour from "./assets/images/webp/partner-icon-4.webp";
+import partnerIconFive from "./assets/images/webp/partner-icon-5.webp";
 import feedbackVectorImg from "./assets/images/png/feedback_top-vecter.png";
 import reportingVectorImg from "./assets/images/png/reporting-analytis-bottom-vecter.png";
 import sliderBgImg from "./assets/images/png/exercies-slider-bg-img.png";
@@ -30,9 +30,9 @@ import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
 import commaUp from "./assets/images/svg/comma_upper.svg";
 import commaDown from "./assets/images/svg/comma_lower.svg";
 import starGrup from "./assets/images/svg/StarGrup.svg";
-import committedLogoHippa from "./assets/images/png/commited_hippa_logo.png";
-import committedLogoFda from "./assets/images/png/commited_fda_logo.png";
-import committedLogoApta from "./assets/images/png/commited_apta_logo.png";
+import committedLogoHippa from "./assets/images/webp/committedLogoHippa.webp";
+import committedLogoFda from "./assets/images/webp/committedLogoFDA.webp";
+import committedLogoApta from "./assets/images/webp/committedLogoApta.webp";
 import yomiFooterNewesCharacter from "./assets/images/svg/Yommi-News-Character.svg";
 import yomiAboutPlusICO from "./assets/images/svg/Yomi-plus-ico-AboutUs.svg";
 import yomiAboutPlusICOsec from "./assets/images/svg/Yomi-plus2nd-ico-AboutUs.svg";
@@ -91,10 +91,10 @@ export const Images = {
   knowMoreSlide4: knowMoreSlide4,
   knowMoreBigSeminar: knowMoreBigSeminar,
   forecastIcon: forecastIcon,
-  knowMoreSlide1:knowMoreSlide1,
-  knowMoreSlide2:knowMoreSlide2,
-  knowMoreSlide3:knowMoreSlide3,
-  knowMoreSlide4:knowMoreSlide4,
-  knowMoreBigSeminar:knowMoreBigSeminar,
-  forecastIcon:forecastIcon,
+  knowMoreSlide1: knowMoreSlide1,
+  knowMoreSlide2: knowMoreSlide2,
+  knowMoreSlide3: knowMoreSlide3,
+  knowMoreSlide4: knowMoreSlide4,
+  knowMoreBigSeminar: knowMoreBigSeminar,
+  forecastIcon: forecastIcon,
 };
