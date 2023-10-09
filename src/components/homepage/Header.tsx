@@ -14,16 +14,16 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-light-sky relative  flex flex-col">
+      <div className="bg-light-sky relative flex flex-col">
         <img
           src={Images.heroLeftIcon}
           alt="hero-left-icon"
-          className="absolute max-[1024px]:top-24 max-[1366px]:top-44 top-24 left-0 max-[1366px]:w-[10%] min-[1600px]:top-40"
+          className="absolute max-[1024px]:top-24 max-[1366px]:top-44 max-[1599px]:top-24 left-0 max-[1366px]:w-[10%] top-40"
         />
         <img
           src={Images.heroRightIcon}
           alt="hero-right-icon"
-          className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 top-36 max-[1366px]:w-[15%] min-[1600px]:top-56"
+          className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 max-[1599px]:top-36 max-[1366px]:w-[15%] top-56"
         />
         <img
           src={Images.heroBottomLayer}
@@ -33,12 +33,12 @@ const Header = () => {
         <img
           src={Images.heroLeftPot}
           alt="hero-left-pot"
-          className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%] min[1600px]:bottom-[55%]"
+          className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%]"
         />
         <img
           src={Images.heroRightPot}
           alt="hero-right-pot"
-          className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%] min[1600px]:bottom-[57%]"
+          className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] max-[576px]:bottom-[8%] max-[992px]:bottom-[12%] max-[1366px]:bottom-[17%] bottom-[22%]"
         />
         <div>
           <MobileNav
