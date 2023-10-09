@@ -2,17 +2,17 @@ import { Images } from "../../images";
 export const plateFormData = [
   {
     id: "1",
-    heading: "50%",
+    heading: "%",
     para: "Reduction in Pain",
   },
   {
     id: "2",
-    heading: "90%",
+    heading: "%",
     para: "Increase In-Patient Satisfaction",
   },
   {
     id: "3",
-    heading: "60%",
+    heading: "%",
     para: "Faster Recovery",
   },
 ];

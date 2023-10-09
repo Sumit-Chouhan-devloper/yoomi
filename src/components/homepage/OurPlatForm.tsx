@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Images } from "../../images.js";
 import { plateFormData } from "../common/Helper.tsx";
-
+import VisibilitySensor from "react-visibility-sensor";
+import CountUp from "react-countup";
 const OurPlatForm = () => {
+  const [viewCount, setViewCount] = useState(false);
+  function onVisibilityChange(visible) {
+    if (visible) {
+      setViewCount(true);
+    }
+  }
   return (
     <>
       <div className=" xl:py-[80px] py-[32px] sm:py-10 lg:py-14 bg-[#F5F8F9] relative mt-[30px] sm:mt-10 lg:mt-12 xl:mt-0">
@@ -21,9 +28,7 @@ const OurPlatForm = () => {
           <p className="font-normal text-xs sm:text-sm opacity-70 text-center text-black">
             We’ve helped out partners and patients achieve
           </p>
-          <div
-            className="flex flex-wrap sm:pt-8 pt-7 xl:pt-[60px] max-w-[861px] justify-center mx-auto gap-[24px] sm:gap-0"
-                      >
+          <div className="flex flex-wrap sm:pt-8 pt-7 xl:pt-[60px] max-w-[861px] justify-center mx-auto gap-[24px] sm:gap-0">
             {plateFormData.map((OurData, i) => {
               return (
                 <div className="sm:w-1/2 w-11/12 md:w-4/12" key={i}>
@@ -42,6 +47,34 @@ const OurPlatForm = () => {
                       alt="box-group"
                     />
                     <h2 className="text-7xl group-hover:scale-110 transition duration-300 text-white leading-[110%] text-center font-semibold">
+                      <VisibilitySensor
+                        onChange={onVisibilityChange}
+                        offset={{
+                          top: 10,
+                        }}
+                        delayedCallon
+                      >
+                        <CountUp
+                          start={0}
+                          end={
+                            i === 0
+                              ? viewCount
+                                ? 50
+                                : 0
+                              : i === 1
+                              ? viewCount
+                                ? 90
+                                : 0
+                              : i === 2
+                              ? viewCount
+                                ? 60
+                                : 0
+                              : ""
+                          }
+                          duration={2}
+                        />
+                      </VisibilitySensor>
+
                       {OurData.heading}
                     </h2>
                     <p className="text-white text-center text-xl font-normal">
