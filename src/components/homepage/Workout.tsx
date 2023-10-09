@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Images } from "../../images.js";
 
 const Workout = () => {
@@ -10,11 +10,11 @@ const Workout = () => {
         </div>
         <img src={Images.workoutChatImg} alt="workout-chat-img" className='w-[318px] text-end' />
       </div> */}
-      <div className="relative mt-[-40px] sm:mt-[-100px] min-[1025px]:mt-[-160px] min-[1600px]:mt-[-220px]">
+      <div className="relative mt-[-40px] sm:mt-[-100px] lg:mt-[-160px] 2xl:mt-[-220px]">
         <img src={Images.workoutIcon} alt="workout-img" className="mx-auto" />
       </div>
     </>
   );
-}
+};
 
-export default Workout
+export default Workout;
