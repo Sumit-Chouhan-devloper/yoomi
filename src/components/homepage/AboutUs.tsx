@@ -17,7 +17,7 @@ const AboutUs = () => {
   return (
     <>
       <div
-        className=" pt-10 md:pt-16 lg:pt-0 xl:pt-[73.3px] pb-5 relative"
+        className=" pt-10 mdpt-16 lg:pt-0 xl:pt-[73.3px] pb-5 relative"
         id="about-us">
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "

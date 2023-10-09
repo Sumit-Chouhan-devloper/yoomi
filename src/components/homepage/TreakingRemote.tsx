@@ -3,13 +3,13 @@ import { Images } from "../../images.js";
 const TreakingRemote = () => {
   return (
     <>
-      <div className="relative py-[30px] sm:pt-10 lg:pb-0 lg:pt-12 xl:pb-[166px]">
+      <div className="relative pt-[30px] sm:pt-10 lg:pb-0 lg:pt-12 xl:pb-[166px]">
         <img
           className="absolute hidden md:block bottom-[4%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
           alt="box-img"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pb-4 md:pb-12 xl:pb-0">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pb-4 sm:pb-10 lg:pb-12 xl:pb-0">
           <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 lg:py-[56px] xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12" data-aos="fade-right">
               <img
@@ -18,17 +18,14 @@ const TreakingRemote = () => {
                 alt="tracking"
               />
             </div>
-            <div
-              className="lg:w-6/12 lg:px-4 lg:ps-12"
-              data-aos="fade-left"
-            >
+            <div className="lg:w-6/12 lg:px-4 lg:ps-12" data-aos="fade-left">
               <p className="text-deep-blue text-sm font-medium uppercase mb-2 pt-5 md:pt-0">
                 TRACKING
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-2xl font-normal sm:mb-4 mb-3 leading-[110%]">
-                Remote Therapeutic
+                Remote Therapeutic{" "}
                 <span className="font-semibold mb-0 lg:block ps-1 lg:ps-0">
-                   Monitoring + Billing
+                  Monitoring + Billing
                 </span>
               </h3>
               <p className="font-normal text-xs sm:text-sm opacity-70 lg:mb-8 mb-5 text-black">
