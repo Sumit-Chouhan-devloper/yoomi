@@ -23,7 +23,7 @@ const Committed = () => {
                 Therapy.
               </p>
             </div>
-            <div className="xl:w-5/12 lg:w-6/12" data-aos="fade-left">
+            <div className="xl:w-5/12 lg:w-6/12">
               <div className="flex lg:items-center  flex-col md:flex-row mt-9 lg:mt-0">
                 <div className="md:me-[34px] sm:flex lg:flex-col md:gap-0 sm:gap-[34px]">
                   <div className="h-[170px] w-[170px] sm:h-[208px] sm:w-[208px] flex justify-center items-center commited_card rounded bg-white border border-solid border-[#E6F0F3] duration-300 ease-linear">

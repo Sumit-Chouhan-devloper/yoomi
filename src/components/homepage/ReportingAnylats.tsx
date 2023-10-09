@@ -27,7 +27,7 @@ const ReportingAnylats = () => {
                 View the Matrics
               </button>
             </div>
-            <div className="lg:w-7/12 mx-auto sm:w-10/12" data-aos="fade-left">
+            <div className="lg:w-7/12 mx-auto sm:w-10/12">
               <img
                 className="w-full min-h-[228px] drop-shadow-lg"
                 src={Images.reportingImg}
