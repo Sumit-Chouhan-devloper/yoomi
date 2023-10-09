@@ -37,8 +37,8 @@ const AboutUs = () => {
           </h2>
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
-              <>
-                <div className="!flex !justify-center bg-white rounded-[5px] mx-3">
+            
+                <div className="!flex !justify-center bg-white rounded-[5px] mx-3" key={i}>
                   <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
                     <div className=" flex flex-col justify-center items-center ">
                       <img
@@ -79,7 +79,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-              </>
+              
             ))}
           </Slider>
           <div className=" flex justify-center items-center gap-3">

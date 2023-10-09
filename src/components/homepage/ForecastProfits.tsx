@@ -2,13 +2,7 @@ import React, { useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
-  // const [sliderValue, setSliderValue] = useState(100);
-  // const handleSliderChange = (e) => {
-  //   setSliderValue(e.target.value);
-  // };
-
   const [value, setValue] = useState(30);
-  console.log(value, "value");
   const handleChange = (e) => {
     setValue(e.target.value);
   };

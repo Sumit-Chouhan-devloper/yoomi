@@ -46,7 +46,7 @@ const OurPlatForm = () => {
                       src={Images.plateformBoxVacter}
                       alt="box-group"
                     />
-                    <h2 className="text-7xl group-hover:scale-110 transition duration-300 text-white leading-[110%] text-center font-semibold">
+                    <h2 className="text-5xl sm:text-7xl group-hover:scale-110 transition duration-300 text-white leading-[110%] text-center font-semibold">
                       <VisibilitySensor
                         onChange={onVisibilityChange}
                         offset={{

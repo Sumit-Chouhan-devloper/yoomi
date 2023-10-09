@@ -12,7 +12,7 @@ const Partners = () => {
           Recognized by Leading
           <span className="font-semibold"> Healthcare Institutions</span>
         </p>
-        <div className="flex justify-center lg:justify-between mt-4 sm:mt-[55px] gap-5 flex-wrap">
+        <div className="flex justify-center xl:justify-between mt-4 sm:mt-[55px] gap-5 flex-wrap">
           <div
             className="mt-2sm:mt-4 flex justify-center items-center w-[150px] sm:w-[207px] h-[110px] sm:h-[137px] rounded-[4px] border-solid border-[1px] border-[rgba(0, 0, 0, 0.10)] shadow-lg shadow-[0px_13px_18px_0px_rgba(0, 0, 0, 0.06)] bg-white hover:shadow-[unset] duration-300 ease-linear"
             >
