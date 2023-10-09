@@ -16,28 +16,22 @@ const AboutUs = () => {
   const thirdSlider = React.useRef(null);
   return (
     <>
-      <div
-        className="lg:pt-0 xl:pt-[73.3px] pb-5 relative"
-        id="about-us">
+      <div className="lg:pt-0 xl:pt-[73.3px] pb-5 relative" id="about-us">
         <img
           className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
           src={Images.yomiAboutPlusICO}
-          alt=""
+          alt="Your Browser is Not Support This Formate"
         />
         <img
           className="absolute bottom-[38%] right-[0px] translate-x-[0%] sm:w-24 md:w-28 xl:w-40 min-w-[100px] max-w-[6%] "
           src={Images.yomiAboutPlusICOsec}
-          alt=""
+          alt="Your Browser is Not Support This Formate"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
-          <h3
-            className="text-xs sm:text-sm font-medium text-deep-blue text-center pb-2 uppercase"
-            >
+          <h3 className="text-xs sm:text-sm font-medium text-deep-blue text-center pb-2 uppercase">
             CLIENT review
           </h3>
-          <h2
-            className="text-[22px] sm:text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]"
-            >
+          <h2 className="text-[22px] sm:text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
@@ -89,7 +83,7 @@ const AboutUs = () => {
             ))}
           </Slider>
           <div className=" flex justify-center items-center gap-3">
-            <span className="">
+            <span>
               <svg
                 onClick={() => thirdSlider?.current?.slickPrev()}
                 className=" group"
@@ -165,15 +159,11 @@ const AboutUs = () => {
                       alt="Logo Yoomi"
                     />
                   </div>{" "}
-                  <h2
-                    className="ff_Jakarta text-[18px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
-                  >
+                  <h2 className="ff_Jakarta text-[18px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12">
                     Sign Up to Join
                     <span className=" font-semibold"> Our Newsletter</span>
                   </h2>
-                  <form
-                    className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center"
-                  >
+                  <form className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
                     <input
                       type="email"
                       placeholder="Enter Your Email"
@@ -186,12 +176,11 @@ const AboutUs = () => {
                   </form>
                 </div>
               </div>
-              <div
-                className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
+              <div className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
                 <img
                   className="max-[600px]:w-[75%]"
                   src={Images.yomiFooterNewesCharacter}
-                  alt=""
+                  alt="Your Browser is Not Support This Formate"
                 />
               </div>
             </div>
