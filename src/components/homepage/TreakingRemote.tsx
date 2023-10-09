@@ -3,7 +3,7 @@ import { Images } from "../../images.js";
 const TreakingRemote = () => {
   return (
     <>
-      <div className="relative pt-[30px] sm:pt-10 lg:pb-0 lg:pt-12 xl:pb-[166px]">
+      <div className="relative sm:pt-10 lg:pb-0 lg:pt-12 xl:pb-[166px]">
         <img
           className="absolute hidden md:block bottom-[4%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}

@@ -3,7 +3,7 @@ import { Images } from "../../images.js";
 const TrackingFeedback = () => {
   return (
     <>
-      <div className="relative py-[30px] sm:py-10 lg:py-12">
+      <div className="relative sm:py-10 lg:py-12">
         <img
           className="absolute hidden md:block md:top-[-15%] lg:top-[-24%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}

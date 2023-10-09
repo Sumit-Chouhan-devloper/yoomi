@@ -22,7 +22,7 @@ const ForecastProfits = () => {
             className="hidden xl:block xl:w-[70%]"
           />
         </div>
-        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 py-10 sm:pt-20 lg:pb-[53px] lg:py-14">
+        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 py-[60px] sm:pt-20 lg:pb-[53px] lg:py-14">
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2">
             Forecast your profits
           </p>

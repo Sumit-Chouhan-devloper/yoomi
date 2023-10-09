@@ -4,7 +4,7 @@ const Committed = () => {
   return (
     <>
       <div className="lg:py-[104px] xl:pt-[123px] py-[30px] sm:py-10">
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 py-10 lg:py-0">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 py-[60px] lg:py-0">
           <div className="flex flex-wrap justify-center lg:justify-between w-full items-center">
             <div className="lg:w-5/12">
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-[9px] leading-normal">
