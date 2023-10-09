@@ -2,9 +2,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="relative flex justify-center max-[639.98px]:min-h-[62vh]">
+      <div className="relative flex justify-center max-[639.98px]:min-h-[62vh] min-h-[60vh] lg:min-h-screen min-[1002px]:min-h-screen">
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center max-[576px]:pt-4 max-[1024px]:pt-8 max-[1440px]:pt-20 max-[1619px]:pt-10 min-[1620px]:pt-40">
-          <h1 className="text-xl sm:text-5xl min-[1200px]:text-8xl font-normal  max-[639.98px]:pt-8 text-black ff_Jakarta sm:px-10 lg:px-36 min-[1200px]:leading-[55px]">
+          <h1 className="text-xl sm:text-5xl 2xl:!text-9xl font-normal  max-[639.98px]:pt-8 text-black ff_Jakarta sm:px-10 lg:px-36 min-[1200px]:leading-[55px]">
             <span className="font-extrabold">Next Generation </span> Patient
             Engagement and RTM Solution<span className="font-semibold">✨</span>
           </h1>
