@@ -8,7 +8,7 @@ const KnowMore = () => {
   const [nav2, setNav2] = useState();
   return (
     <>
-      <div className="lg:pt-12 lg:pb-0 sm:py-10 py-[30px]">
+      <div className="lg:pt-12 lg:pb-0 sm:py-10">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p
             className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-4"

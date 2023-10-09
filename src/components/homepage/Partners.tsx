@@ -4,8 +4,8 @@ import { Images } from "../../images.js";
 const Partners = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center py-[30px] sm:py-10 lg:py-[56px] xl:py-[118px] my-10 lg:my-0">
-        <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase pt-5 sm:pt-0">
+      <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center py-[30px] sm:py-10 lg:py-[56px] xl:py-[118px] mb-10 sm:my-10 lg:my-0">
+        <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase">
           Partners
         </p>
         <p className="text-black ff_Jakarta text-[20px] sm:text-6xl font-normal mb-2 lg:px-40 leading-[120%]">
