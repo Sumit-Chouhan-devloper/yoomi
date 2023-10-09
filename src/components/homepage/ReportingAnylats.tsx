@@ -12,7 +12,7 @@ const ReportingAnylats = () => {
               src={Images.reportingVectorImg}
               alt="cube"
             />
-            <div className="lg:w-5/12 lg:pe-9" data-aos="fade-right">
+            <div className="lg:w-5/12 lg:pe-9">
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-2 pt-5 sm:pt-0">
                 report
               </p>
@@ -27,7 +27,7 @@ const ReportingAnylats = () => {
                 View the Matrics
               </button>
             </div>
-            <div className="lg:w-7/12 mx-auto sm:w-10/12" data-aos="fade-left">
+            <div className="lg:w-7/12 mx-auto sm:w-10/12">
               <img
                 className="w-full min-h-[228px] drop-shadow-lg"
                 src={Images.reportingImg}
