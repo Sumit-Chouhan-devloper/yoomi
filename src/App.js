@@ -11,6 +11,7 @@ function App() {
     AOS.init({
       duration: 800,
       anchorPlacement: "center",
+      once: true,
     });
   }, []);
 

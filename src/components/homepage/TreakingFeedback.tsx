@@ -32,7 +32,7 @@ const TrackingFeedback = () => {
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl sm:text-[26px] text-[23px] font-normal leading-[120%]">
                 Cutting Edge Motion
-                <span className="font-semibold">Tracking/ Feedback</span>
+                <span className="font-semibold"> Tracking/ Feedback</span>
               </h3>
               <div className="flex pt-3 sm:pt-5 xl:pe-6">
                 <img src={Images.checkIcon} alt="check-box" />
@@ -55,7 +55,7 @@ const TrackingFeedback = () => {
                   for rehabilitation, Yoomi Vision
                 </p>
               </div>
-              <div className="flex sm:mb-10 mb-5 pt-[9px]">
+              <div className="flex lg:mb-[37px] mb-5 pt-[9px]">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 mb-0 text-black">
                   Requires no custom hardware, sensors, or equipment

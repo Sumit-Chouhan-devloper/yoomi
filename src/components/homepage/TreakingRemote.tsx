@@ -3,14 +3,14 @@ import { Images } from "../../images.js";
 const TreakingRemote = () => {
   return (
     <>
-      <div className="relative py-[30px] sm:py-10 lg:pt-12 xl:pb-[166px]">
+      <div className="relative py-[30px] sm:pt-10 lg:pb-0 lg:pt-12 xl:pb-[166px]">
         <img
           className="absolute hidden md:block bottom-[4%] start-0 z-[-1]"
           src={Images.feedbackVectorImg}
           alt="box-img"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pb-4 md:pb-20 xl:pb-0">
-          <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 xl:py-[87px] justify-center lg:justify-start">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pb-4 md:pb-12 xl:pb-0">
+          <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 lg:py-[56px] xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12" data-aos="fade-right">
               <img
                 className="w-full min-h-[207px] drop-shadow-lg"
@@ -31,7 +31,7 @@ const TreakingRemote = () => {
                    Monitoring + Billing
                 </span>
               </h3>
-              <p className="font-normal text-xs sm:text-sm opacity-70 sm:mb-8 mb-5 text-black">
+              <p className="font-normal text-xs sm:text-sm opacity-70 lg:mb-8 mb-5 text-black">
                 Enhance patient care with remote monitoring, and enable
                 providers to generate over $160 per patient per month in
                 additional revenue

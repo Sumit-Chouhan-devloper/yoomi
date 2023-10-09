@@ -34,28 +34,19 @@ const Feature = () => {
     <>
       <section className="py-[30px] sm:py-10 lg:py-12">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p
-            className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2 leading-normal"
-          >
+          <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2 leading-normal">
             Features
           </p>
-          <h2
-            className="text-black ff_Jakarta text-2xl md:text-[36px] sm:text-5xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]"
-          >
+          <h2 className="text-black ff_Jakarta text-2xl md:text-[36px] sm:text-5xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
-          <p
-            className="font-normal text-xs sm:text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 lg:mb-[80px] leading-normal"
-          >
+          <p className="font-normal text-xs sm:text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 xl:mb-[80px] leading-normal">
             Yoomi is more than just a regular remote monitoring solution. Our
             product supports patients and providers through every step of the
             rehabilitation process
           </p>
-          <div className="flex xl:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-8 sm:py-10 lg:py-[80px] sm:ps-[34px] px-4 sm:pe-[34px] lg:pe-0">
-            <div
-              className="lg:w-6/12 lg:pe-10"
-              data-aos="fade-right"
-            >
+          <div className="flex xl:h-[550px] flex-wrap flex-col-reverse items-center lg:flex-row justify-between CommonCardShado py-8 sm:py-10 lg:pt-[70px] lg:pb-[56px] xl:py-[80px] sm:ps-[34px] px-4 sm:pe-[34px] lg:pe-0">
+            <div className="lg:w-6/12 lg:pe-10" data-aos="fade-right">
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-2 leading-normal pt-5 sm:pt-6 lg:pt-0">
                 Library
               </p>
@@ -76,7 +67,7 @@ const Feature = () => {
                   Choose from our library of exercises for all patient cases
                 </p>
               </div>
-              <div className="flex sm:mb-[37px] mb-5">
+              <div className="flex lg:mb-[37px] mb-5">
                 <img src={Images.checkIcon} alt="check-box" />
                 <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 text-black">
                   Use Yoomi’s industry-leading exercise generation tool to

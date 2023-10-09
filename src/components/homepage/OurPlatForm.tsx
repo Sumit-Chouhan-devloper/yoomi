@@ -5,7 +5,7 @@ import { plateFormData } from "../common/Helper.tsx";
 const OurPlatForm = () => {
   return (
     <>
-      <div className=" xl:py-[80px] py-[30px] sm:py-10 bg-[#F5F8F9] relative">
+      <div className=" xl:py-[80px] py-[30px] sm:py-10 lg:py-14 bg-[#F5F8F9] relative mt-12 xl:mt-0">
         <img
           className="absolute end-0 hidden lg:block top-[2%]"
           src={Images.ourPlateformSide}
@@ -23,7 +23,8 @@ const OurPlatForm = () => {
           </p>
           <div
             className="flex flex-wrap sm:pt-8 pt-7 xl:pt-[60px] max-w-[861px] justify-center mx-auto gap-[24px] sm:gap-0"
-            data-aos="zoom-in">
+            data-aos="zoom-in"
+          >
             {plateFormData.map((OurData, i) => {
               return (
                 <div className="sm:w-1/2 w-11/12 md:w-4/12" key={i}>
@@ -34,7 +35,8 @@ const OurPlatForm = () => {
                         : i === 1
                         ? "bg-skyblue px-3"
                         : "bg-deep-blue sm:mt-8 md:mt-0"
-                    }`}>
+                    }`}
+                  >
                     <img
                       className="absolute bottom-0 end-0"
                       src={Images.plateformBoxVacter}

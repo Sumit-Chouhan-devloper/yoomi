@@ -22,7 +22,7 @@ const ForecastProfits = () => {
             className="hidden xl:block xl:w-[70%]"
           />
         </div>
-        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 sm:pt-20 py-10 sm:pb-[53px]">
+        <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0 py-10 sm:pt-20 sm:pb-[53px] lg:py-14">
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2">
             Forecast your profits
           </p>
@@ -49,7 +49,8 @@ const ForecastProfits = () => {
                           : `calc(${value}% + 3px)`
                       }`,
                       display: ` ${value < 2 ? `none` : ``}`,
-                    }}></div>
+                    }}
+                  ></div>
                   <input
                     type="range"
                     min="0"
