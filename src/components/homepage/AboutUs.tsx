@@ -157,7 +157,7 @@ const AboutUs = () => {
               <div className="lg:w-6/12">
                 <div className="flex flex-col justify-center h-full">
                   {" "}
-                  <div data-aos="fade-right">
+                  <div>
                     {" "}
                     <img
                       className="w-44 sm:w-[200px] h-[45px] md:w-[228px] md:h-[55px]"
@@ -167,13 +167,13 @@ const AboutUs = () => {
                   </div>{" "}
                   <h2
                     className="ff_Jakarta text-[18px] sm:text-3xl xl:text-4xl font-normal text-white pt-3 sm:pt-4 lg:pt-7 pb-4 sm:pb-6 md:pb-8 lg:pb-12"
-                    data-aos="fade-right">
+                  >
                     Sign Up to Join
                     <span className=" font-semibold"> Our Newsletter</span>
                   </h2>
                   <form
                     className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center"
-                    data-aos="fade-right">
+                  >
                     <input
                       type="email"
                       placeholder="Enter Your Email"
@@ -187,8 +187,7 @@ const AboutUs = () => {
                 </div>
               </div>
               <div
-                className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center"
-                data-aos="fade-left">
+                className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
                 <img
                   className="max-[600px]:w-[75%]"
                   src={Images.yomiFooterNewesCharacter}

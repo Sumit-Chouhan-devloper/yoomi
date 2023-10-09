@@ -23,8 +23,7 @@ const OurPlatForm = () => {
           </p>
           <div
             className="flex flex-wrap sm:pt-8 pt-7 xl:pt-[60px] max-w-[861px] justify-center mx-auto gap-[24px] sm:gap-0"
-            data-aos="zoom-in"
-          >
+                      >
             {plateFormData.map((OurData, i) => {
               return (
                 <div className="sm:w-1/2 w-11/12 md:w-4/12" key={i}>
