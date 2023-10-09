@@ -31,55 +31,53 @@ const AboutUs = () => {
           <h3 className="text-xs sm:text-sm font-medium text-deep-blue text-center pb-2 uppercase">
             CLIENT review
           </h3>
-          <h2 className="text-[22px] sm:text-4xl md:text-5xl lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
+          <h2 className="text-[30px] md:text-[36px] lg:text-6xl MainHeading text-center pb-8 sm:pb-12 lg:pb-[52px]">
             What are Client Think
             <span className=" font-semibold"> About Us</span>
           </h2>
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
-            
-                <div className="!flex !justify-center bg-white rounded-[5px] mx-3" key={i}>
-                  <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
-                    <div className=" flex flex-col justify-center items-center ">
-                      <img
-                        className="w-[74px]"
-                        src={data.clientImage}
-                        alt="Review by Clint"
-                      />
-                      <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
-                        {data.clientName}{" "}
-                        <span className="ps-[6px] text-xs">
-                          {data.clientLocation}
-                        </span>
-                      </h2>
-                      <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
-                        {data.clientPost}
-                      </h3>
-                      <div className="relative">
-                        <img
-                          src={Images.commaUp}
-                          className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
-                          alt=" Comma upepr"
-                        />
-                        <img
-                          src={Images.commaDown}
-                          className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
-                          alt="Comma down"
-                        />
-                        <p className="text-black text-center max-w-[504px] text-xs sm:text-sm leading-[150%] font-normal opacity-70">
-                          {data.clientReview}
-                        </p>
-                      </div>
-                      <span className="pt-4">
-                        <img
-                          src={data.clientStarReview}
-                          alt="Star Grup Images"
-                        />
+              <div
+                className="!flex !justify-center bg-white rounded-[5px] mx-3"
+                key={i}
+              >
+                <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
+                  <div className=" flex flex-col justify-center items-center ">
+                    <img
+                      className="w-[74px]"
+                      src={data.clientImage}
+                      alt="Review by Clint"
+                    />
+                    <h2 className=" text-xl text-black font-medium leading-[normal] flex items-center pt-[10px]">
+                      {data.clientName}{" "}
+                      <span className="ps-[6px] text-xs">
+                        {data.clientLocation}
                       </span>
+                    </h2>
+                    <h3 className="py-[6px] text-xs text-[#82B2C2] leading-[normal]">
+                      {data.clientPost}
+                    </h3>
+                    <div className="relative">
+                      <img
+                        src={Images.commaUp}
+                        className=" absolute !hidden sm:!block top-0 left-0 translate-x-[-100%] translate-y-[-50%]"
+                        alt=" Comma upepr"
+                      />
+                      <img
+                        src={Images.commaDown}
+                        className=" absolute !hidden sm:!block bottom-0 right-0 translate-x-[100%] translate-y-[50%]"
+                        alt="Comma down"
+                      />
+                      <p className="text-black text-center max-w-[504px] text-xs sm:text-sm leading-[150%] font-normal opacity-70">
+                        {data.clientReview}
+                      </p>
                     </div>
+                    <span className="pt-4">
+                      <img src={data.clientStarReview} alt="Star Grup Images" />
+                    </span>
                   </div>
                 </div>
-              
+              </div>
             ))}
           </Slider>
           <div className=" flex justify-center items-center gap-3">
@@ -91,7 +89,8 @@ const AboutUs = () => {
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -112,14 +111,16 @@ const AboutUs = () => {
             </span>
             <span
               onClick={() => thirdSlider?.current?.slickNext()}
-              className=" rotate-180">
+              className=" rotate-180"
+            >
               <svg
                 className=" group"
                 width="35"
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -141,7 +142,8 @@ const AboutUs = () => {
           </div>
           <div
             className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"
-            id="news">
+            id="news"
+          >
             <img
               className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
               src={Images.Yoomi_translatecard_icon}

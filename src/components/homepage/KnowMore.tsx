@@ -13,7 +13,7 @@ const KnowMore = () => {
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-4">
             Know More
           </p>
-          <h3 className="text-black text-center md:text-[36px] sm:text-5xl text-[20px] lg:text-6xl ff_Jakarta font-normal leading-[120%]">
+          <h3 className="text-black text-center text-[30px] md:text-[36px] lg:text-6xl ff_Jakarta font-normal leading-[120%]">
             And Used by the Biggest
             <span className="font-semibold ps-1">
               Figures <span className="block"> in Sports and Rehab</span>
@@ -24,7 +24,8 @@ const KnowMore = () => {
               <Slider
                 asNavFor={nav2}
                 fade={true}
-                ref={(slider1) => setNav1(slider1)}>
+                ref={(slider1) => setNav1(slider1)}
+              >
                 <div>
                   <img
                     className="w-full"
@@ -57,7 +58,8 @@ const KnowMore = () => {
             </div>
             <div
               className="slider-nav max-w-[700px] mx-auto mb-4 md:mb-0"
-              id="small_images">
+              id="small_images"
+            >
               <Slider
                 asNavFor={nav1}
                 ref={(slider2) => setNav2(slider2)}
@@ -76,7 +78,8 @@ const KnowMore = () => {
                       dots: true,
                     },
                   },
-                ]}>
+                ]}
+              >
                 <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px]"

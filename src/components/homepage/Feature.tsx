@@ -37,7 +37,7 @@ const Feature = () => {
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2 leading-normal">
             Features
           </p>
-          <h2 className="text-black ff_Jakarta text-2xl md:text-[36px] sm:text-5xl lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
+          <h2 className="text-black ff_Jakarta text-[30px] md:text-[36px] lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
             Explore Our <span className=" font-semibold">Amazing Features</span>
           </h2>
           <p className="font-normal text-xs sm:text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 xl:mb-[80px] leading-normal">
@@ -52,7 +52,7 @@ const Feature = () => {
               </p>
               <h3 className="text-black ff_Jakarta lg:text-[32px] md:text-4xl ms-[-2px] sm:text-[26px] text-2xl font-normal leading-[110%]">
                 Extensive Exercise
-                <span className=" font-semibold">Library</span>
+                <span className="font-semibold"> Library</span>
               </h3>
               <div className="flex sm:pt-5 pt-3 pb-[11px]">
                 <img src={Images.checkIcon} alt="check-box" />

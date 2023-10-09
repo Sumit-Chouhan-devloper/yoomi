@@ -10,7 +10,7 @@ const Committed = () => {
               <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase mb-[9px] leading-normal">
                 The Best for you
               </p>
-              <h3 className="text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl ff_Jakarta  mb-4 font-normal leading-[120%]">
+              <h3 className="text-black text-[29px] md:text-[36px] lg:text-6xl ff_Jakarta  mb-4 font-normal leading-[120%]">
                 Committed to Industry-Standard
                 <span className="font-semibold"> Compliance and Safety</span>
               </h3>

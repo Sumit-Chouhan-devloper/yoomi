@@ -22,7 +22,7 @@ const OurPlatForm = () => {
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2">
             Platform
           </p>
-          <h2 className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-3xl lg:text-6xl font-normal text-center leading-[110%] mb-4">
+          <h2 className="ff_Jakarta text-black text-[30px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-4">
             Through<span className="font-semibold"> Our Platform</span>
           </h2>
           <p className="font-normal text-xs sm:text-sm opacity-70 text-center text-black">

@@ -20,7 +20,7 @@ const ForecastProfits = () => {
           <p className="text-deep-blue text-xs sm:text-sm font-medium uppercase text-center mb-2">
             Forecast your profits
           </p>
-          <h2 className="ff_Jakarta text-black md:text-[36px] sm:text-5xl text-[22px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:w-[592px] mx-auto">
+          <h2 className="ff_Jakarta text-black text-[30px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:w-[592px] mx-auto">
             Calculate Your
             <span className="font-semibold"> Reimbursement With Yoomi</span>
           </h2>
