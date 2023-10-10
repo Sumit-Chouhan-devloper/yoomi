@@ -1,8 +1,6 @@
 import React from "react";
 import { Images } from "../../images";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { aboutUsSlider } from "../common/Helper.tsx";
 const AboutUs = () => {
   const settings = {
