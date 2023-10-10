@@ -149,9 +149,6 @@ input[type="range"]::-moz-range-thumb {
 } */
 
 /* commited */
-.commited_card:hover {
-  box-shadow: unset !important;
-}
 /*  */
 .custom-range-container {
   position: relative;

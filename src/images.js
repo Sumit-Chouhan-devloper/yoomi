@@ -44,6 +44,7 @@ import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png";
 import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png";
 import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png";
 import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp";
+import knowMoreBigSeminar2 from "./assets/images/webp/know_more-big-img-2.webp";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -90,6 +91,7 @@ export const Images = {
   knowMoreSlide3: knowMoreSlide3,
   knowMoreSlide4: knowMoreSlide4,
   knowMoreBigSeminar: knowMoreBigSeminar,
+  knowMoreBigSeminar2: knowMoreBigSeminar2,
   forecastIcon: forecastIcon,
   knowMoreSlide1: knowMoreSlide1,
   knowMoreSlide2: knowMoreSlide2,
