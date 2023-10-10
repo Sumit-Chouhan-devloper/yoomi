@@ -7,13 +7,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      anchorPlacement: "center",
-      once: true,
-    });
-  }, []);
+ useEffect(() => {
+   window.addEventListener("load", () => {
+     AOS.init({
+       duration: 800,
+       once: true,
+     });
+   });
+ }, []);
 
   return (
     <BrowserRouter>
