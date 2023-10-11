@@ -1,7 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import { Images } from "../../images.js";
 
 const Feature = () => {
@@ -38,7 +36,7 @@ const Feature = () => {
             Features
           </p>
           <h2 className="text-black ff_Jakarta text-[30px] md:text-[36px] lg:text-6xl font-normal text-center mb-[10px] leading-[110%]">
-            Explore Our <span className=" font-semibold">Amazing Features</span>
+            Explore Our <span className="font-semibold">Amazing Features</span>
           </h2>
           <p className="font-normal text-xs sm:text-sm opacity-70 text-center max-w-[724px] mx-auto md:mb-5 xl:mb-[80px] leading-normal">
             Yoomi is more than just a regular remote monitoring solution. Our
@@ -69,7 +67,7 @@ const Feature = () => {
               </div>
               <div className="flex lg:mb-[37px] mb-5">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 text-black">
+                <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 text-black xl:pe-10">
                   Use Yoomi’s industry-leading exercise generation tool to
                   create your own exercises that track adherence and form in
                   seconds

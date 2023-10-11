@@ -1,20 +1,20 @@
 import React from "react";
+import hero_start from "../../assets/images/png/hero-star.png"
 const Hero = () => {
   return (
     <>
       <div className="relative flex justify-center max-[639.98px]:min-h-[62vh] min-h-[60vh] lg:min-h-screen ">
         <div className="container 2xl:flex 2xl:flex-col 2xl:justify-center xl:max-w-[1140px] mx-auto px-5 xl:px-0 text-center max-[576px]:pt-4 max-[1024px]:pt-8 max-[1440px]:pt-20 max-[1619px]:pt-10 2xl:pt-40">
           <div className="2xl:mt-[-400px]">
-            {" "}
-            <h1 className="text-[26px] sm:text-5xl md:text-6xl xl:!text-8xl font-normal max-[639.98px]:pt-8 text-black ff_Jakarta sm:px-10 lg:px-36 xl:leading-[55px]">
+            <h1 className="text-[26px] sm:text-5xl md:text-6xl xl:!text-8xl 2xl:!text-[64px] font-normal max-[639.98px]:pt-8 text-black ff_Jakarta sm:px-10 lg:px-36 2xl:px-20 xl:leading-[110%]">
               <span className="font-extrabold">Next Generation </span> Patient
               Engagement and RTM Solution
-              <span className="font-semibold">✨</span>
+              <img className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]" src={hero_start} alt="start" />
             </h1>
             <p className="text-xs sm:text-2xl font-normal text-black opacity-70 capitalize pt-2 sm:pt-4">
               Industry leading AI motion-tracking technology
             </p>
-            <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[57.24px] bg-white rounded-[4px] py-[5px] pr-[5px] pl-4 mt-[15px] sm:mt-[50px] mx-auto flex justify-between hero_input_shadow">
+            <form className="w-[340px] sm:w-[429px] h-[45px] sm:h-[57.24px] bg-white rounded-[4px] py-[5px] pr-[5px] pl-4 mt-[15px] sm:mt-[56px] mx-auto flex justify-between hero_input_shadow">
               <input
                 type="email"
                 placeholder="Enter Your Email"
