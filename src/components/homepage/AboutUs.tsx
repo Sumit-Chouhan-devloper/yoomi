@@ -167,7 +167,7 @@ const AboutUs = () => {
                     <input
                       type="email"
                       placeholder="Enter Your Email"
-                      className="pr-3 rounded-[5px] md:pr-2 pl-4 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-black placeholder:text-black opacity-70"
+                      className="pr-3 rounded-[5px] md:pr-2 pl-4 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-[#110163] placeholder:text-[#110163] opacity-70"
                       required
                     />
                     <button className="w-[122px] h-[35px] sm:h-[47px] text-xs sm text-xs:sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">

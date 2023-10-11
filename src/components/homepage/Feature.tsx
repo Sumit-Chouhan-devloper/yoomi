@@ -67,7 +67,7 @@ const Feature = () => {
               </div>
               <div className="flex lg:mb-[37px] mb-5">
                 <img src={Images.checkIcon} alt="check-box" />
-                <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 text-black">
+                <p className="font-normal text-xs sm:text-sm opacity-70 ps-4 text-black xl:pe-10">
                   Use Yoomi’s industry-leading exercise generation tool to
                   create your own exercises that track adherence and form in
                   seconds
