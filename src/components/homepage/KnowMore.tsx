@@ -23,40 +23,42 @@ const KnowMore = () => {
                 asNavFor={nav2}
                 fade={true}
                 speed={500}
-                ref={(slider1) => setNav1(slider1)}>
+                ref={(slider1) => setNav1(slider1)}
+              >
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar}
-                    alt="seminar-img"
+                    alt="seminar-img-1"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar2}
-                    alt="seminar-img"
+                    alt="seminar-img-2"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar}
-                    alt="seminar-img"
+                    alt="seminar-img-3"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar2}
-                    alt="seminar-img"
+                    alt="seminar-img-4"
                   />
                 </div>
               </Slider>
             </div>
             <div
               className="slider-nav max-w-[700px] mx-auto mb-4 md:mb-0"
-              id="small_images">
+              id="small_images"
+            >
               <Slider
                 asNavFor={nav1}
                 ref={(slider2) => setNav2(slider2)}
@@ -75,7 +77,8 @@ const KnowMore = () => {
                       dots: true,
                     },
                   },
-                ]}>
+                ]}
+              >
                 <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px] sm:pl-2"

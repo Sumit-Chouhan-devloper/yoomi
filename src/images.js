@@ -43,8 +43,8 @@ import knowMoreSlide1 from "./assets/images/png/know-more-slide-1.png";
 import knowMoreSlide2 from "./assets/images/png/know-more-slide-2.png";
 import knowMoreSlide3 from "./assets/images/png/know-more-slide-3.png";
 import knowMoreSlide4 from "./assets/images/png/know-more-slide-4.png";
-import knowMoreBigSeminar from "./assets/images/webp/know_more-big-img.webp";
-import knowMoreBigSeminar2 from "./assets/images/webp/know_more-big-img-2.webp";
+import knowMoreBigSeminar from "./assets/images/png/know_more-big-img.png";
+import knowMoreBigSeminar2 from "./assets/images/png/know_more-big-img-2.png";
 export const Images = {
   logoImage: logoImage,
   heroImg: heroImg,
@@ -97,6 +97,5 @@ export const Images = {
   knowMoreSlide2: knowMoreSlide2,
   knowMoreSlide3: knowMoreSlide3,
   knowMoreSlide4: knowMoreSlide4,
-  knowMoreBigSeminar: knowMoreBigSeminar,
   forecastIcon: forecastIcon,
 };
