@@ -23,7 +23,7 @@ import msgIcon from "./assets/images/svg/Gmail-logo.svg";
 import telIcon from "./assets/images/svg/tele-logo.svg";
 import workoutIcon from "./assets/images/svg/workout-img.svg";
 import checkIcon from "./assets/images/svg/check_icon.svg";
-import trackingFeedbackImg from "./assets/images/webp/tracking-main-img.webp";
+import trackingFeedbackImg from "./assets/images/png/tracking-main-img.png";
 import reportingImg from "./assets/images/png/Report-main-img.png";
 import trackingImg from "./assets/images/png/tracking-with-graff.png";
 import clintReview1 from "./assets/images/webp/yoomi-review-by-clint-1.webp";
