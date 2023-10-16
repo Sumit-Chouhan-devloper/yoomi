@@ -1,5 +1,6 @@
 import React from "react";
-import hero_start from "../../assets/images/png/hero-star.png"
+import { Images } from "../../images.js";
+
 const Hero = () => {
   return (
     <>
@@ -9,7 +10,11 @@ const Hero = () => {
             <h1 className="text-[26px] sm:text-5xl md:text-6xl xl:!text-8xl 2xl:!text-[64px] font-normal max-[639.98px]:pt-8 text-black ff_Jakarta sm:px-10 lg:px-36 2xl:px-20 xl:leading-[110%]">
               <span className="font-extrabold">Next Generation </span> Patient
               Engagement and RTM Solution
-              <img className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]" src={hero_start} alt="start" />
+              <img
+                className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]"
+                src={Images.herostar}
+                alt="start"
+              />
             </h1>
             <p className="text-xs sm:text-2xl font-normal text-black opacity-70 capitalize pt-2 sm:pt-4">
               Industry leading AI motion-tracking technology
