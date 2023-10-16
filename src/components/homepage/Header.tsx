@@ -3,16 +3,7 @@ import MobileNav from "./MobileNav.tsx";
 import Hero from "./Hero.tsx";
 import { Images } from "../../images.js";
 const Header = () => {
-  // const [activeNavOverlay, setActiveNavOverlay] = useState(false);
-  // useEffect(() => {
-  //   if (activeNavOverlay) {
-  //     document.body.classList.add("overflow-y-hidden");
-  //   } else if (!activeNavOverlay) {
-  //     document.body.classList.remove("overflow-y-hidden");
-  //   }
-  // }, [activeNavOverlay]);
-
-  const [activeNavOverlay, setActiveNavOverlay] = useState(false);
+    const [activeNavOverlay, setActiveNavOverlay] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 1023.98px)");
     function handleScreenSizeChange(event) {

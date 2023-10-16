@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
 @font-face {
   font-family: "Slick";
-  src: url(./assets/fonts/slick.295183786cd8a1389865.woff);
+  src: url("./assets/fonts/slick.295183786cd8a1389865.woff");
 }
 body {
   font-family: "Inter", sans-serif, "Slick";
@@ -102,61 +102,12 @@ html {
   box-shadow: 0px 4px 15px 0px rgba(7, 103, 135, 0.15);
 }
 
-/* input[type="range"] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  cursor: pointer;
-  outline: none;
-  overflow: hidden;
-  border-radius: 16px;
-  height: 15px;
-  width: 154px;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  height: 15px;
-  background: white;
-  border-radius: 16px;
-}
-
-input[type="range"]::-moz-range-track {
-  height: 15px;
-  background: white;
-  border-radius: 16px;
-  height: 16px;
-  width: 154px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 15px;
-  width: 15px;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 3px solid #82b2c2;
-  box-shadow: -407px 0 0 400px #82b2c2;
-}
-
-input[type="range"]::-moz-range-thumb {
-  height: 15px;
-  width: 15px;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 1px solid #82b2c2;
-  box-shadow: -407px 0 0 400px #82b2c2;
-} */
-
-/* commited */
-/*  */
 .custom-range-container {
   position: relative;
   width: 100%;
   height: 20px;
   background-color: white;
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 
 .custom-range {
@@ -180,7 +131,6 @@ input[type="range"]::-moz-range-thumb {
   cursor: pointer;
   position: relative;
   z-index: 2;
-  /* box-shadow: 4000px 0 0 4px #82b2c2; */
 }
 
 .custom-range::-moz-range-thumb {
