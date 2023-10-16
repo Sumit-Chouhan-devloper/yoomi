@@ -13,7 +13,7 @@ const TreakingRemote = () => {
           <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 lg:py-[56px] xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
-                className="w-full min-h-[207px] drop-shadow-lg"
+                className="w-full min-h-[207px] drop-shadow-lg xl:ml-[-20px]"
                 src={Images.trackingImg}
                 alt="tracking"
               />
