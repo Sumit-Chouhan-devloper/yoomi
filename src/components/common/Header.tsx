@@ -97,19 +97,19 @@ export const Header = () => {
                   <div className="hidden lg:block">
                     <div className="flex items-center">
                       <a
-                        href="#about-us"
+                        href="/about"
                         className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         About Us
                       </a>
                       <a
-                        href="#news"
+                        href="/news"
                         className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         News
                       </a>
                       <a
-                        href="#contact-us"
+                        href="/contact-us"
                         className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
                       >
                         Contact Us

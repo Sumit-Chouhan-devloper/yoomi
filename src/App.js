@@ -22,7 +22,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={routes.HOME} element={<Main />} />
-        <Route path={"/contact"} element={<ContactUs />} />
+        <Route path={"/contact-us"} element={<ContactUs />} />
         <Route path={"/about"} element={<About />} />
         <Route path={"/news"} element={<News />} />
       </Routes>
