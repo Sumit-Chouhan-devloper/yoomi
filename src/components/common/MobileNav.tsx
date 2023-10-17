@@ -11,7 +11,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li>
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#about-us"
+              href="/about"
               className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
               About Us
             </a>
@@ -19,7 +19,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li className="py-5">
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#news"
+              href="/news"
               className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
               News
             </a>
@@ -27,7 +27,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li>
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#contact-us"
+              href="/contact-us"
               className="text-black text-xl font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
               Contact Us
             </a>
