@@ -1,5 +1,5 @@
 import React from "react";
-import UpdatedUs from "../components/homepage/UpdatedUs.tsx";
+import UpdatedUs from "../components/contactUs/UpdatedUs.tsx";
 
 const ContactUs = () => {
   return (
