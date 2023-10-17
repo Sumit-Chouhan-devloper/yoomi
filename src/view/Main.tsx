@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/homepage/Footer.tsx";
-import Header from "../components/homepage/Header.1.js";
+import Header from "../components/homepage/Header.tsx";
 import TreakingRemote from "../components/homepage/TreakingRemote.tsx";
 import ReportingAnylats from "../components/homepage/ReportingAnylats.tsx";
 import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
