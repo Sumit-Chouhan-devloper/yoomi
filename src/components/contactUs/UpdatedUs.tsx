@@ -35,7 +35,7 @@ const UpdatedUs = () => {
   };
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-[113px]">
         <p className="text-[#111] ff_Jakarta font-normal leading-[normal] sm:text-[38px] text-[32px] text-center sm:mb-[50px] mb-[47px]">
           Get Updated <span className="font-semibold">With Us</span>
         </p>

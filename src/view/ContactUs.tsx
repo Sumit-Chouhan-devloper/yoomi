@@ -2,6 +2,8 @@ import React from "react";
 import UpdatedUs from "../components/contactUs/UpdatedUs.tsx";
 import CommonHero from "../components/common/CommonHero.tsx";
 import Header from "../components/common/Header.tsx";
+import Footer from "../components/common/Footer.tsx";
+import SignUp from "../components/common/SignUp.tsx";
 
 const ContactUs = () => {
   return (
@@ -17,6 +19,8 @@ const ContactUs = () => {
         }
       />
       <UpdatedUs />
+      <SignUp />
+      <Footer />
     </>
   );
 };
