@@ -1,33 +1,7 @@
 import React from "react";
 import { ourTeamData } from "../common/Helper.tsx";
 import { Images } from "../../images.js";
-import Slider from "react-slick";
 const OurTeam = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        arrows: true,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 640,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      };
-      const first = React.useRef();
   return (
     <>
       <div className="bg-[#F5F8FA]">
@@ -42,8 +16,8 @@ const OurTeam = () => {
           <p className="text-black text-center ff_inter text-[24px] font-normal opacity-70">
             We’re a dedicated group of individuals
           </p>
-          <Slider {...settings} ref={first}>
-            {ourTeamData.map((OurData, i) => {
+      
+           <div className="flex flex-wrap">{ourTeamData.map((OurData, i) => {
               return (
                 <div key={i}>
                   <div className="px-[10px]">
@@ -58,7 +32,7 @@ const OurTeam = () => {
                 </div>
               );
             })}
-        </Slider>   
+       </div>
         </div>
       </div>
     </>
