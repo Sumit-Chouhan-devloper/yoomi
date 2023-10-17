@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/homepage/Footer.tsx";
-import Header from "../components/homepage/Header.tsx";
+import Header from "../components/homepage/Header.1.js";
 import TreakingRemote from "../components/homepage/TreakingRemote.tsx";
 import ReportingAnylats from "../components/homepage/ReportingAnylats.tsx";
 import TrackingFeedback from "../components/homepage/TreakingFeedback.tsx";
@@ -13,13 +13,11 @@ import AboutUs from "../components/homepage/AboutUs.tsx";
 import Committed from "../components/homepage/Committed.tsx";
 import ForecastProfits from "../components/homepage/ForecastProfits.tsx";
 import KnowMore from "../components/homepage/KnowMore.tsx";
-import AboutSlider from "../components/homepage/AboutSlider.tsx";
 const Main = () => {
   return (
     <>
       <div className="overflow-hidden">
         <Header />
-        <AboutSlider/>
         <Workout />
         <Feature />
         <TrackingFeedback />
