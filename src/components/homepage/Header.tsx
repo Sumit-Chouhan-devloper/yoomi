@@ -3,13 +3,27 @@ import MobileNav from "./MobileNav.tsx";
 import Hero from "./Hero.tsx";
 import { Images } from "../../images.js";
 const Header = () => {
-  const [activeNavOverlay, setActiveNavOverlay] = useState(false);
+    const [activeNavOverlay, setActiveNavOverlay] = useState(false);
   useEffect(() => {
-    if (activeNavOverlay) {
-      document.body.classList.add("overflow-y-hidden");
-    } else if (!activeNavOverlay) {
-      document.body.classList.remove("overflow-y-hidden");
+    const mediaQuery = window.matchMedia("(max-width: 1023.98px)");
+    function handleScreenSizeChange(event) {
+      if (activeNavOverlay) {
+        if (event.matches) {
+          document.body.classList.add("overflow-y-hidden");
+        } else {
+          document.body.classList.remove("overflow-y-hidden");
+        }
+      } else {
+        document.body.classList.remove("overflow-y-hidden");
+      }
     }
+    // Attach the event listener and run it once to check the initial screen size
+    mediaQuery.addEventListener("change", handleScreenSizeChange);
+    handleScreenSizeChange(mediaQuery);
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      mediaQuery.removeEventListener("change", handleScreenSizeChange);
+    };
   }, [activeNavOverlay]);
 
   return (
@@ -45,7 +59,7 @@ const Header = () => {
             activeNavOverlay={activeNavOverlay}
             setActiveNavOverlay={setActiveNavOverlay}
           />
-          <nav className="w-full pb-4 pt-[25px]">
+          <nav className="w-full pb-4 pt-[20px] sm:pt-[25px]">
             <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
               <div className="flex items-center justify-between">
                 <div className="flex-1 flex items-center justify-between">

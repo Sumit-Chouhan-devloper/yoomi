@@ -1,8 +1,6 @@
 import React from "react";
 import { Images } from "../../images";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { aboutUsSlider } from "../common/Helper.tsx";
 const AboutUs = () => {
   const settings = {
@@ -18,7 +16,7 @@ const AboutUs = () => {
     <>
       <div className="lg:pt-0 xl:pt-[73.3px] pb-5 relative" id="about-us">
         <img
-          className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10 "
+          className=" absolute top-0 left-0 sm:w-24 md:w-28 xl:w-40 -z-10"
           src={Images.yomiAboutPlusICO}
           alt="Your Browser is Not Support This Formate"
         />
@@ -38,10 +36,9 @@ const AboutUs = () => {
           <Slider {...settings} ref={thirdSlider}>
             {aboutUsSlider.map((data, i) => (
               <div
-                className="!flex !justify-center bg-white rounded-[5px] mx-3"
-                key={i}
-              >
-                <div className="py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
+                className="!flex !justify-center bg-white rounded-[5px] sm:mx-3"
+                key={i}>
+                <div className="mx-3 mx-sm-0 py-12 lg:pt-[76px] lg:pb-[60px] hero_input_shadow mt-2 inline-block px-6  sm:px-[68px] md:px-[100px] lg:px-[150px] xl:px-[163px] mb-[26px] rounded-[5px] ">
                   <div className=" flex flex-col justify-center items-center ">
                     <img
                       className="w-[74px]"
@@ -84,13 +81,12 @@ const AboutUs = () => {
             <span>
               <svg
                 onClick={() => thirdSlider?.current?.slickPrev()}
-                className=" group"
+                className="cursor-pointer group"
                 width="35"
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -111,16 +107,14 @@ const AboutUs = () => {
             </span>
             <span
               onClick={() => thirdSlider?.current?.slickNext()}
-              className=" rotate-180"
-            >
+              className=" rotate-180">
               <svg
-                className=" group"
+                className="cursor-pointer group"
                 width="35"
                 height="35"
                 viewBox="0 0 35 35"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <circle
                   className=" group-hover:fill-[#076787] group-hover:stroke-[#076787]"
                   cx="17.6947"
@@ -142,8 +136,7 @@ const AboutUs = () => {
           </div>
           <div
             className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"
-            id="news"
-          >
+            id="news">
             <img
               className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
               src={Images.Yoomi_translatecard_icon}
@@ -169,7 +162,7 @@ const AboutUs = () => {
                     <input
                       type="email"
                       placeholder="Enter Your Email"
-                      className="pr-3 rounded-[5px] md:pr-2 pl-3 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-black placeholder:text-black opacity-70"
+                      className="pr-3 rounded-[5px] md:pr-2 pl-4 md:py-4 w-[70%] focus-visible:outline-none text-xs sm:text-sm font-medium text-[#110163] placeholder:text-[#110163] opacity-70"
                       required
                     />
                     <button className="w-[122px] h-[35px] sm:h-[47px] text-xs sm text-xs:sm:text-sm font-semibold text-white rounded-[4px] border-solid border-[2px] border-[#076787] bg-deep-blue shadow-[0px_4px_25px_0px_rgba(129,72,142,0.23)] hover:text-deep-blue hover:bg-white duration-300 ease-linear mr-1">

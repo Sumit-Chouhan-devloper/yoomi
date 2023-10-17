@@ -18,7 +18,7 @@ const TrackingFeedback = () => {
           <div className="flex flex-wrap items-center justify-between xl:h-[550px] CommonCardShado py-8 sm:py-10 lg:py-14 px-4 sm:px-[34px]">
             <div className="lg:w-6/12 mx-auto sm:w-10/12 lg:pe-10 xl:pe-0">
               <img
-                className="w-full min-h-[195px] drop-shadow-lg"
+                className="w-full min-h-[195px] drop-shadow-lg xl:ml-[-20px]"
                 src={Images.trackingFeedbackImg}
                 alt="tracking"
               />

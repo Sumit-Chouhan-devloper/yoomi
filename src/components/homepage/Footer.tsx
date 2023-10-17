@@ -69,7 +69,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="w-3/12">
-                  <h3 className=" text-xs font-semibold leading-[normal] text-white">
+                  <h3 className=" text-xs font-semibold leading-[normal] text-white whitespace-nowrap">
                     Contact Us
                   </h3>
                   <ul className="flex flex-col gap-y-2 sm:gap-y-3 md:gap-y-[18px] pt-3 md:pt-[18px]">

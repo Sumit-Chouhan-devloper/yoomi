@@ -13,7 +13,7 @@ const TreakingRemote = () => {
           <div className="flex flex-wrap items-center xl:h-[550px] px-4 sm:px-[34px] CommonCardShado py-8 sm:py-10 lg:py-[56px] xl:py-[87px] justify-center lg:justify-start">
             <div className="lg:w-6/12 mx-auto sm:w-10/12">
               <img
-                className="w-full min-h-[207px] drop-shadow-lg"
+                className="w-full min-h-[207px] drop-shadow-lg xl:ml-[-20px]"
                 src={Images.trackingImg}
                 alt="tracking"
               />
@@ -33,7 +33,7 @@ const TreakingRemote = () => {
                 providers to generate over $160 per patient per month in
                 additional revenue
               </p>
-              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[47px] px-4 bg-deep-blue text-white font-semibold text-sm">
+              <button className="border-solid border-[2px] border-deep-blue rounded hover:bg-white hover:text-deep-blue duration-300 ease-linear h-[47px] px-4 bg-deep-blue text-white font-semibold text-xs sm:text-sm">
                 Check Out the Demo
               </button>
             </div>

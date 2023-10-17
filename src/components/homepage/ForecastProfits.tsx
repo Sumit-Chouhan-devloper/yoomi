@@ -1,13 +1,29 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Images } from "../../images.js";
-
 const ForecastProfits = () => {
   const [value, setValue] = useState(30);
+  const [evaluatedValue, setEvaluatedValue] = useState(0);
   const handleChange = (e) => {
     setValue(e.target.value);
   };
-  const [finelresult, setFinelresult] = useState("0");
-
+  let someNumbers = {
+    first: 10,
+    second: 20,
+    third: 10,
+    fourth: 40,
+  };
+  const addValue = () => {
+    const addition =
+      someNumbers.first +
+      someNumbers.second +
+      someNumbers.third +
+      someNumbers.fourth;
+    const multiply = value * addition;
+    setEvaluatedValue(multiply);
+  };
+  useEffect(() => {
+    addValue();
+  }, [value]);
   return (
     <>
       <div className="bg-[#F5F8F9] relative">
@@ -37,7 +53,7 @@ const ForecastProfits = () => {
               <div className="h-[32px]">
                 <div className="relative max-[400]:w-full w-7/12 lg:w-[155px] mx-auto">
                   <div
-                    className="custom_bg left-0 top-[.5px] h-[17.5px] absolute z-[1] bg-[#82b2c2] w-0 rounded-[10px_0px_0px_10px]"
+                    className="custom_bg left-0 top-[.5px] h-[17.5px] absolute z-[1] bg-[#82B2C2] w-0 rounded-[10px_0px_0px_10px]"
                     style={{
                       width: ` ${
                         value > 50
@@ -69,7 +85,7 @@ const ForecastProfits = () => {
                 </p>
                 <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
                   <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                    $ 40.26
+                    $ {someNumbers.first}
                   </p>
                 </div>
               </div>
@@ -79,7 +95,7 @@ const ForecastProfits = () => {
                 </p>
                 <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
                   <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                    $ 40.26
+                    $ {someNumbers.second}
                   </p>
                 </div>
               </div>
@@ -91,7 +107,7 @@ const ForecastProfits = () => {
                 </p>
                 <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
                   <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                    $ 40.26
+                    $ {someNumbers.third}
                   </p>
                 </div>
               </div>
@@ -101,7 +117,7 @@ const ForecastProfits = () => {
                 </p>
                 <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
                   <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                    $ 40.26
+                    $ {someNumbers.fourth}
                   </p>
                 </div>
               </div>
@@ -112,10 +128,8 @@ const ForecastProfits = () => {
               Potential Reimbursement
             </p>
             <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
-              <p
-                id="Finel-value"
-                className="sm:text-xl lg:text-3xl font-semibold text-white">
-                ${finelresult}
+              <p className="sm:text-xl lg:text-3xl font-semibold text-white">
+                ${evaluatedValue}
               </p>
             </div>
           </div>
@@ -124,5 +138,4 @@ const ForecastProfits = () => {
     </>
   );
 };
-
 export default ForecastProfits;

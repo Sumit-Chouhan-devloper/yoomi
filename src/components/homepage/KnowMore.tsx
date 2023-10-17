@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { Images } from "../../images";
 const KnowMore = () => {
   const [nav1, setNav1] = useState();
@@ -30,28 +28,28 @@ const KnowMore = () => {
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar}
-                    alt="seminar-img"
+                    alt="seminar-img-1"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar2}
-                    alt="seminar-img"
+                    alt="seminar-img-2"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar}
-                    alt="seminar-img"
+                    alt="seminar-img-3"
                   />
                 </div>
                 <div>
                   <img
                     className="w-full"
                     src={Images.knowMoreBigSeminar2}
-                    alt="seminar-img"
+                    alt="seminar-img-4"
                   />
                 </div>
               </Slider>
@@ -80,7 +78,7 @@ const KnowMore = () => {
                 ]}>
                 <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
-                    className="w-full min-h-[70px]"
+                    className="w-full min-h-[70px] sm:pl-2"
                     src={Images.knowMoreSlide2}
                     alt="seminar-img"
                   />
@@ -101,7 +99,7 @@ const KnowMore = () => {
                 </div>
                 <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
-                    className="w-full min-h-[70px]"
+                    className="w-full min-h-[70px] sm:pr-2"
                     src={Images.knowMoreSlide1}
                     alt="hospital-room"
                   />
