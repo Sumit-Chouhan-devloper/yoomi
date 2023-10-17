@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "animate.css";
-
+import "react-phone-input-2/lib/bootstrap.css";
 function App() {
        AOS.init({
          duration: 800,
