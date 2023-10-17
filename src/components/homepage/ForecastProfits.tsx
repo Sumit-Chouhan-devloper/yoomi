@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Images } from "../../images.js";
 
 const ForecastProfits = () => {
@@ -6,6 +6,8 @@ const ForecastProfits = () => {
   const handleChange = (e) => {
     setValue(e.target.value);
   };
+  const [finelresult, setFinelresult] = useState("0");
+
   return (
     <>
       <div className="bg-[#F5F8F9] relative">
@@ -43,8 +45,7 @@ const ForecastProfits = () => {
                           : `calc(${value}% + 3px)`
                       }`,
                       display: ` ${value < 2 ? `none` : ``}`,
-                    }}
-                  ></div>
+                    }}></div>
                   <input
                     type="range"
                     min="0"
@@ -111,8 +112,10 @@ const ForecastProfits = () => {
               Potential Reimbursement
             </p>
             <div className="w-[100px] sm:w-[130px] lg:w-[148px] h-[40px] sm:h-[50px] lg:h-[65px] bg-deep-blue rounded-[4px] border-solid border-[1px] border-[#076787] flex items-center justify-center">
-              <p className="sm:text-xl lg:text-3xl font-semibold text-white">
-                $12000
+              <p
+                id="Finel-value"
+                className="sm:text-xl lg:text-3xl font-semibold text-white">
+                ${finelresult}
               </p>
             </div>
           </div>

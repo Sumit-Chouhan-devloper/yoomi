@@ -7,14 +7,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
- useEffect(() => {
-   window.addEventListener("load", () => {
-     AOS.init({
-       duration: 800,
-       once: true,
-     });
-   });
- }, []);
+  useEffect(() => {
+    window.onload = () => {
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    };
+  }, []);
 
   return (
     <BrowserRouter>
