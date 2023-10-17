@@ -13,11 +13,13 @@ import AboutUs from "../components/homepage/AboutUs.tsx";
 import Committed from "../components/homepage/Committed.tsx";
 import ForecastProfits from "../components/homepage/ForecastProfits.tsx";
 import KnowMore from "../components/homepage/KnowMore.tsx";
+import AboutSlider from "../components/homepage/AboutSlider.tsx";
 const Main = () => {
   return (
     <>
       <div className="overflow-hidden">
         <Header />
+        <AboutSlider/>
         <Workout />
         <Feature />
         <TrackingFeedback />
