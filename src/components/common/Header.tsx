@@ -78,6 +78,24 @@ export const Header = () => {
         ) : (
           ""
         )}
+        {path === "/" ? (
+          ""
+        ) : (
+          <img
+            src={Images.headerIcon1}
+            alt="hero-right"
+            className="absolute top-[100%] max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+          />
+        )}
+        {path === "/" ? (
+          ""
+        ) : (
+          <img
+            src={Images.headerIcon2}
+            alt="hero-right"
+            className="absolute top-0 end-0 max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+          />
+        )}
         <div>
           <MobileNav
             activeNavOverlay={activeNavOverlay}
@@ -98,19 +116,27 @@ export const Header = () => {
                     <div className="flex items-center">
                       <a
                         href="/about"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                        className={`${
+                          path === "/about" ? "font-semibold" : "font-medium"
+                        } text-black text-lg mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]`}
                       >
                         About Us
                       </a>
                       <a
                         href="/news"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                        className={`${
+                          path === "/news" ? "font-semibold" : "font-medium"
+                        } text-black text-lg mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]`}
                       >
                         News
                       </a>
                       <a
                         href="/contact-us"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                        className={`${
+                          path === "/contact-us"
+                            ? "font-semibold"
+                            : "font-medium"
+                        } text-black text-lg mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]`}
                       >
                         Contact Us
                       </a>
