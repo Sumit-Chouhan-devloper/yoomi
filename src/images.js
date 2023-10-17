@@ -51,4 +51,7 @@ export const Images = {
   knowMoreBigSeminar: "/assets/landing-assets/png/know_more-big-img.png",
   knowMoreBigSeminar2: "/assets/landing-assets/png/know_more-big-img-2.png",
   forecastIcon: "/assets/landing-assets/svg/forecastIcon.svg",
+  // about pages images
+  aboutTopSlider1:"/assets/landing-assets/webp/about-top-slider1.webp",
+  aboutTopSlider2:"/assets/landing-assets/webp/about-top-slider2.webp",
 };

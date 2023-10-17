@@ -145,3 +145,7 @@ html {
   box-shadow: 0px 26px 27px 0px rgba(0, 0, 0, 0.04),
     0px -16px 27px 0px rgba(0, 0, 0, 0.04);
 }
+.about_top_slids .slick-slide {
+  padding-left: 10px; /* Adjust the spacing as needed */
+  padding-right: 10px; /* Adjust the spacing as needed */
+}
