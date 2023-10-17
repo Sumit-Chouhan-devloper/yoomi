@@ -77,7 +77,7 @@ const AboutUs = () => {
               </div>
             ))}
           </Slider>
-          <div className=" flex justify-center items-center gap-3">
+          <div className="flex justify-center items-center gap-3">
             <span>
               <svg
                 onClick={() => thirdSlider?.current?.slickPrev()}
