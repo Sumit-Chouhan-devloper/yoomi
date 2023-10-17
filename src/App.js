@@ -10,11 +10,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "animate.css";
 
 function App() {
-       AOS.init({
-         duration: 800,
-         once: true,
-       });
-  
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+
   return (
     <BrowserRouter>
       <Routes>

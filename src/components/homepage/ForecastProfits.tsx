@@ -1,4 +1,4 @@
-import React, { useEffect,  useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Images } from "../../images.js";
 const ForecastProfits = () => {
   const [value, setValue] = useState(30);
@@ -61,8 +61,7 @@ const ForecastProfits = () => {
                           : `calc(${value}% + 3px)`
                       }`,
                       display: ` ${value < 2 ? `none` : ``}`,
-                    }}
-                  ></div>
+                    }}></div>
                   <input
                     type="range"
                     min="0"
