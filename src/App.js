@@ -11,7 +11,7 @@ import "animate.css";
 import ContactUs from "./view/ContactUs.tsx";
 import About from "./view/About.tsx";
 import News from "./view/News.tsx";
-
+import "react-phone-input-2/lib/bootstrap.css";
 function App() {
   AOS.init({
     duration: 800,
