@@ -19,8 +19,8 @@ const Main = () => {
     <>
       <div className="overflow-hidden">
         <Header />
-        <AboutSlider/>
         <Workout />
+        <AboutSlider/>
         <Feature />
         <TrackingFeedback />
         <ReportingAnylats />

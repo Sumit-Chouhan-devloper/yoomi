@@ -111,6 +111,7 @@ const Feature = () => {
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
                   onClick={() => first.current.slickNext()}>
                   <svg
+                    className="absolute top-1/2 left-1/2 translate-x-[-70%]  translate-y-[-50%]"
                     width="7"
                     height="11"
                     viewBox="0 0 7 11"
