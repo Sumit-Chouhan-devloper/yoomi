@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav.tsx";
-import Hero from "./Hero.tsx";
+import Hero from "../homepage/Hero.tsx";
 import { Images } from "../../images.js";
+import { useLocation } from "react-router-dom";
 
 export const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
@@ -28,34 +29,55 @@ export const Header = () => {
     };
   }, [activeNavOverlay]);
 
+  const path = useLocation().pathname;
   return (
     <>
       <div className="bg-light-sky relative flex flex-col">
-        <img
-          src={Images.heroLeftIcon}
-          alt="hero-left-icon"
-          className="absolute max-[1024px]:top-24 max-[1366px]:top-44 max-[1599px]:top-24 left-0 max-[1366px]:w-[10%] top-40"
-        />
-        <img
-          src={Images.heroRightIcon}
-          alt="hero-right-icon"
-          className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 max-[1599px]:top-36 max-[1366px]:w-[15%] top-56"
-        />
-        <img
-          src={Images.heroBottomLayer}
-          alt="hero-layer"
-          className="absolute bottom-0 w-full"
-        />
-        <img
-          src={Images.heroLeftPot}
-          alt="hero-left-pot"
-          className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[19%] 2xl:bottom-[21%]"
-        />
-        <img
-          src={Images.heroRightPot}
-          alt="hero-right-pot"
-          className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[21%]"
-        />
+        {path === "/" ? (
+          <img
+            src={Images.heroLeftIcon}
+            alt="hero-left-icon"
+            className="absolute max-[1024px]:top-24 max-[1366px]:top-44 max-[1599px]:top-24 left-0 max-[1366px]:w-[10%] top-40"
+          />
+        ) : (
+          ""
+        )}
+        {path === "/" ? (
+          <img
+            src={Images.heroRightIcon}
+            alt="hero-right-icon"
+            className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 max-[1599px]:top-36 max-[1366px]:w-[15%] top-56"
+          />
+        ) : (
+          ""
+        )}
+        {path === "/" ? (
+          <img
+            src={Images.heroBottomLayer}
+            alt="hero-layer"
+            className="absolute bottom-0 w-full"
+          />
+        ) : (
+          ""
+        )}
+        {path === "/" ? (
+          <img
+            src={Images.heroLeftPot}
+            alt="hero-left-pot"
+            className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[19%] 2xl:bottom-[21%]"
+          />
+        ) : (
+          ""
+        )}
+        {path === "/" ? (
+          <img
+            src={Images.heroRightPot}
+            alt="hero-right-pot"
+            className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[21%]"
+          />
+        ) : (
+          ""
+        )}
         <div>
           <MobileNav
             activeNavOverlay={activeNavOverlay}
@@ -76,17 +98,20 @@ export const Header = () => {
                     <div className="flex items-center">
                       <a
                         href="#about-us"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
+                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                      >
                         About Us
                       </a>
                       <a
                         href="#news"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
+                        className="text-black text-lg font-medium mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                      >
                         News
                       </a>
                       <a
                         href="#contact-us"
-                        className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]">
+                        className="text-black text-lg font-medium mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-deep-blue after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-deep-blue after:w-0 hover:after:w-full after:h-[2px]"
+                      >
                         Contact Us
                       </a>
                       <button className="hidden sm:flex justify-center items-center overflow-hidden h-[47px] w-[122px] text-sm text-white font-semibold rounded-[4px] bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white">
@@ -97,14 +122,16 @@ export const Header = () => {
                   <div className="flex items-center lg:hidden">
                     <div
                       className=" relative z-50 text-white cursor-pointer"
-                      onClick={() => setActiveNavOverlay(!activeNavOverlay)}>
+                      onClick={() => setActiveNavOverlay(!activeNavOverlay)}
+                    >
                       {activeNavOverlay ? (
                         <svg
                           width="40"
                           height="40"
                           viewBox="0 0 15 15"
                           fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <path
                             fill-rule="evenodd"
                             clip-rule="evenodd"
@@ -118,7 +145,8 @@ export const Header = () => {
                           height="40px"
                           viewBox="0 -0.5 25 25"
                           fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <path
                             d="M5.5 7.75C5.08579 7.75 4.75 8.08579 4.75 8.5C4.75 8.91421 5.08579 9.25 5.5 9.25V7.75ZM19.5 9.25C19.9142 9.25 20.25 8.91421 20.25 8.5C20.25 8.08579 19.9142 7.75 19.5 7.75V9.25ZM5.5 11.75C5.08579 11.75 4.75 12.0858 4.75 12.5C4.75 12.9142 5.08579 13.25 5.5 13.25V11.75ZM17.5 13.25C17.9142 13.25 18.25 12.9142 18.25 12.5C18.25 12.0858 17.9142 11.75 17.5 11.75V13.25ZM5.5 15.75C5.08579 15.75 4.75 16.0858 4.75 16.5C4.75 16.9142 5.08579 17.25 5.5 17.25V15.75ZM12.5 17.25C12.9142 17.25 13.25 16.9142 13.25 16.5C13.25 16.0858 12.9142 15.75 12.5 15.75V17.25ZM5.5 9.25H19.5V7.75H5.5V9.25ZM5.5 13.25H17.5V11.75H5.5V13.25ZM5.5 17.25H12.5V15.75H5.5V17.25Z"
                             fill="#076787"
@@ -132,9 +160,13 @@ export const Header = () => {
             </div>
           </nav>
         </div>
-        <div className="flex grow justify-center">
-          <Hero />
-        </div>
+        {path === "/" ? (
+          <div className="flex grow justify-center">
+            <Hero />
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </>
   );
