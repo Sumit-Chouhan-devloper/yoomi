@@ -32,7 +32,69 @@ export const aboutUsSlider = [
     clientLocation: "( INDIA )",
     clientPost: "CEO ( TATA )",
     clientReview:
-      "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, dignissimos. Iste, dolorum ipsam iusto itaque laborum delectus. Corrupti changes to the font",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, dignissimos. Iste, dolorum ipsam iusto itaque laborum delectus. Corrupti changes to the font",
     clientStarReview: Images.starGrup,
+  },
+];
+export const ourTeamData = [
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
+  },
+  {
+    TeamImages: Images.ourTeamCard1,
+    Heading: "Blake Matthews",
+    para: "CEO ",
   },
 ];

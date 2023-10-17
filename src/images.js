@@ -54,4 +54,6 @@ export const Images = {
   // about pages images
   aboutTopSlider1:"/assets/landing-assets/webp/about-top-slider1.webp",
   aboutTopSlider2:"/assets/landing-assets/webp/about-top-slider2.webp",
+  // out team
+  ourTeamCard1:"/assets/landing-assets/png/our_team_card1.png",
 };
