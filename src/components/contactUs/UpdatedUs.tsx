@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 const UpdatedUs = () => {
   const [phone, setPhone] = useState("");
-  const [typicalform, setTypicalForm] = useState({
+  const [TypicalForm, setTypicalForm] = useState({
     name: "",
     last: "",
     phone: "",
@@ -16,12 +16,12 @@ const UpdatedUs = () => {
     e.preventDefault();
     setError(true);
     if (
-      typicalform.name !== "" &&
-      typicalform.last !== "" &&
-      typicalform.phone !== "" &&
-      typicalform.textarea !== "" &&
-      typicalform.email !== "" &&
-      regex.test(typicalform.email)
+      TypicalForm.name !== "" &&
+      TypicalForm.last !== "" &&
+      TypicalForm.phone !== "" &&
+      TypicalForm.textarea !== "" &&
+      TypicalForm.email !== "" &&
+      regex.test(TypicalForm.email)
     ) {
       setError(false);
       setTypicalForm({
@@ -49,14 +49,14 @@ const UpdatedUs = () => {
                 type="text"
                 className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                 onChange={(e) =>
-                  setTypicalForm({ ...typicalform, name: e.target.value })
+                  setTypicalForm({ ...TypicalForm, name: e.target.value })
                 }
-                value={typicalform.name}
+                value={TypicalForm.name}
               />
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                {error && typicalform.name === ""
+                {error && TypicalForm.name === ""
                   ? "First Name is required"
-                  : error && typicalform.name === false}
+                  : error && TypicalForm.name === false}
               </p>
             </div>
             <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6 sm:mt-0 mt-6">
@@ -67,14 +67,14 @@ const UpdatedUs = () => {
                 type="text"
                 className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-sm font-normal leading-[normal] h-[57px] ps-[15px]"
                 onChange={(e) =>
-                  setTypicalForm({ ...typicalform, last: e.target.value })
+                  setTypicalForm({ ...TypicalForm, last: e.target.value })
                 }
-                value={typicalform.last}
+                value={TypicalForm.last}
               />
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                {error && typicalform.last === ""
+                {error && TypicalForm.last === ""
                   ? "Last Name is required"
-                  : error && typicalform.last === false}
+                  : error && TypicalForm.last === false}
               </p>
             </div>
           </div>
@@ -89,16 +89,16 @@ const UpdatedUs = () => {
                 className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] placeholder:opacity-50 placeholder:text-[#000] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                 onChange={(e) =>
                   setTypicalForm({
-                    ...typicalform,
+                    ...TypicalForm,
                     email: e.target.value,
                   })
                 }
-                value={typicalform.email}
+                value={TypicalForm.email}
               />
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]">
-                {error && typicalform.email === "" ? (
+                {error && TypicalForm.email === "" ? (
                   "Email is required"
-                ) : error && regex.test(typicalform.email) === false ? (
+                ) : error && regex.test(TypicalForm.email) === false ? (
                   <p className="text-rose-500 font-medium">Email Not Valid</p>
                 ) : (
                   ""
@@ -117,9 +117,9 @@ const UpdatedUs = () => {
                 onChange={(phone) => setPhone(phone)}
               />
               <p className="mb-0 text-rose-500 font-medium pointer-events-none sm:h-[24px] ps-[15px] ">
-                {/* {error && typicalform.phone === ""
+                {/* {error && TypicalForm.phone === ""
                   ? "Text is required"
-                  : error && typicalform.phone === false} */}
+                  : error && TypicalForm.phone === false} */}
               </p>
             </div>
           </div>
@@ -131,14 +131,14 @@ const UpdatedUs = () => {
               <textarea
                 className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] md:h-[195px] sm:h-[100px] ps-[15px] pt-3 h-[93px]"
                 onChange={(e) =>
-                  setTypicalForm({ ...typicalform, textarea: e.target.value })
+                  setTypicalForm({ ...TypicalForm, textarea: e.target.value })
                 }
-                value={typicalform.textarea}
+                value={TypicalForm.textarea}
               />
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                {error && typicalform.textarea === ""
+                {error && TypicalForm.textarea === ""
                   ? "Text is required"
-                  : error && typicalform.textarea === false}
+                  : error && TypicalForm.textarea === false}
               </p>
             </div>
           </div>
