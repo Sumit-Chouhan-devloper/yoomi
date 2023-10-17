@@ -8,7 +8,10 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "animate.css";
-
+import ContactUs from "./view/ContactUs.tsx";
+import About from "./view/About.tsx";
+import News from "./view/News.tsx";
+import "react-phone-input-2/lib/bootstrap.css";
 function App() {
   AOS.init({
     duration: 800,
@@ -19,6 +22,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path={routes.HOME} element={<Main />} />
+        <Route path={"/contact"} element={<ContactUs />} />
+        <Route path={"/about"} element={<About />} />
+        <Route path={"/news"} element={<News />} />
       </Routes>
     </BrowserRouter>
   );
