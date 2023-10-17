@@ -19,12 +19,12 @@ const OurTeam = () => {
       
            <div className="flex flex-wrap">{ourTeamData.map((OurData, i) => {
               return (
-                <div key={i}>
+                <div key={i} className="lg:w-3/12 md:w-4/12 sm:w-6/12">
                   <div className="px-[10px]">
                       <div>
                         <img src={Images.ourTeamCard1} alt="team-member" />
                         <div className="bg-white">
-                            <h4 className="text-center">{OurData.Heading}</h4>
+                            <h4 className="text-center text-black text-[24px] font-bold leading-[140%] ff_Jakarta">{OurData.Heading}</h4>
                             <p className="text-center">{OurData.para}</p>
                         </div>
                       </div>
