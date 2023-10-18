@@ -1,5 +1,5 @@
 import React from "react";
-import AboutSlider from "../components/homepage/AboutSlider";
+import AboutSlider from "../components/about/AboutSlider";
 import OurTeam from "../components/about/OurTeam";
 import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
