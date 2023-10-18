@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { Images } from "../../images";
-const KnowMore = () => {
-  const [nav1, setNav1] = useState();
-  const [nav2, setNav2] = useState();
+const KnowMore: React.FC = () => {
+  const [nav1, setNav1] = useState<Slider | undefined>(undefined);
+  const [nav2] = useState<Slider | undefined>(undefined);
   return (
     <>
       <div className="lg:pt-12 lg:pb-0 sm:py-10">
@@ -23,7 +23,8 @@ const KnowMore = () => {
                 asNavFor={nav2}
                 fade={true}
                 speed={500}
-                ref={(slider1) => setNav1(slider1)}>
+                ref={(slider1) => setNav1(slider1 as Slider)}>
+                {" "}
                 <div>
                   <img
                     className="w-full"
@@ -59,7 +60,7 @@ const KnowMore = () => {
               id="small_images">
               <Slider
                 asNavFor={nav1}
-                ref={(slider2) => setNav2(slider2)}
+                ref={(slider2) => setNav1(slider2 as Slider)}
                 slidesToShow={4}
                 swipeToSlide={true}
                 focusOnSelect={true}

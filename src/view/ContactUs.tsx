@@ -1,10 +1,9 @@
 import React from "react";
+// import UpdatedUs from "../components/homepage/UpdatedUs";
 import CommonHero from "../components/common/CommonHero.tsx";
 import Header from "../components/common/Header.tsx";
-import UpdatedUs from "../components/contactus/UpdatedUs.tsx";
 import Footer from "../components/common/Footer.tsx";
 import SignUp from "../components/common/SignUp.tsx";
-
 const ContactUs = () => {
   return (
     <>
@@ -18,7 +17,7 @@ const ContactUs = () => {
           "Hoping to have a question answered? Curious about using Yoomi for your practice? Reach out to our team for a quick response!"
         }
       />
-      <UpdatedUs />
+      {/* <UpdatedUs /> */}
       <SignUp />
       <Footer />
     </>
