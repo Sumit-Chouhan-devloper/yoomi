@@ -112,21 +112,27 @@ export const ourAdviser = [
   {
     AdvisedCard: Images.our_adviser1,
     Heading: "Daniel Cane",
-    para: 'CEO of Modernizing Medicine',
+    para: "CEO of Modernizing Medicine",
   },
   {
     AdvisedCard: Images.our_adviser2,
     Heading: "Larry Biscotti",
-    para: 'President at GE Healthcare',
+    para: "President at GE Healthcare",
   },
   {
     AdvisedCard: Images.our_adviser3,
     Heading: "Dr. James Smoliga",
-    para: 'Professor at High Point University',
+    para: "Professor at High Point University",
   },
   {
     AdvisedCard: Images.our_adviser4,
     Heading: "Eric Stewaert",
-    para: 'Global Managing Director Of Varian Medical System',
+    para: "Global Managing Director Of Varian Medical System",
   },
+];
+// news
+export const StartNews = [
+  { newsImage: Images.newsImage1 },
+  { newsImage: Images.newsImage2 },
+  { newsImage: Images.newsImage3 },
 ];
