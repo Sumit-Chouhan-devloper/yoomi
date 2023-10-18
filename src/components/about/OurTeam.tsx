@@ -64,9 +64,9 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="m-[10px]">
+                      <div className="m-[10px] group overflow-hidden cursor-pointer">
                         <img
-                          className="w-full"
+                          className="w-full group-hover:scale-105 transition duration-300"
                           src={OurData.CardImages}
                           alt="team-member"
                         />
@@ -96,7 +96,7 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="m-[10px]">
+                      <div className="m-[10px] group">
                         <img
                           className="w-full"
                           src={OurData.CardImages}
