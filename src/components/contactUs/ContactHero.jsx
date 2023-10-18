@@ -1,23 +1,6 @@
 import React from "react";
 import { Images } from "../../images.js";
-
-// Define the props interface
-interface CommonHeroProps {
-  headlineTitle: string;
-  subHeadlineTitle: string;
-  subHeadlineTitle2: string;
-  para: string;
-  maxWidth: string;
-}
-
-// Use the props in the component
-const CommonHero: React.FC<CommonHeroProps> = ({
-  headlineTitle,
-  subHeadlineTitle,
-  subHeadlineTitle2,
-  para,
-  maxWidth,
-}) => {
+const ContactHero = () => {
   return (
     <div className="bg-light-sky translate-y-[-15%] z-0">
       <div className="relative translate-y-[50%]">
@@ -35,13 +18,11 @@ const CommonHero: React.FC<CommonHeroProps> = ({
               className="absolute bottom-0 end-0"
             />
             <h2 className="uppercase font-medium text-xs sm:text-sm text-deep-blue">
-              {headlineTitle}
+              Lastest News
             </h2>
-            <h3 className="text-[32px] sm:text-6xl text-black text-center">
-              {subHeadlineTitle}{" "}
-              <span className="font-semibold">{subHeadlineTitle2}</span>
+            <h3 className="text-[32px] sm:text-6xl text-black text-center ff_Jakarta">
+              News &<span className="font-semibold">Updates</span>
             </h3>
-            <p className={maxWidth}>{para}</p>
           </div>
         </div>
       </div>
@@ -49,4 +30,4 @@ const CommonHero: React.FC<CommonHeroProps> = ({
   );
 };
 
-export default CommonHero;
+export default ContactHero;

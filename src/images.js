@@ -1,5 +1,5 @@
 export const Images = {
-  herostar: "/assets/landing-assets/png/hero-star.png",
+  herostar: "/assets/landing-assets/svg/hero-star.svg",
   logoImage: "/assets/landing-assets/svg/logo.svg",
   heroImg: "/assets/landing-assets/png/nav-logo.png",
   heroBottomLayer: "/assets/landing-assets/svg/hero-layer-bottom.svg",
@@ -83,4 +83,9 @@ export const Images = {
   mainImageNews: "/assets/news-assets/NewesHeadImg-1.webp",
   subFirstImageNews: "/assets/news-assets/NewsSecondImg-1.webp",
   subSecondImageNews: "/assets/news-assets/NewsSecondImg-2.webp",
+  // news
+  newsImage1: "/assets/news-assets/png/News1.png",
+  newsImage2: "/assets/news-assets/png/News2.png",
+  newsImage3: "/assets/news-assets/png/News3.png",
+  our_Work_start: "/assets/about-assets/png/our_mission_bottom-start.png",
 };

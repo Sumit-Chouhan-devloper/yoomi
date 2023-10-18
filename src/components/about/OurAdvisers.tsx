@@ -29,7 +29,7 @@ const OurAdvisers = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-white lg:pb-[142px] py-12 lg:pt-[120px]">
+      <div className="bg-white lg:pb-[142px] pt-[97px] pb-[40px] lg:pt-[120px]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <h2 className="text-black ff_Jakarta text-[30px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-5 lg:mb-[50px]">
             Our
@@ -40,19 +40,19 @@ const OurAdvisers = () => {
             <div className="flex flex-wrap">
               {ourAdviser.map((OurData, i) => {
                 return (
-                  <div key={i} className="lg:w-4/12 sm:w-6/12 h-full">
+                  <div key={i} className="lg:w-4/12 sm:w-6/12 min-h-[459px]">
                     <div>
-                      <div className="m-[10px]">
+                      <div className="m-[10px] bg-[#E6F0F3] min-h-[500px]">
                         <img
                           className="w-full"
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="bg-[#E6F0F3] py-[30px] px-8">
-                          <h4 className="text-center text-black mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
+                        <div className="px-1 rounded-b-[5px]">
+                          <h4 className="text-center text-black mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
-                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-70 mb-0">
+                          <p className="text-center text-black ff_inter text-xl sm:text-[24px] font-normal leading-normal opacity-70 mb-0">
                             {OurData.para}
                           </p>
                         </div>
@@ -60,22 +60,22 @@ const OurAdvisers = () => {
                     </div>
                   </div>
                 );
-              })}
+              })} 
             </div>
           </div>
           <div className="sm:hidden">
             <Slider {...settings} ref={first}>
               {ourAdviser.map((OurData, i) => {
                 return (
-                  <div key={i} className="lg:w-4/12 sm:w-6/12">
-                    <div>
+                  <div key={i} className="lg:w-4/12 sm:w-6/12 h-full">
+                    <div className="!min-h-[459px]">
                       <div className="m-[10px]">
                         <img
                           className="w-full"
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="bg-[#E6F0F3] py-[30px]">
+                        <div className="bg-[#E6F0F3] sm:py-[30px] rounded-b-[5px] h-full">
                           <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
