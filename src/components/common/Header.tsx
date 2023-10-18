@@ -91,7 +91,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.headerIcon1}
             alt="hero-right"
-            className="absolute top-[100%] max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+            className="absolute z-[-1] top-[100%] max-[576px]:w-[8%] max-[1024px]:w-[6%]"
           />
         )}
         {path === "/" ? (

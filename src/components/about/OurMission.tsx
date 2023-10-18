@@ -23,7 +23,7 @@ const OurMission = () => {
               Our
                 <span className="font-extrabold"> Mission </span>
               </h2>
-              <p className="ff_inter text-black text-sm font-normal leading-normal opacity-70 text-center sm:mb-4">
+              <p className="ff_inter text-black text-sm font-normal leading-normal opacity-70 text-center">
               Yoomi is a digital health company with a vision of improving the standard of care in physical therapy. Our goal is to enhance the capabilities of physical therapists by providing patients with an exciting and interactive experience to improve rehabilitation outcomes.
               </p>
             
