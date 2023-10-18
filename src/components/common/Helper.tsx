@@ -112,21 +112,45 @@ export const ourAdviser = [
   {
     AdvisedCard: Images.our_adviser1,
     Heading: "Daniel Cane",
-    para: 'CEO of Modernizing Medicine',
+    para: "CEO of Modernizing Medicine",
   },
   {
     AdvisedCard: Images.our_adviser2,
     Heading: "Larry Biscotti",
-    para: 'President at GE Healthcare',
+    para: "President at GE Healthcare",
   },
   {
     AdvisedCard: Images.our_adviser3,
     Heading: "Dr. James Smoliga",
-    para: 'Professor at High Point University',
+    para: "Professor at High Point University",
   },
   {
     AdvisedCard: Images.our_adviser4,
     Heading: "Eric Stewaert",
-    para: 'Global Managing Director Of Varian Medical System',
+    para: "Global Managing Director Of Varian Medical System",
+  },
+];
+// news
+export const StartNews = [
+  {
+    newsImage: Images.newsImage1,
+    heading: "Yoomi and Rutger’s partner to Improve",
+    boldHeading: " physical therapy adherence",
+    para: "Yoomi and Rutgers Robert Wood Johnson Medical School explore how technology can mobilize patients effectively in physical therapy programs.",
+    date: "January 5, 2023",
+  },
+  {
+    newsImage: Images.newsImage2,
+    heading: "Yoomi Wins Hail ",
+    boldHeading: "Mary CVontest",
+    para: "Yoomi wins $46k in Dr Pepper Hail Mary Contest, pitching to Mark Cuban, Charlotte Jones, and Jon Seaton.",
+    date: "November 14, 2022",
+  },
+  {
+    newsImage: Images.newsImage3,
+    heading: "Yoomi Awarded Rehab ",
+    boldHeading: "Price From NIH",
+    para: "Yoomi recieves the National Center for Medical Rehabilitation, NICHD Prize for Assistive/Rehabilitative Technologies.",
+    date: "August 26, 2022",
   },
 ];
