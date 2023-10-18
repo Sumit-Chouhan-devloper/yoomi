@@ -10,7 +10,7 @@ const CommonHero = ({
 }) => {
   return (
     <>
-      <div className="bg-[#000] translate-y-[-15%] z-0">
+      <div className="bg-light-sky translate-y-[-15%] z-0">
         <div className="relative translate-y-[50%]">
           <div className=" bg-deep-blue w-full h-[25px] absolute top-[50%] translate-y-[-50%]"></div>
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative z-10">
