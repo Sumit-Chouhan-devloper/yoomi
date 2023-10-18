@@ -49,6 +49,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
+                placeholder="First Name"
                 onChange={(e) =>
                   setTypicalForm({ ...TypicalForm, name: e.target.value })
                 }
@@ -66,7 +67,8 @@ const ContactForm = () => {
               </p>
               <input
                 type="text"
-                className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-sm font-normal leading-[normal] h-[57px] ps-[15px]"
+                placeholder="Last Name"
+                className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                 onChange={(e) =>
                   setTypicalForm({ ...TypicalForm, last: e.target.value })
                 }
@@ -117,6 +119,15 @@ const ContactForm = () => {
                 value={phone}
                 onChange={(phone) => setPhone(phone)}
               />
+            <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]">
+              {/* {error && TypicalForm.email === "" ? (
+                "Email is required"
+              ) : error && regex.test(TypicalForm.email) === false ? (
+                <p className="text-rose-500 font-medium">Email Not Valid</p>
+              ) : (
+                ""
+              )} */}
+            </p>
             </div>
           </div>
           <div className="flex lg:justify-center sm:mt-[9px] mt-6">
@@ -139,7 +150,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="flex items-center sm:justify-center mt-4">
-            <button className="flex justify-center items-center overflow-hidden sm:h-[53px] h-[51px] sm:w-[160px] w-[129px] sm:text-[18px] text-[16px] text-white font-semibold rounded-[4px] bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white text-center">
+            <button className="flex justify-center items-center overflow-hidden sm:h-[53px] h-[51px] sm:w-[160px] w-[129px] sm:text-[18px] text-[16px] text-white font-medium bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white text-center rounded-[5px]">
               Submit
             </button>
           </div>
