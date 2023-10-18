@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
-const UpdatedUs = () => {
+const ContactForm = () => {
   const [phone, setPhone] = useState("");
   const [TypicalForm, setTypicalForm] = useState({
     name: "",
@@ -153,4 +153,4 @@ const UpdatedUs = () => {
   );
 };
 
-export default UpdatedUs;
+export default ContactForm;
