@@ -10,12 +10,17 @@ const MainNews = () => {
             <>
               <div key={i}>
                 {" "}
-                <img className="w-full" src={data.newsMainImage} alt="hall " />
+                <img
+                  className="w-full"
+                  style={{ minHeight: "179px" }}
+                  src={data.newsMainImage}
+                  alt="hall "
+                />
                 <div className=" mb-6 lg:mb-10 xl:mb-[45px]">
                   <div className=" flex flex-col lg:flex-row gap-y-4 items-start lg:items-center justify-between mt-6 sm:mt-8 md:mt-12  lg:mt-16 mb-[26px]">
                     <h2 className=" ff_Jakarta text-[32px] sm:text-[35px]  xl:text-6xl font-normal text-black leading-[110%]">
                       {data.newsMainHeading}
-                      <span className=" font-semibold">
+                      <span className=" font-semibold block sm:inline">
                         {" "}
                         {data.newsMainBoldHeading}
                       </span>
@@ -24,7 +29,7 @@ const MainNews = () => {
                       <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                         {data.newsMainDate}
                       </h3>
-                      <button className="py-3 lg:py-[14px] px-8 md:px-9 xl:px-10 hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-xs md:text-sm font-semibold rounded-[4px]">
+                      <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                         Marketting
                       </button>
                     </div>
@@ -36,7 +41,7 @@ const MainNews = () => {
                     <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                       {data.newsMainDate}
                     </h3>
-                    <button className="py-3 lg:py-[14px] px-8 md:px-9 xl:px-10 hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-xs md:text-sm font-semibold rounded-[4px]">
+                    <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                       Marketting
                     </button>
                   </div>
@@ -57,7 +62,7 @@ const MainNews = () => {
                   </h3>
                   <div className="text-end">
                     {" "}
-                    <h4 className="text-end text-white font-normal text-xs md:text-sm leading-[150%] translate-x-[-15%] relative after:absolute after:h-[1px] md:after:h-[2px] after:bg-white after:left-[0%] after:translate-x-[calc(-100%_-_7px)] after:w-[28px] md:after:w-[36px] after:top-1/2 inline-block">
+                    <h4 className="text-end text-white font-normal text-sm leading-[150%] translate-x-[-15%] relative after:absolute after:h-[1px] md:after:h-[2px] after:bg-white after:left-[0%] after:translate-x-[calc(-100%_-_7px)] after:w-[28px] md:after:w-[36px] after:top-1/2 inline-block">
                       {data.newsMainQtAuthor}
                     </h4>
                   </div>
@@ -95,7 +100,7 @@ const MainNews = () => {
                       </p>
                     </div>
                     <div className=" flex gap-[22px] items-center mt-6">
-                      <button className="py-3 lg:py-[14px] px-8 md:px-9 xl:px-10 hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-xs md:text-sm font-semibold rounded-[4px]">
+                      <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                         Marketting
                       </button>
                       <h4 className="text-black ff_Jakarta text-sm font-normal">
