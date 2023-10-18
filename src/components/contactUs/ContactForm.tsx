@@ -36,7 +36,7 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-[138px]">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-[210px] mt-[180px] sm:mb-0 mb-10">
         <p className="text-[#111] ff_Jakarta font-normal leading-[normal] sm:text-[38px] text-[32px] text-center sm:mb-[50px] mb-[47px]">
           Get Updated <span className="font-semibold">With Us</span>
         </p>
