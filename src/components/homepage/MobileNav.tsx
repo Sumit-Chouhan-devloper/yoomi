@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
+const MobileNav = () => {
+  const [activeNavOverlay, setActiveNavOverlay] = useState(false);
+
   return (
     <>
       <div

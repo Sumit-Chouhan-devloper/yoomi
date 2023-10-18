@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Images } from "../../images.js";
 const ForecastProfits = () => {
-  const [value, setValue] = useState(30);
-  const [evaluatedValue, setEvaluatedValue] = useState(0);
-  const handleChange = (e) => {
-    setValue(e.target.value);
+  const [value, setValue] = useState<number>(30);
+  const [evaluatedValue, setEvaluatedValue] = useState<number>(0);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    const inputValue = e.target.value;
+    const numericValue = parseFloat(inputValue);
+
+    if (!isNaN(numericValue)) {
+      setValue(numericValue);
+    }
   };
+
   let someNumbers = {
     first: 10,
     second: 20,

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Images } from "../../images.js";
-import { plateFormData } from "../common/Helper.tsx";
+import { plateFormData } from "../common/Helper";
 import VisibilitySensor from "react-visibility-sensor";
 import CountUp from "react-countup";
 const OurPlatForm = () => {
   const [viewCount, setViewCount] = useState(false);
-  function onVisibilityChange(visible) {
+  function onVisibilityChange(visible: boolean) {
     if (visible) {
       setViewCount(true);
     }
@@ -39,8 +39,7 @@ const OurPlatForm = () => {
                         : i === 1
                         ? "bg-skyblue px-3"
                         : "bg-deep-blue sm:mt-8 md:mt-0"
-                    }`}
-                  >
+                    }`}>
                     <img
                       className="absolute bottom-0 end-0"
                       src={Images.plateformBoxVacter}
@@ -52,8 +51,7 @@ const OurPlatForm = () => {
                         offset={{
                           top: 10,
                         }}
-                        delayedCallon
-                      >
+                        delayedCallon>
                         <CountUp
                           start={0}
                           end={
@@ -69,7 +67,7 @@ const OurPlatForm = () => {
                               ? viewCount
                                 ? 60
                                 : 0
-                              : ""
+                              : 0 // Default to 0 if no condition is met
                           }
                           duration={2}
                         />
