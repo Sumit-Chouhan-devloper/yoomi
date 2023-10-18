@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
-const MobileNav = () => {
-  const [activeNavOverlay, setActiveNavOverlay] = useState(false);
+interface MobileNavProps {
+  activeNavOverlay: boolean;
+  setActiveNavOverlay: (active: boolean) => void;
+}
 
+const MobileNav: React.FC<MobileNavProps> = ({
+  activeNavOverlay,
+  setActiveNavOverlay,
+}) => {
   return (
     <>
       <div

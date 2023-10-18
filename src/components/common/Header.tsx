@@ -100,7 +100,10 @@ export const Header: React.FC = () => {
           />
         )}
         <div>
-          <MobileNav />
+          <MobileNav
+            activeNavOverlay={activeNavOverlay}
+            setActiveNavOverlay={setActiveNavOverlay}
+          />
           <nav className="w-full pb-4 pt-[20px] sm:pt-[25px]">
             <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
               <div className="flex items-center justify-between">
