@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
 @font-face {
   font-family: "Slick";
   src: url("./fonts/slick.woff");
 }
+
 body {
   font-family: "Inter", sans-serif, "Slick";
 }
@@ -121,6 +123,7 @@ html {
   cursor: pointer;
   position: relative;
 }
+
 .custom-range::-webkit-slider-thumb {
   appearance: none;
   width: 30px;
@@ -141,11 +144,55 @@ html {
   border-radius: 50%;
   cursor: pointer;
 }
+
 .commited_card {
   box-shadow: 0px 26px 27px 0px rgba(0, 0, 0, 0.04),
     0px -16px 27px 0px rgba(0, 0, 0, 0.04);
 }
+
 .about_top_slids .slick-slide {
-  padding-left: 10px; /* Adjust the spacing as needed */
-  padding-right: 10px; /* Adjust the spacing as needed */
+  padding-left: 10px;
+  /* Adjust the spacing as needed */
+  padding-right: 10px;
+  /* Adjust the spacing as needed */
+}
+
+@media (min-width: 560px) and (max-width: 1000px) and (min-height:360px) and (max-height:400px) and (orientation : landscape) {
+  .hero_custom_height {
+    min-height: 100vh !important;
+    /* background-color: red !important; */
+  }
+
+  .heading_size_custom {
+    font-size: 28px;
+  }
+
+  .para_size_custom {
+    font-size: 20px;
+  }
+
+  .hero_custom_margin {
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  .hero_btn_custom_height {
+    height: 40px;
+  }
+
+  .hero_text_custom_padding {
+    padding-top: 0px;
+  }
+
+  /* .visible-desktop {
+    display: none !important;
+  }
+
+  .visible-tablet {
+    display: inherit !important;
+  }
+
+  .hidden-tablet {
+    display: none !important;
+  } */
 }
