@@ -27,7 +27,8 @@ const Feature = () => {
       },
     ],
   };
-  const first = React.useRef();
+  const first = React.useRef<Slider | null>(null);
+
   return (
     <>
       <div className="py-[30px] sm:py-10 lg:py-12">
@@ -109,7 +110,7 @@ const Feature = () => {
               <div className="flex gap-[10px] mt-[10px] justify-center lg:justify-start">
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px]  transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickNext()}>
+                  onClick={() => first.current?.slickNext()}>
                   <svg
                     className="absolute top-1/2 left-1/2 translate-x-[-70%]  translate-y-[-50%]"
                     width="7"
@@ -128,7 +129,7 @@ const Feature = () => {
                 </div>
                 <div
                   className="slider_arrow sm:h-[34px] sm:w-[34px] h-[30px] w-[30px] relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-                  onClick={() => first.current.slickPrev()}>
+                  onClick={() => first.current?.slickPrev()}>
                   <svg
                     className="absolute top-1/2 left-1/2 translate-x-[-36%]  translate-y-[-50%]"
                     width="7"

@@ -12,7 +12,8 @@ const AboutUs = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  const thirdSlider = React.useRef(null);
+  const thirdSlider = React.useRef<Slider | null>(null);
+
   return (
     <>
       <div className="lg:pt-0 xl:pt-[73.3px] pb-5 relative" id="about-us">
@@ -81,7 +82,7 @@ const AboutUs = () => {
           <div className="flex justify-center items-center gap-3">
             <span>
               <svg
-                onClick={() => thirdSlider?.current?.slickPrev()}
+                onClick={() => thirdSlider.current?.slickPrev()}
                 className="cursor-pointer group"
                 width="35"
                 height="35"
@@ -94,20 +95,20 @@ const AboutUs = () => {
                   cy="17.4227"
                   r="16.8655"
                   stroke="black"
-                  stroke-width="0.877078"
+                  strokeWidth="0.877078"
                 />
                 <path
                   className=" group-hover:stroke-[#fff]"
                   d="M19.4479 13.0383L15.0625 17.4237L19.4479 21.8091"
                   stroke="black"
-                  stroke-width="1.75416"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.75416"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
             <span
-              onClick={() => thirdSlider?.current?.slickNext()}
+              onClick={() => thirdSlider.current?.slickNext()}
               className=" rotate-180">
               <svg
                 className="cursor-pointer group"
@@ -122,15 +123,15 @@ const AboutUs = () => {
                   cy="17.4227"
                   r="16.8655"
                   stroke="black"
-                  stroke-width="0.877078"
+                  strokeWidth="0.877078"
                 />
                 <path
                   className=" group-hover:stroke-[#fff]"
                   d="M19.4479 13.0383L15.0625 17.4237L19.4479 21.8091"
                   stroke="black"
-                  stroke-width="1.75416"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.75416"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
