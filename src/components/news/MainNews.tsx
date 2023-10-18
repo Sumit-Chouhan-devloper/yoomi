@@ -1,9 +1,10 @@
 import React from "react";
 import SignUp from "../common/SignUp";
 import { newsData, mainNewsContent } from "../common/Helper";
+import { Images } from "../../images";
 const MainNews = () => {
   return (
-    <div className=" pt-[150px]">
+    <div className=" pt-[215px]">
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
         <div className="mb-14 xl:mb-20">
           {mainNewsContent.slice(0, 1).map((data, i) => (
@@ -52,7 +53,18 @@ const MainNews = () => {
                 <p className=" text-sm font-normal opacity-70 text-black leading-[150%]">
                   {data.newsMainDiscSecond}
                 </p>
-                <div className="px-5 sm:px-10 md:px-16 lg:px-24 xl:px-28 bg-[#076787] rounded-md py-12 lg:py-16 my-8">
+                <div className="ps-5 pe-0 sm:px-10 md:px-16 lg:px-24 xl:px-28 bg-[#2e7693] rounded-md py-[71.11px] my-8 relative">
+                  {" "}
+                  <img
+                    className=" absolute top-3 md:top-5 left-8 md:left-12 w-[89px] md:w-[100px] lg:w-[117px] bg-transparent"
+                    src={Images.commaImageNews}
+                    alt=""
+                  />
+                  <img
+                    className=" absolute bottom-0 right-0 w-16 lg:w-[98px] bg-transparent"
+                    src={Images.plusImageNews}
+                    alt=""
+                  />
                   <h3 className="ff_Jakarta text-[32px] sm:text-5xl xl:text-6xl text-white leading-[110%] font-normal">
                     {data.newsMainQt}
                     <span className=" font-semibold">
@@ -62,7 +74,7 @@ const MainNews = () => {
                   </h3>
                   <div className="text-end">
                     {" "}
-                    <h4 className="text-end text-white font-normal text-sm leading-[150%] translate-x-[-15%] relative after:absolute after:h-[1px] md:after:h-[2px] after:bg-white after:left-[0%] after:translate-x-[calc(-100%_-_7px)] after:w-[28px] md:after:w-[36px] after:top-1/2 inline-block">
+                    <h4 className="text-end text-white font-normal text-sm leading-[150%] translate-x-[-40%] sm:translate-x-[-15%] relative after:absolute after:h-[1px] md:after:h-[2px] after:bg-white after:left-[0%] after:translate-x-[calc(-100%_-_7px)] after:w-[28px] md:after:w-[36px] after:top-1/2 inline-block sm:mt-0 mt-2">
                       {data.newsMainQtAuthor}
                     </h4>
                   </div>
@@ -91,7 +103,10 @@ const MainNews = () => {
                       <img src={data.newsImage} alt="sub content" />
                       <h3 className=" ff_Jakarta text-xl sm:text-2xl font-normal leading-[120%] mt-[18px] mb-4">
                         {data.newsHeading}
-                        <span className=" font-semibold">
+                        <span
+                          className={` font-semibold ${
+                            i === 0 ? "md:block" : ""
+                          }`}>
                           {data.newsHeadingBold}
                         </span>
                       </h3>
