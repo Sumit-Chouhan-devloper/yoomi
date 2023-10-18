@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 const ContactForm = () => {
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState<string>("");
   const [TypicalForm, setTypicalForm] = useState({
     name: "",
     last: "",
@@ -9,10 +9,11 @@ const ContactForm = () => {
     textarea: "",
     email: "",
   });
-  const [error, setError] = useState(false);
-  const regex =
+  const [error, setError] = useState<boolean>(false);
+  const regex: RegExp =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-  const OnsubmitHandler = (e) => {
+
+  const OnsubmitHandler = (e: React.FormEvent) => {
     e.preventDefault();
     setError(true);
     if (
@@ -56,7 +57,7 @@ const ContactForm = () => {
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
                 {error && TypicalForm.name === ""
                   ? "First Name is required"
-                  : error && TypicalForm.name === false}
+                  : null}
               </p>
             </div>
             <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6 sm:mt-0 mt-6">
@@ -74,7 +75,7 @@ const ContactForm = () => {
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
                 {error && TypicalForm.last === ""
                   ? "Last Name is required"
-                  : error && TypicalForm.last === false}
+                  : null}
               </p>
             </div>
           </div>
@@ -116,11 +117,6 @@ const ContactForm = () => {
                 value={phone}
                 onChange={(phone) => setPhone(phone)}
               />
-              <p className="mb-0 text-rose-500 font-medium pointer-events-none sm:h-[24px] ps-[15px] ">
-                {/* {error && TypicalForm.phone === ""
-                  ? "Text is required"
-                  : error && TypicalForm.phone === false} */}
-              </p>
             </div>
           </div>
           <div className="flex lg:justify-center sm:mt-[9px] mt-6">
@@ -138,7 +134,7 @@ const ContactForm = () => {
               <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
                 {error && TypicalForm.textarea === ""
                   ? "Text is required"
-                  : error && TypicalForm.textarea === false}
+                  : null}
               </p>
             </div>
           </div>
