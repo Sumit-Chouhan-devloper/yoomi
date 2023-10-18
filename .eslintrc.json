@@ -8,6 +8,12 @@
       "jsx": true
     }
   },
+  "globals": {
+    "MobileNavProps": "readonly",
+    "activeNavOverlay": "readonly",
+    "setActiveNavOverlay": "readonly",
+    "active": "readonly"
+  },
 
   "rules": {
     "spellcheck/spell-checker": [
