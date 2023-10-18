@@ -30,7 +30,7 @@ const OurTeam = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-[#F5F8FA] lg:pb-[91px] pt-8 pb-6 sm:py-12 lg:pt-[76px] relative">
+      <div className="bg-[#F5F8FA] lg:pb-[91px] py-8 sm:py-12 lg:pt-[76px] relative">
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
@@ -51,11 +51,11 @@ const OurTeam = () => {
           <p className="text-deep-blue ff_inter text-xs sm:text-sm font-medium leading-normal text-center uppercase mb-[10px] sm:mb-2">
             OUR team
           </p>
-          <h2 className="text-black ff_Jakarta text-[32px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-5 sm:mb-[22px]">
+          <h2 className="text-black ff_Jakarta text-[32px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:mb-[18px]">
             The Amazing Team
             <span className="font-semibold"> Behind Our Company</span>
           </h2>
-          <p className="text-black text-center ff_inter text-[20px] sm:text-[24px] font-normal opacity-70 mb-[40px] sm:mb-12">
+          <p className="text-black text-center ff_inter text-sm sm:text-[24px] font-normal opacity-70 mb-[40px]">
             We’re a dedicated group of individuals
           </p>
           <div className="hidden sm:block">
@@ -64,7 +64,7 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="m-[10px] group overflow-hidden cursor-pointer">
+                      <div className="mx-[11px] my-[10px] group overflow-hidden cursor-pointer">
                         <img
                           className="w-full group-hover:scale-105 transition duration-300"
                           src={OurData.CardImages}
@@ -96,7 +96,7 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="m-[10px] group">
+                      <div className="mx-[5px] group">
                         <img
                           className="w-full"
                           src={OurData.CardImages}
@@ -117,7 +117,7 @@ const OurTeam = () => {
               })}
             </Slider>
           </div>
-          <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
+          <div className="flex gap-[10px] mt-[24px] justify-center sm:hidden">
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}

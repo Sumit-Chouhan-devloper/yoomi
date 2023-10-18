@@ -15,13 +15,13 @@ const AboutHero = () => {
             <img
               src={Images.commonIcon}
               alt="common-hero-img-1"
-              className="absolute bottom-0 start-0 w-[13%]"
+              className="absolute bottom-0 start-0 w-[9%] lg:w-[8%]"
             />
 
             <img
               src={Images.commonIcon2}
               alt="common-hero-img-2"
-              className="absolute bottom-0 end-0 w-[13%]"
+              className="absolute bottom-0 end-0 w-[14%] lg:w-[10%]"
             />
             <div className="max-w-[793px] mx-auto">
               <p className="uppercase font-medium text-xs text-center sm:text-sm text-deep-blue mb-[10px] sm:mb-2">
@@ -29,7 +29,7 @@ const AboutHero = () => {
               </p>
               <h2 className="text-[32px] leading-none px-4 lg:text-6xl text-center font-normal mb-5 sm:mb-[22px] text-black ff_Jakarta xl:leading-[110%]">
                 Our story starts
-                <span className="font-extrabold"> with you </span>
+                <span className="font-semibold"> with you </span>
                 <img
                   className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]"
                   src={Images.herostar}
@@ -47,7 +47,9 @@ const AboutHero = () => {
                 </span>
               </p>
               <p className="ff_lexend text-black text-sm font-normal leading-normal opacity-70 text-center">
-                effectively supports patients, while providing physical{" "}
+              So he set out to create an accessible solution to physical
+                therapy that more effectively supports patients, while providing
+                physical
                 <span className="font-semibold">therapists with the tools</span>{" "}
                 and data they need to improve care. The goal is to ensure that
                 no patients goes through the experience Ben and others go
@@ -55,6 +57,7 @@ const AboutHero = () => {
                 <span className="font-semibold">
                   go-to solution for physical therapy.
                 </span>
+            
               </p>
             </div>
           </div>

@@ -18,7 +18,7 @@ function App() {
     once: true,
   });
 
-  return (
+  return ( 
     <BrowserRouter>
       <Routes>
         <Route path={routes.HOME} element={<Main />} />
