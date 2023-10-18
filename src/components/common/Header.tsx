@@ -96,7 +96,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.headerIcon2}
             alt="hero-right"
-            className="absolute top-0 end-0 max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+            className="absolute z-[-1] top-[85%] sm:top-0 end-0 max-[576px]:w-[8%] max-[1024px]:w-[6%]"
           />
         )}
         <div>

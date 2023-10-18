@@ -24,7 +24,7 @@ const AboutHero = () => {
               className="absolute bottom-0 end-0 w-[13%]"
             />
             <div className="max-w-[793px] mx-auto">
-              <p className="uppercase font-medium text-xs text-center sm:text-sm text-deep-blue mb-2">
+              <p className="uppercase font-medium text-xs text-center sm:text-sm text-deep-blue mb-[10px] sm:mb-2">
                 About us
               </p>
               <h2 className="text-[32px] leading-none px-4 lg:text-6xl text-center font-normal mb-5 sm:mb-[22px] text-black ff_Jakarta xl:leading-[110%]">
