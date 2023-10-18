@@ -1,7 +1,7 @@
 import React from "react";
-import { ourTeamData } from "../common/Helper.tsx";
+import { ourAdviser } from "../common/Helper.tsx";
 import Slider from "react-slick";
-const OurTeam = () => {
+const OurAdvisers = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -29,31 +29,26 @@ const OurTeam = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="bg-[#F5F8FA] lg:pb-[91px] pt-8 pb-6 sm:py-12 lg:pt-[76px]">
+      <div className="bg-white lg:pb-[142px] py-12 lg:pt-[120px]">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-deep-blue ff_inter text-xs sm:text-sm font-medium leading-normal text-center uppercase">
-            OUR team
-          </p>
-          <h2 className="text-black ff_Jakarta text-[30px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-5 sm:mb-[22px]">
-            The Amazing Team
-            <span className="font-semibold"> Behind Our Company</span>
+          <h2 className="text-black ff_Jakarta text-[30px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-5 lg:mb-[50px]">
+          Our
+            <span className="font-semibold">Advisors</span>
           </h2>
-          <p className="text-black text-center ff_inter text-[20px] sm:text-[24px] font-normal opacity-70 mb-[45px] sm:mb-12">
-            We’re a dedicated group of individuals
-          </p>
+        
           <div className="hidden sm:block">
             <div className="flex flex-wrap">
-              {ourTeamData.map((OurData, i) => {
+              {ourAdviser.map((OurData, i) => {
                 return (
-                  <div key={i} className="lg:w-4/12 sm:w-6/12">
+                  <div key={i} className="lg:w-4/12 sm:w-6/12 h-full">
                     <div>
                       <div className="m-[10px]">
-                        <img className="w-full" src={OurData.CardImages} alt="team-member" />
-                        <div className="bg-white py-[30px]">
-                          <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
+                        <img className="w-full" src={OurData.AdvisedCard} alt="team-member" />
+                        <div className="bg-[#E6F0F3] py-[30px] px-8">
+                          <h4 className="text-center text-black mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
-                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
+                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-70 mb-0">
                             {OurData.para}
                           </p>
                         </div>
@@ -66,17 +61,17 @@ const OurTeam = () => {
           </div>
           <div className="sm:hidden">
             <Slider {...settings} ref={first}>
-            {ourTeamData.map((OurData, i) => {
+            {ourAdviser.map((OurData, i) => {
               return (
                 <div key={i} className="lg:w-4/12 sm:w-6/12">
                   <div>
                     <div className="m-[10px]">
-                      <img className="w-full" src={OurData.CardImages} alt="team-member" />
-                      <div className="bg-white py-[30px]">
+                      <img className="w-full" src={OurData.AdvisedCard} alt="team-member" />
+                      <div className="bg-[#E6F0F3] py-[30px]">
                         <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                           {OurData.Heading}
                         </h4>
-                        <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
+                        <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-70 mb-0">
                           {OurData.para}
                         </p>
                       </div>
@@ -135,4 +130,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default OurAdvisers;

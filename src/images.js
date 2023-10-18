@@ -56,4 +56,23 @@ export const Images = {
   aboutTopSlider2:"/assets/landing-assets/webp/about-top-slider2.webp",
   // out team
   ourTeamCard1:"/assets/landing-assets/png/our_team_card1.png",
+  ourTeamCard2:"/assets/landing-assets/png/our_team_card2.png",
+  ourTeamCard3:"/assets/landing-assets/png/our_team_card3.png",
+  ourTeamCard4:"/assets/landing-assets/png/our_team_card4.png",
+  ourTeamCard5:"/assets/landing-assets/png/our_team_card5.png",
+  ourTeamCard6:"/assets/landing-assets/png/our_team_card6.png",
+  ourTeamCard7:"/assets/landing-assets/png/our_team_card7.png",
+  ourTeamCard8:"/assets/landing-assets/png/our_team_card8.png",
+  ourTeamCard9:"/assets/landing-assets/png/our_team_card9.png",
+  ourTeamCard10:"/assets/landing-assets/png/our_team_card10.png",
+  ourTeamCard11:"/assets/landing-assets/png/our_team_card11.png",
+  ourTeamCard12:"/assets/landing-assets/png/our_team_card12.png",
+  ourTeamCard13:"/assets/landing-assets/png/our_team_card13.png",
+  ourTeamCard14:"/assets/landing-assets/png/our_team_card14.png",
+  // our advisers
+  our_adviser1:"/assets/landing-assets/png/our_adviser1.png",
+  our_adviser2:"/assets/landing-assets/png/our_adviser2.png",
+  our_adviser3:"/assets/landing-assets/png/our_adviser3.png",
+  our_adviser4:"/assets/landing-assets/png/our_adviser4.png",
+  
 };
