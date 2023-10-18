@@ -1,16 +1,17 @@
 import React from "react";
-import CommonHero from "../common/CommonHero";
+// import CommonHero from "../common/CommonHero";
 
 const NewsHero = () => {
   return (
     <div>
-      <CommonHero
+      news hero
+      {/* <CommonHero
         para=""
         maxWidth=""
         headlineTitle="Latest News"
         subHeadlineTitle="News &"
         subHeadlineTitle2="Updates"
-      />
+      /> */}
     </div>
   );
 };
