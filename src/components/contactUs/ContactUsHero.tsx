@@ -10,12 +10,22 @@ const ContactHero = () => {
             <img
               src={Images.commonIcon}
               alt="common-hero-img-1"
-              className="absolute bottom-0 start-0"
+              className="absolute bottom-0 start-0 sm:block hidden"
+            />
+            <img
+              src={Images.commonIcon}
+              alt="common-hero-img-1"
+              className="absolute bottom-[5px] start-0 sm:hidden w-[45px] h-[43px]"
             />
             <img
               src={Images.commonIcon2}
               alt="common-hero-img-2"
-              className="absolute bottom-0 end-0"
+              className="absolute bottom-0 end-0 sm:block hidden"
+            />
+            <img
+              src={Images.commonIcon2}
+              alt="common-hero-img-2"
+              className="absolute bottom-0 end-0 sm:hidden w-[40px] h-[43px]"
             />
             <h2 className="uppercase font-medium text-xs sm:text-sm text-deep-blue ">
               Lets work together
