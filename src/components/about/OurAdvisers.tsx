@@ -42,13 +42,13 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12 min-h-[459px]">
                     <div>
-                      <div className="m-[10px]">
+                      <div className="m-[10px] bg-[#E6F0F3] min-h-[500px]">
                         <img
                           className="w-full"
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="bg-[#E6F0F3] h-full px-1 rounded-b-[5px]">
+                        <div className="px-1 rounded-b-[5px]">
                           <h4 className="text-center text-black mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
@@ -60,7 +60,7 @@ const OurAdvisers = () => {
                     </div>
                   </div>
                 );
-              })}
+              })} 
             </div>
           </div>
           <div className="sm:hidden">
