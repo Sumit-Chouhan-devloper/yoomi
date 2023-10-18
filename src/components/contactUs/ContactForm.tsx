@@ -36,7 +36,7 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-[210px] mt-[180px] sm:mb-0 mb-10">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-[210px] mt-[130px] sm:mb-0 mb-10">
         <p className="text-[#111] ff_Jakarta font-normal leading-[normal] sm:text-[38px] text-[32px] text-center sm:mb-[50px] mb-[47px]">
           Get Updated <span className="font-semibold">With Us</span>
         </p>
@@ -61,7 +61,7 @@ const ContactForm = () => {
                   : null}
               </p>
             </div>
-            <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6 sm:mt-0 mt-6">
+            <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6">
               <p className="text-[#000] font-inter text-sm font-normal leading-[normal] mb-3">
                 Last Name
               </p>
@@ -81,7 +81,7 @@ const ContactForm = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center sm:mt-[9px] mt-6 sm:flex-row flex-col">
+          <div className="flex items-center justify-center sm:mt-[9px] sm:flex-row flex-col">
             <div className="lg:min-w-[423px] sm:w-[400px] w-full">
               <p className="text-[#000] font-inter text-sm font-normal leading-[normal] mb-3">
                 Email
@@ -108,7 +108,7 @@ const ContactForm = () => {
                 )}
               </p>
             </div>
-            <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6 sm:mt-0 mt-6">
+            <div className="lg:min-w-[423px] sm:w-[400px] w-full sm:ms-6">
               <p className="text-[#000] font-inter text-sm font-normal leading-[normal] mb-3">
                 Phone
               </p>
