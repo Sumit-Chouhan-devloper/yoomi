@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Images } from "../../images.js";
-import { plateFormData } from "../common/Helper.tsx";
+import { plateFormData } from "../common/Helper";
 import VisibilitySensor from "react-visibility-sensor";
 import CountUp from "react-countup";
 const OurPlatForm = () => {

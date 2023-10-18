@@ -1,8 +1,8 @@
 import React from "react";
-import NewsHero from "../components/news/NewsHero.tsx";
-import Header from "../components/common/Header.tsx";
-import SignUp from "../components/common/SignUp.tsx";
-import Footer from "../components/common/Footer.tsx";
+import NewsHero from "../components/news/NewsHero";
+import Header from "../components/common/Header";
+import SignUp from "../components/common/SignUp";
+import Footer from "../components/common/Footer";
 
 const News = () => {
   return (
