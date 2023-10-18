@@ -12,7 +12,7 @@ const Hero = () => {
               Engagement and RTM Solution
               <img
                 className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]"
-                src={Images.herostar}
+                src={Images.heroStar}
                 alt="start"
               />
             </h1>

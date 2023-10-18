@@ -32,7 +32,7 @@ const AboutHero = () => {
                 <span className="font-semibold"> with you </span>
                 <img
                   className="inline-block h-[30px] sm:h-[40px] lg:h-[50px]"
-                  src={Images.herostar}
+                  src={Images.heroStar}
                   alt="start"
                 />
               </h2>
@@ -47,17 +47,18 @@ const AboutHero = () => {
                 </span>
               </p>
               <p className="ff_lexend text-black text-sm font-normal leading-normal opacity-70 text-center">
-              So he set out to create an accessible solution to physical
+                So he set out to create an accessible solution to physical
                 therapy that more effectively supports patients, while providing
                 physical
-                <span className="font-semibold">therapists with the tools</span>{" "}
+                <span className="font-semibold">
+                  therapists with the tools
+                </span>{" "}
                 and data they need to improve care. The goal is to ensure that
                 no patients goes through the experience Ben and others go
                 through again, and become the{" "}
                 <span className="font-semibold">
                   go-to solution for physical therapy.
                 </span>
-            
               </p>
             </div>
           </div>

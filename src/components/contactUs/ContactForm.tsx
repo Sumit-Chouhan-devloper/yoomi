@@ -119,16 +119,7 @@ const ContactForm = () => {
                 value={phone}
                 onChange={(phone) => setPhone(phone)}
               />
-            <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]">
-              {/* {error && TypicalForm.email === "" ? (
-                "Email is required"
-              ) : error && regex.test(TypicalForm.email) === false ? (
-                <p className="text-rose-500 font-medium">Email Not Valid</p>
-              ) : (
-                ""
-              )} */}
-            </p>
-            </div>
+                        </div>
           </div>
           <div className="flex lg:justify-center sm:mt-[9px] mt-6">
             <div className="lg:max-w-[868px] w-full">

@@ -151,16 +151,14 @@ html {
 }
 
 .about_top_slids .slick-slide {
-  padding-left: 10px;
-  /* Adjust the spacing as needed */
-  padding-right: 10px;
-  /* Adjust the spacing as needed */
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 0px 10px;
 }
 
 @media (min-width: 560px) and (max-width: 1000px) and (min-height:360px) and (max-height:400px) and (orientation : landscape) {
   .hero_custom_height {
     min-height: 100vh !important;
-    /* background-color: red !important; */
   }
 
   .heading_size_custom {
@@ -183,16 +181,4 @@ html {
   .hero_text_custom_padding {
     padding-top: 0px;
   }
-
-  /* .visible-desktop {
-    display: none !important;
-  }
-
-  .visible-tablet {
-    display: inherit !important;
-  }
-
-  .hidden-tablet {
-    display: none !important;
-  } */
 }

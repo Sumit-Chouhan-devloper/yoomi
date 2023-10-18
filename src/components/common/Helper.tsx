@@ -24,7 +24,7 @@ export const aboutUsSlider = [
     clientPost: "CEO ( yoomi )",
     clientReview:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes lorem to the font.",
-    clientStarReview: Images.starGrup,
+    clientStarReview: Images.starGroup,
   },
   {
     clientImage: Images.clintReview1,
@@ -33,7 +33,7 @@ export const aboutUsSlider = [
     clientPost: "CEO ( TATA )",
     clientReview:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, dignissimos. Iste, dolorum ipsam iusto itaque laborum delectus. Corrupti changes to the font",
-    clientStarReview: Images.starGrup,
+    clientStarReview: Images.starGroup,
   },
 ];
 export const ourTeamData = [

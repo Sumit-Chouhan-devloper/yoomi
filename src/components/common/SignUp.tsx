@@ -8,7 +8,8 @@ const SignUp = () => {
         {" "}
         <div
           className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"
-          id="news">
+          id="news"
+        >
           <img
             className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
             src={Images.Yoomi_translatecard_icon}
@@ -46,7 +47,7 @@ const SignUp = () => {
             <div className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
               <img
                 className="max-[600px]:w-[75%]"
-                src={Images.yomiFooterNewesCharacter}
+                src={Images.yomiFooterNewsCharacter}
                 alt="Your Browser is Not Support This Formate"
               />
             </div>

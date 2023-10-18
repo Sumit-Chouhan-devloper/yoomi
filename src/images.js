@@ -1,5 +1,5 @@
 export const Images = {
-  herostar: "/assets/landing-assets/svg/hero-star.svg",
+  heroStar: "/assets/landing-assets/svg/hero-star.svg",
   logoImage: "/assets/landing-assets/svg/logo.svg",
   heroImg: "/assets/landing-assets/png/nav-logo.png",
   heroBottomLayer: "/assets/landing-assets/svg/hero-layer-bottom.svg",
@@ -30,20 +30,20 @@ export const Images = {
   clintReview1: "/assets/landing-assets/webp/yoomi-review-by-clint-1.webp",
   commaUp: "/assets/landing-assets/svg/comma_upper.svg",
   commaDown: "/assets/landing-assets/svg/comma_lower.svg",
-  starGrup: "/assets/landing-assets/svg/StarGrup.svg",
-  ourPlateformSide: "/assets/landing-assets/png/ourplateform-right-img.png",
-  plateformBoxVacter: "/assets/landing-assets/png/plateform_box_vacter.png",
+  starGroup: "/assets/landing-assets/svg/StarGrup.svg",
+  ourPlateFormSide: "/assets/landing-assets/png/ourplateform-right-img.png",
+  plateFormBoxVector: "/assets/landing-assets/png/plateform_box_vacter.png",
   committedLogoHippa: "/assets/landing-assets/webp/committedLogoHippa.webp",
   committedLogoFda: "/assets/landing-assets/webp/committedLogoFDA.webp",
   committedLogoApta: "/assets/landing-assets/webp/committedLogoApta.webp",
-  yomiFooterNewesCharacter:
+  yomiFooterNewsCharacter:
     "/assets/landing-assets/svg/Yommi-News-Character.svg",
   yomiAboutPlusICO: "/assets/landing-assets/svg/Yomi-plus-ico-AboutUs.svg",
   yomiAboutPlusICOsec:
     "/assets/landing-assets/svg/Yomi-plus2nd-ico-AboutUs.svg",
   Yoomi_translatecard_icon:
     "/assets/landing-assets/svg/Yoomi_translatecard_icon.svg",
-  footerSideicon: "/assets/landing-assets/svg/footerIcon.svg",
+  footerSideIcon: "/assets/landing-assets/svg/footerIcon.svg",
   knowMoreSlide1: "/assets/landing-assets/png/know-more-slide-1.png",
   knowMoreSlide2: "/assets/landing-assets/png/know-more-slide-2.png",
   knowMoreSlide3: "/assets/landing-assets/png/know-more-slide-3.png",
@@ -78,11 +78,10 @@ export const Images = {
   our_adviser2: "/assets/about-assets/png/our_adviser2.png",
   our_adviser3: "/assets/about-assets/png/our_adviser3.png",
   our_adviser4: "/assets/about-assets/png/our_adviser4.png",
-  //
   // News Images
-  mainImageNews: "/assets/news-assets/NewesHeadImg-1.webp",
-  subFirstImageNews: "/assets/news-assets/NewsSecondImg-1.webp",
-  subSecondImageNews: "/assets/news-assets/NewsSecondImg-2.webp",
+  mainImageNews: "/assets/news-assets/png/NewsHeadImg-1.webp",
+  subFirstImageNews: "/assets/news-assets/png/NewsSecondImg-1.webp",
+  subSecondImageNews: "/assets/news-assets/png/NewsSecondImg-2.webp",
   // news
   newsImage1: "/assets/news-assets/png/News1.png",
   newsImage2: "/assets/news-assets/png/News2.png",
