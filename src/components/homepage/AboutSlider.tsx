@@ -13,7 +13,7 @@ const AboutSlider = () => {
   // const first = React.useRef();
   const sliderRef = React.useRef<Slider | null>(null);
   return (
-    <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+    <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 py-32">
       <div className="about_top_slids relative">
         <Slider {...settings} ref={sliderRef}>
           <div className="">

@@ -48,11 +48,11 @@ const OurAdvisers = () => {
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="bg-[#E6F0F3] py-[30px] px-8">
-                          <h4 className="text-center text-black mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
+                        <div className="bg-[#E6F0F3] py-[30px] px-8 rounded-b-[5px]">
+                          <h4 className="text-center text-black mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
-                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-70 mb-0">
+                          <p className="text-center text-black ff_inter text-xl sm:text-[24px] font-normal leading-normal opacity-70 mb-0">
                             {OurData.para}
                           </p>
                         </div>
@@ -75,7 +75,7 @@ const OurAdvisers = () => {
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="bg-[#E6F0F3] py-[30px]">
+                        <div className="bg-[#E6F0F3] py-[30px] rounded-b-[5px]">
                           <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>

@@ -1,5 +1,5 @@
 export const Images = {
-  herostar: "/assets/landing-assets/png/hero-star.png",
+  herostar: "/assets/landing-assets/svg/hero-star.svg",
   logoImage: "/assets/landing-assets/svg/logo.svg",
   heroImg: "/assets/landing-assets/png/nav-logo.png",
   heroBottomLayer: "/assets/landing-assets/svg/hero-layer-bottom.svg",
