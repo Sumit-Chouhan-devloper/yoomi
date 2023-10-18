@@ -1,8 +1,8 @@
 import React from "react";
 import { Images } from "../../images";
 import Slider from "react-slick";
-import { aboutUsSlider } from "../common/Helper.tsx";
-import SignUp from "../common/SignUp.tsx";
+import { aboutUsSlider } from "../common/Helper";
+import SignUp from "../common/SignUp";
 const AboutUs = () => {
   const settings = {
     dots: false,

@@ -1,5 +1,5 @@
 import React from "react";
-import { ourTeamData } from "../common/Helper.tsx";
+import { ourTeamData } from "../common/Helper";
 import Slider from "react-slick";
 const OurTeam = () => {
   const settings = {
@@ -26,7 +26,7 @@ const OurTeam = () => {
       },
     ],
   };
-  const first = React.useRef();
+  const first = React.useRef<Slider | null>(null);
   return (
     <>
       <div className="bg-[#F5F8FA] lg:pb-[91px] pt-8 pb-6 sm:py-12 lg:pt-[76px]">
@@ -48,7 +48,11 @@ const OurTeam = () => {
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
                       <div className="m-[10px]">
-                        <img className="w-full" src={OurData.CardImages} alt="team-member" />
+                        <img
+                          className="w-full"
+                          src={OurData.CardImages}
+                          alt="team-member"
+                        />
                         <div className="bg-white py-[30px]">
                           <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
@@ -66,39 +70,41 @@ const OurTeam = () => {
           </div>
           <div className="sm:hidden">
             <Slider {...settings} ref={first}>
-            {ourTeamData.map((OurData, i) => {
-              return (
-                <div key={i} className="lg:w-4/12 sm:w-6/12">
-                  <div>
-                    <div className="m-[10px]">
-                      <img className="w-full" src={OurData.CardImages} alt="team-member" />
-                      <div className="bg-white py-[30px]">
-                        <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
-                          {OurData.Heading}
-                        </h4>
-                        <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
-                          {OurData.para}
-                        </p>
+              {ourTeamData.map((OurData, i) => {
+                return (
+                  <div key={i} className="lg:w-4/12 sm:w-6/12">
+                    <div>
+                      <div className="m-[10px]">
+                        <img
+                          className="w-full"
+                          src={OurData.CardImages}
+                          alt="team-member"
+                        />
+                        <div className="bg-white py-[30px]">
+                          <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
+                            {OurData.Heading}
+                          </h4>
+                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
+                            {OurData.para}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
             </Slider>
           </div>
           <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-              onClick={() => first.current.slickNext()}
-            >
+              onClick={() => first.current?.slickNext()}>
               <svg
                 width="7"
                 height="11"
                 viewBox="0 0 7 11"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M6.05726 1.18284L1.67187 5.56823L6.05726 9.95361"
                   stroke="black"
@@ -110,15 +116,13 @@ const OurTeam = () => {
             </div>
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-              onClick={() => first.current.slickPrev()}
-            >
+              onClick={() => first.current?.slickPrev()}>
               <svg
                 width="7"
                 height="11"
                 viewBox="0 0 7 11"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M1.15953 1.18284L5.54492 5.56823L1.15953 9.95361"
                   stroke="black"
