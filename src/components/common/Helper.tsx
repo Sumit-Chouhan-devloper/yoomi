@@ -112,21 +112,76 @@ export const ourAdviser = [
   {
     AdvisedCard: Images.our_adviser1,
     Heading: "Daniel Cane",
-    para: 'CEO of Modernizing Medicine',
+    para: "CEO of Modernizing Medicine",
   },
   {
     AdvisedCard: Images.our_adviser2,
     Heading: "Larry Biscotti",
-    para: 'President at GE Healthcare',
+    para: "President at GE Healthcare",
   },
   {
     AdvisedCard: Images.our_adviser3,
     Heading: "Dr. James Smoliga",
-    para: 'Professor at High Point University',
+    para: "Professor at High Point University",
   },
   {
     AdvisedCard: Images.our_adviser4,
     Heading: "Eric Stewaert",
-    para: 'Global Managing Director Of Varian Medical System',
+    para: "Global Managing Director Of Varian Medical System",
+  },
+];
+export const mainNewsContent = [
+  {
+    newsMainImage: Images.mainImageNews,
+    newsMainHeading: "Yoomi Wins Hail",
+    newsMainBoldHeading: "Mary Contest",
+    newsMainDate: "November 14, 2022",
+    newsMainInfoPera:
+      "Yoomi wins $46k in Dr Pepper Hail Mary Contest, pitching to Mark Cuban, Charlotte Jones, and Jon Seaton.",
+    newsMainDiscFirst:
+      "Physical therapy is a crucial healthcare service that has evolved to meet the needs of patients in the digital age. Online physical therapy, also known as teletherapy or telehealth, has gained popularity for its convenience and accessibility. Patients can now receive expert guidance and rehabilitation exercises from the comfort of their own homes, using video conferencing and digital communication tools. This approach is especially beneficial for individuals with mobility issues or those living in remote areas where access to in-person physical therapy may be limited. Online physical therapy sessions allow therapists to assess, diagnose, and treat a wide range of musculoskeletal and neurological conditions, helping patients recover and regain their functionality. While it may not replace all aspects of traditional in-person therapy, online physical therapy has proven to be an effective and valuable option for many patients seeking rehabilitation and pain relief.",
+    newsMainDiscSecond:
+      "Online physical therapy offers several advantages, such as flexibility in scheduling appointments, eliminating the need for travel, and enabling individuals to receive expert guidance regardless of their location. Therapists can also track patients' progress digitally, making it easier to modify treatment plans as needed. Moreover, this approach encourages patients to actively participate in their recovery, leading to better outcomes and an improved overall quality of life",
+    newsMainQt: "Recovery, Reimagined Online: Your",
+    newsMainQtBold: "Path to Wellness, Virtually",
+    newsMainQtAuthor: "William Blake",
+    newsMainDiscEnd:
+      "These virtual sessions are designed to cater to a wide range of conditions, including sports injuries, orthopedic problems, neurological disorders, and chronic pain conditions. Therapists use video conferencing tools to assess patients' movements, monitor progress, and provide real-time feedback. Additionally, they educate patients about proper body mechanics, injury prevention, and self-care techniques.",
+  },
+  {
+    newsMainImage: Images.mainImageNews,
+    newsMainHeading: "Yoomi Wins Hail",
+    newsMainBoldHeading: "Mary Contest",
+    newsMainDate: "November 15, 2022",
+    newsMainInfoPera:
+      "Yoomi wins $46k in Dr Pepper Hail Mary Contest, pitching to Mark Cuban, Charlotte Jones, and Jon Seaton.",
+    newsMainDiscFirst:
+      "Physical therapy is a crucial healthcare service that has evolved to meet the needs of patients in the digital age. Online physical therapy, also known as teletherapy or telehealth, has gained popularity for its convenience and accessibility. Patients can now receive expert guidance and rehabilitation exercises from the comfort of their own homes, using video conferencing and digital communication tools. This approach is especially beneficial for individuals with mobility issues or those living in remote areas where access to in-person physical therapy may be limited. Online physical therapy sessions allow therapists to assess, diagnose, and treat a wide range of musculoskeletal and neurological conditions, helping patients recover and regain their functionality. While it may not replace all aspects of traditional in-person therapy, online physical therapy has proven to be an effective and valuable option for many patients seeking rehabilitation and pain relief.",
+    newsMainDiscSecond:
+      "Online physical therapy offers several advantages, such as flexibility in scheduling appointments, eliminating the need for travel, and enabling individuals to receive expert guidance regardless of their location. Therapists can also track patients' progress digitally, making it easier to modify treatment plans as needed. Moreover, this approach encourages patients to actively participate in their recovery, leading to better outcomes and an improved overall quality of life",
+    newsMainQt: "Recovery, Reimagined Online: Your",
+    newsMainQtBold: "Path to Wellness, Virtually",
+    newsMainQtAuthor: "William Blake",
+    newsMainDiscEnd:
+      "These virtual sessions are designed to cater to a wide range of conditions, including sports injuries, orthopedic problems, neurological disorders, and chronic pain conditions. Therapists use video conferencing tools to assess patients' movements, monitor progress, and provide real-time feedback. Additionally, they educate patients about proper body mechanics, injury prevention, and self-care techniques.",
+  },
+];
+
+export const newsData = [
+  {
+    newsImage: Images.subFirstImageNews,
+    newsHeading: "Yoomi and Rutger’s partner to Improve ",
+    newsHeadingBold: " physical therapy adherence",
+    newsPera:
+      "Yoomi and Rutgers Robert Wood Johnson Medical School explore how technology can mobilize patients effectively in physical therapy programs.",
+    newsDate: "January 5, 2023",
+  },
+  {
+    newsImage: Images.subSecondImageNews,
+    newsHeading: "Yoomi Awarded Rehab ",
+    newsHeadingBold: "Price From NIH",
+    newsPera:
+      "Yoomi recieves the National Center for Medical Rehabilitation, NICHD Prize for Assistive/Rehabilitative Technologies.",
+    newsDate: "August 26, 2022",
   },
 ];

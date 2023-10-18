@@ -78,4 +78,9 @@ export const Images = {
   our_adviser2: "/assets/about-assets/png/our_adviser2.png",
   our_adviser3: "/assets/about-assets/png/our_adviser3.png",
   our_adviser4: "/assets/about-assets/png/our_adviser4.png",
+  //
+  // News Images
+  mainImageNews: "/assets/news-assets/NewesHeadImg-1.webp",
+  subFirstImageNews: "/assets/news-assets/NewsSecondImg-1.webp",
+  subSecondImageNews: "/assets/news-assets/NewsSecondImg-2.webp",
 };

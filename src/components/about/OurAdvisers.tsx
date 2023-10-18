@@ -109,6 +109,7 @@ const OurAdvisers = () => {
                 />
               </svg>
             </div>
+
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickPrev()}>
