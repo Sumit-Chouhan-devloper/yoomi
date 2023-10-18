@@ -1,6 +1,6 @@
 import React from "react";
 import { Images } from "../../images.js";
-const NewsHero = () => {
+const ContactHero = () => {
   return (
     <div className="bg-light-sky translate-y-[-15%] z-0">
       <div className="relative translate-y-[50%]">
@@ -30,4 +30,4 @@ const NewsHero = () => {
   );
 };
 
-export default NewsHero;
+export default ContactHero;
