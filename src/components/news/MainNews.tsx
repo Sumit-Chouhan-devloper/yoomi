@@ -5,22 +5,22 @@ const MainNews = () => {
   return (
     <div className=" pt-[150px]">
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 items-center">
-        <div className="mb-10 lg:mb-12 xl:mb-20">
+        <div className="mb-14 xl:mb-20">
           {mainNewsContent.slice(0, 1).map((data, i) => (
             <>
               <div key={i}>
                 {" "}
                 <img className="w-full" src={data.newsMainImage} alt="hall " />
-                <div className=" mb-8 lg:mb-10 xl:mb-[45px]">
-                  <div className=" flex flex-col lg:flex-row gap-y-4 items-start lg:items-center justify-between mt-16 mb-5">
-                    <h2 className=" ff_Jakarta text-4xl sm:text-5xl xl:text-6xl font-normal text-black leading-[110%]">
+                <div className=" mb-6 lg:mb-10 xl:mb-[45px]">
+                  <div className=" flex flex-col lg:flex-row gap-y-4 items-start lg:items-center justify-between mt-6 sm:mt-8 md:mt-12  lg:mt-16 mb-[26px]">
+                    <h2 className=" ff_Jakarta text-[32px] sm:text-[35px]  xl:text-6xl font-normal text-black leading-[110%]">
                       {data.newsMainHeading}
                       <span className=" font-semibold">
                         {" "}
                         {data.newsMainBoldHeading}
                       </span>
                     </h2>
-                    <div className=" flex justify-between items-center gap-[22px] w-full lg:w-auto ">
+                    <div className=" hidden lg:flex justify-between items-center gap-[22px] w-full lg:w-auto ">
                       <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                         {data.newsMainDate}
                       </h3>
@@ -32,18 +32,26 @@ const MainNews = () => {
                   <p className=" text-sm font-normal opacity-70 text-black leading-[150%]">
                     {data.newsMainInfoPera}
                   </p>
+                  <div className=" flex lg:hidden justify-between items-center gap-[22px] w-full lg:w-auto mt-6 ">
+                    <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
+                      {data.newsMainDate}
+                    </h3>
+                    <button className="py-3 lg:py-[14px] px-8 md:px-9 xl:px-10 hover:bg-white border border-transparent hover:border-black hover:text-black transition-all duration-300 ease-linear bg-[#076787] text-white text-xs md:text-sm font-semibold rounded-[4px]">
+                      Marketting
+                    </button>
+                  </div>
                 </div>
-                <p className=" text-sm font-normal opacity-70 text-black leading-[150%] mb-4 lg:mb-6">
+                <p className=" text-sm font-normal opacity-70 text-black leading-[150%] mb-6">
                   {data.newsMainDiscFirst}
                 </p>
                 <p className=" text-sm font-normal opacity-70 text-black leading-[150%]">
                   {data.newsMainDiscSecond}
                 </p>
-                <div className="px-5 sm:px-10 md:px-16 lg:px-24 xl:px-28 bg-[#076787] rounded-md py-5 sm:py-9 md:py-12 lg:py-16 my-8">
-                  <h3 className="ff_Jakarta text-[20px] sm:text-4xl sm:text-5xl xl:text-6xl text-white leading-[110%] font-normal">
+                <div className="px-5 sm:px-10 md:px-16 lg:px-24 xl:px-28 bg-[#076787] rounded-md py-12 lg:py-16 my-8">
+                  <h3 className="ff_Jakarta text-[32px] sm:text-5xl xl:text-6xl text-white leading-[110%] font-normal">
                     {data.newsMainQt}
                     <span className=" font-semibold">
-                      {" "}
+                      &nbsp;
                       {data.newsMainQtBold}
                     </span>
                   </h3>
@@ -76,7 +84,7 @@ const MainNews = () => {
                   <div className="px-3 pb-5 pt-3 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full">
                     <div>
                       <img src={data.newsImage} alt="sub content" />
-                      <h3 className=" ff_Jakarta text-2xl font-normal leading-[120%] mt-[18px] mb-4">
+                      <h3 className=" ff_Jakarta text-xl sm:text-2xl font-normal leading-[120%] mt-[18px] mb-4">
                         {data.newsHeading}
                         <span className=" font-semibold">
                           {data.newsHeadingBold}
