@@ -30,7 +30,7 @@ const OurAdvisers = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-white lg:pb-[142px] pt-[94px] pb-6 sm:pb-[40px] lg:pt-[120px] relative">
+      <div className="bg-white pt-[94px] pb-6 sm:pb-[40px] lg:pb-0 lg:pt-[120px] relative">
       <img
               src={Images.our_Work_start}
               alt="common-hero-img-1"
@@ -75,7 +75,7 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12 min-h-[459px]">
                     <div>
-                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[440px] group overflow-hidden">
+                      <div className="mx-[5px] bg-[#E6F0F3] rounded-[5px] min-h-[449px] group overflow-hidden">
                         <img
                           className="w-full group-hover:scale-105 transition duration-300"
                           src={OurData.AdvisedCard}
@@ -96,7 +96,7 @@ const OurAdvisers = () => {
               })}
             </Slider>
           </div>
-          <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
+          <div className="flex gap-[10px] mt-[16px] justify-center sm:hidden">
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}>

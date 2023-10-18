@@ -28,23 +28,23 @@ const AboutSlider = () => {
   };
   const first = React.useRef<Slider | null>(null);
   return (
-    <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-[150px] lg:pt-[227px]">
+    <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 pt-[150px] lg:pt-[200px]">
       <div className="about_top_slids relative">
         <Slider {...settings} ref={first}>
-          <div className="md:min-h-[284px]">
-            <img src={Images.aboutTopSlider1} alt="doctor with patient" />
+          <div>
+            <img className="min-h-[169px] sm:min-h-[284px]" src={Images.aboutTopSlider1} alt="doctor with patient" />
           </div>
-          <div className="md:min-h-[284px]">
-            <img src={Images.aboutTopSlider2} alt="doctor with patient" />
+          <div>
+            <img className=" min-h-[169px] sm:min-h-[284px]" src={Images.aboutTopSlider2} alt="doctor with patient" />
           </div>
-          <div className="md:min-h-[284px]">
-            <img src={Images.aboutTopSlider1} alt="doctor with patient" />
+          <div >
+            <img className=" min-h-[169px] sm:min-h-[284px]" src={Images.aboutTopSlider1} alt="doctor with patient" />
           </div>
-          <div className="md:min-h-[284px]">
-            <img src={Images.aboutTopSlider2} alt="doctor with patient" />
+          <div >
+            <img className=" min-h-[169px] sm:min-h-[284px]" src={Images.aboutTopSlider2} alt="doctor with patient" />
           </div>
         </Slider>
-        <div className="flex justify-center gap-2 sm:gap-4 md:gap-5 pt-[25px]">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-5 pt-[20px] sm:pt-0">
           <div
             className="sm:h-[34px] !relative lg:!absolute lg:top-1/2 slider_arrow  lg:bottom-[-30%]  lg:translate-y-[-50%] lg:left-[-4%] sm:w-[34px] flex justify-center items-center h-[25px] w-[25px] transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
             onClick={() => first.current?.slickNext()}
