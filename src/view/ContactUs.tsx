@@ -1,7 +1,7 @@
 import React from "react";
 import CommonHero from "../components/common/CommonHero.tsx";
 import Header from "../components/common/Header.tsx";
-import UpdatedUs from "../components/contactUs/UpdatedUs.tsx";
+import UpdatedUs from "../components/contactus/UpdatedUs.tsx";
 import Footer from "../components/common/Footer.tsx";
 import SignUp from "../components/common/SignUp.tsx";
 
