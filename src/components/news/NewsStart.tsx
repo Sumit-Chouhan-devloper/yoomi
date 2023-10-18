@@ -23,10 +23,10 @@ const NewsStart = () => {
                   <span className=" font-semibold">{data.boldHeading}</span>
                 </p>
                 <p className="lg:mb-[34px] mb-[25px] text-sm font-normal opacity-70 leading-[150%]">
-                 {data.para}
+                  {data.para}
                 </p>
                 <div className="flex items-center">
-                  <button className="flex justify-center items-center overflow-hidden h-[47px] w-[122px] text-sm text-white font-semibold rounded-[4px] bg-[#076787] border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-[#076787]  hover:bg-white">
+                  <button className="flex justify-center items-center overflow-hidden sm:h-[47px] h-[51px] sm:w-[122px] w-[164px] text-sm text-white font-semibold rounded-[4px] bg-[#076787] border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-[#076787]  hover:bg-white">
                     Marketting
                   </button>
                   <p className="sm:text-sm text-[15px] font-normal leading-[normal] text-[#000] sm:ms-[21px] ms-2 whitespace-nowrap">
