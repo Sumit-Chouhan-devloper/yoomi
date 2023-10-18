@@ -48,7 +48,7 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12 min-h-[459px]">
                     <div>
-                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[472px] sm:min-h-[450px] md:min-h-[505px] group">
+                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[472px] sm:min-h-[450px] md:min-h-[505px] group overflow-hidden">
                         <img
                           className="w-full group-hover:scale-105 transition duration-300"
                           src={OurData.AdvisedCard}
@@ -75,7 +75,7 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12 min-h-[459px]">
                     <div>
-                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[440px] group">
+                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[440px] group overflow-hidden">
                         <img
                           className="w-full group-hover:scale-105 transition duration-300"
                           src={OurData.AdvisedCard}
