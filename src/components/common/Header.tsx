@@ -32,7 +32,7 @@ export const Header = () => {
   const path = useLocation().pathname;
   return (
     <>
-      <div className="bg-light-sky relative flex flex-col">
+      <div className="bg-light-sky flex flex-col relative z-50">
         {path === "/" ? (
           <img
             src={Images.heroLeftIcon}
