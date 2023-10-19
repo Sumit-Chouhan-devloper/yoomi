@@ -194,16 +194,16 @@ export const StartNews = [
   },
   {
     newsImage: Images.newsImage3,
-    heading: "Yoomi Awarded Rehab ",
-    boldHeading: "Price From NIH",
-    para: "Yoomi recieves the National Center for Medical Rehabilitation, NICHD Prize for Assistive/Rehabilitative Technologies.",
-    date: "August 26, 2022",
-  },
-  {
-    newsImage: Images.newsImage2,
     heading: "Yoomi Wins Hail ",
     boldHeading: "Mary CVontest",
     para: "Yoomi wins $46k in Dr Pepper Hail Mary Contest, pitching to Mark Cuban, Charlotte Jones, and Jon Seaton.",
     date: "November 14, 2022",
+  },
+  {
+    newsImage: Images.newsImage2,
+    heading: "Yoomi Awarded Rehab ",
+    boldHeading: "Price From NIH",
+    para: "Yoomi recieves the National Center for Medical Rehabilitation, NICHD Prize for Assistive/Rehabilitative Technologies.",
+    date: "August 26, 2022",
   },
 ];
