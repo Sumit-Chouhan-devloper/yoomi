@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { Images } from "../../images";
+
 const KnowMore: React.FC = () => {
-  const [nav1] = useState<Slider | undefined>(undefined);
-  const [nav2] = useState<Slider | undefined>(undefined);
+  const [nav1, setNav1] = useState<Slider | null>(null);
+  const [nav2, setNav2] = useState<Slider | null>(null);
 
   const sliderSettings1 = {
-    asNavFor: nav2,
+    asNavFor: nav2 || undefined,
     fade: true,
     speed: 500,
   };
 
   const sliderSettings2 = {
-    asNavFor: nav1,
+    asNavFor: nav1 || undefined,
     slidesToShow: 4,
     swipeToSlide: true,
     focusOnSelect: true,
@@ -46,7 +47,7 @@ const KnowMore: React.FC = () => {
           </h3>
           <div>
             <div className="slider-for max-w-[946px] mx-auto lg:mt-[65px] mt-8">
-              <Slider {...sliderSettings1}>
+              <Slider {...sliderSettings1} ref={(slider) => setNav1(slider)}>
                 {" "}
                 <div>
                   <img
@@ -81,7 +82,7 @@ const KnowMore: React.FC = () => {
             <div
               className="slider-nav max-w-[700px] mx-auto mb-4 md:mb-0"
               id="small_images">
-              <Slider {...sliderSettings2}>
+              <Slider {...sliderSettings2} ref={(slider) => setNav2(slider)}>
                 <div className="px-3 sm:pt-12 lg:pt-[52px] pt-5 pb-6 cursor-pointer">
                   <img
                     className="w-full min-h-[70px] sm:pl-2"
