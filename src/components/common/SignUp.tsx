@@ -4,7 +4,7 @@ import { Images } from "../../images";
 const SignUp = () => {
   return (
     <div>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto sm:px-5 xl:px-0">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
         {" "}
         <div
           className=" py-7 md:py-9 px-6 md:px-12 lg:px-[84px] bg-[#076787] rounded-[32px] translate-y-16 md:translate-y-[100px] lg:translate-y-[130px] relative z-10"

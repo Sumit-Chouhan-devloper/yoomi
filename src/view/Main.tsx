@@ -13,6 +13,7 @@ import AboutUs from "../components/homepage/AboutUs";
 import Committed from "../components/homepage/Committed";
 import ForecastProfits from "../components/homepage/ForecastProfits";
 import KnowMore from "../components/homepage/KnowMore";
+import SignUp from "../components/common/SignUp";
 const Main = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const Main = () => {
         <KnowMore />
         <Committed />
         <AboutUs />
+        <SignUp/>
         <Footer />
         <BackToTop />
       </div>
