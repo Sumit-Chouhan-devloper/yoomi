@@ -43,3 +43,23 @@
 .react-tel-input .form-control:focus {
   box-shadow: none !important;
 }
+@media (max-width: 640px) {
+  .ourAdvisorSlider .slick-slide div div div {
+    height: 670px !important;
+  }
+}
+@media (max-width: 540px) {
+  .ourAdvisorSlider .slick-slide div div div {
+    height: 600px !important;
+  }
+}
+@media (max-width: 470px) {
+  .ourAdvisorSlider .slick-slide div div div {
+    height: 550px !important;
+  }
+}
+@media (max-width: 400px) {
+  .ourAdvisorSlider .slick-slide div div div {
+    height: 490px !important;
+  }
+}

@@ -3,7 +3,7 @@ import { StartNews } from "../common/Helper";
 const NewsStart = () => {
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-[230px] mt-[150px]">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-[200px] mt-[150px]">
         {StartNews.map((data, i) => {
           return (
             <div
@@ -17,16 +17,16 @@ const NewsStart = () => {
                   className="w-full h-full"
                 />
               </div>
-              <div className="lg:w-8/12 md:w-7/12 w-full pt-[10px] pb-[14px] lg:ps-[75px] md:ps-5 ps-[10px] pe-[10px]">
-                <p className="text-[#000] lg:text-[32px] text-[28px] font-normal leading-[120%] lg:mb-4 mb-[11px]">
+              <div className="lg:w-8/12 md:w-7/12 w-full py-[10px] lg:ps-[76px] md:ps-5 ps-[10px] pe-[10px]">
+                <p className="text-[#000] ff_Jakarta xl:text-[32px] md:text-[25px] text-[28px] font-normal leading-[120%] lg:mb-4 mb-[5px]">
                   {data.heading}{" "}
                   <span className=" font-semibold">{data.boldHeading}</span>
                 </p>
-                <p className="lg:mb-[34px] mb-[25px] text-sm font-normal opacity-70 leading-[150%]">
+                <p className="xl:mb-[34px] lg:mb-[25px] mb-[10px] text-sm font-normal opacity-70 leading-[150%]">
                   {data.para}
                 </p>
                 <div className="flex items-center">
-                  <button className="flex justify-center items-center overflow-hidden sm:h-[47px] h-[51px] sm:w-[122px] w-[164px] text-sm text-white font-semibold rounded-[4px] bg-[#076787] border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-[#076787]  hover:bg-white">
+                  <button className="flex justify-center items-center overflow-hidden h-[47px] w-[164px]  text-sm text-white font-semibold rounded-[4px] bg-[#076787] border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-[#076787]  hover:bg-white">
                     Marketting
                   </button>
                   <p className="sm:text-sm text-[15px] font-normal leading-[normal] text-[#000] sm:ms-[21px] ms-2 whitespace-nowrap">

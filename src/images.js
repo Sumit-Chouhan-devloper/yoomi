@@ -52,8 +52,8 @@ export const Images = {
   knowMoreBigSeminar2: "/assets/landing-assets/png/know_more-big-img-2.png",
   forecastIcon: "/assets/landing-assets/svg/forecastIcon.svg",
   // about pages images
-  aboutTopSlider1: "/assets/landing-assets/webp/about-top-slider1.webp",
-  aboutTopSlider2: "/assets/landing-assets/webp/about-top-slider2.webp",
+  aboutTopSlider1: "/assets/about-assets/webp/about-top-slider1.webp",
+  aboutTopSlider2: "/assets/about-assets/webp/about-top-slider2.webp",
   headerIcon1: "/assets/about-assets/png/header-icon.png",
   headerIcon2: "/assets/about-assets/png/header-icon-2.png",
   commonIcon: "/assets/about-assets/png/common-hero-img-1.png",
@@ -90,4 +90,5 @@ export const Images = {
   newsImage2: "/assets/news-assets/png/News2.png",
   newsImage3: "/assets/news-assets/png/News3.png",
   our_Work_start: "/assets/about-assets/png/our_mission_bottom-start.png",
+  newsSideImage: "/assets/news-assets/svg/sideImg.svg",
 };

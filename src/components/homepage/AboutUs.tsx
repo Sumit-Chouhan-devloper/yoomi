@@ -2,7 +2,6 @@ import React from "react";
 import { Images } from "../../images";
 import Slider from "react-slick";
 import { aboutUsSlider } from "../common/Helper";
-import SignUp from "../common/SignUp";
 const AboutUs = () => {
   const settings = {
     dots: false,
@@ -136,7 +135,6 @@ const AboutUs = () => {
               </svg>
             </span>
           </div>
-          <SignUp />
         </div>
       </div>
     </>
