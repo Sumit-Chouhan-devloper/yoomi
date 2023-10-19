@@ -41,9 +41,9 @@ const Footer = () => {
                 +123 456 789
               </a>
             </div>
-            <div className="max-[450px]:w-full w-10/12 sm:w-8/12 md:w-6/12 lg:w-4/12">
-              <div className="flex flex-wrap">
-                <div className="w-6/12">
+            <div className="max-[450px]:w-full w-full sm:w-8/12 md:w-6/12 lg:w-4/12">
+              <div className="flex flex-wrap justify-between">
+                <div className="sm:w-6/12">
                   <h3 className=" text-xs font-semibold leading-[normal] text-white">
                     About Us
                   </h3>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8] "
-                        href="#team"
+                        href="/about#team"
                       >
                         Meet the Team
                       </a>
@@ -59,22 +59,22 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        href="/about#mission"
                       >
                         Our Mission
                       </a>
                     </li>
                     <li>
                       <a
-                        className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        className=" text-xs  font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
+                        href="/about#vision"
                       >
                         Our Vision
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div className="w-3/12">
+                <div className="sm:w-3/12">
                   <h3 className=" text-xs font-semibold leading-[normal] text-white whitespace-nowrap">
                     Contact Us
                   </h3>
@@ -82,7 +82,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        href="https://twitter.com/i/flow/login"
                       >
                         Twitter
                       </a>
@@ -90,7 +90,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        href="https://www.instagram.com/"
                       >
                         Instagram
                       </a>
@@ -98,14 +98,14 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        href="https://www.facebook.com/LinkedIn/"
                       >
                         Linkedin
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div className="w-3/12 flex flex-col items-end">
+                <div className="sm:w-3/12 flex flex-col items-end">
                   <h3 className=" text-xs font-semibold leading-[normal] text-white pe-2">
                     News
                   </h3>
@@ -113,7 +113,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="#team"
+                        href="/news"
                       >
                         Recent
                       </a>

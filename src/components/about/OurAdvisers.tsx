@@ -30,7 +30,7 @@ const OurAdvisers = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-white pb-6 pt-[94px] xl:pt-[120px] relative">
+      <div className="bg-white pb-6 pt-[94px] xl:pt-[120px] relative" id="vision">
       <img
               src={Images.our_Work_start}
               alt="common-hero-img-1"
