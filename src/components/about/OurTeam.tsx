@@ -34,7 +34,7 @@ const OurTeam = () => {
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
-          className="absolute top-[30%] end-[-13%] z-[0] hidden lg:block w-[19%]"
+          className="absolute top-[30%] end-[-10%] z-[0] hidden lg:block w-[19%]"
         />
 
         <img
@@ -45,7 +45,7 @@ const OurTeam = () => {
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
-          className="absolute top-[40%] start-[-13%] hidden lg:block w-[16%]"
+          className="absolute top-[52%] start-[-13%] hidden lg:block w-[16%]"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-deep-blue ff_inter text-xs sm:text-sm font-medium leading-normal text-center uppercase mb-[10px] sm:mb-[6px]">
@@ -119,7 +119,7 @@ const OurTeam = () => {
           </div>
           <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
             <div
-              className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow h-[25px] w-[25px] ms-[-1px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}
             >
               <svg
@@ -139,7 +139,7 @@ const OurTeam = () => {
               </svg>
             </div>
             <div
-              className="slider_arrow h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow h-[25px] me-[-1px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickPrev()}
             >
               <svg
