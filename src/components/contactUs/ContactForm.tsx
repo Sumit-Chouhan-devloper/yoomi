@@ -62,7 +62,7 @@ const ContactForm = () => {
                   }
                   value={TypicalForm.name}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
                   {error && TypicalForm.name === ""
                     ? "First Name is required"
                     : null}
@@ -81,9 +81,9 @@ const ContactForm = () => {
                   }
                   value={TypicalForm.last}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
                   {error && TypicalForm.last === ""
-                    ? "Last Name is required"
+                    ? ""
                     : null}
                 </p>
               </div>
@@ -105,7 +105,7 @@ const ContactForm = () => {
                   }
                   value={TypicalForm.email}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
                   {error && TypicalForm.email === "" ? (
                     "Email is required"
                   ) : error && regex.test(TypicalForm.email) === false ? (
@@ -143,7 +143,7 @@ const ContactForm = () => {
                 />
                 <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
                   {error && TypicalForm.textarea === ""
-                    ? "Text is required"
+                    ? ""
                     : null}
                 </p>
               </div>
