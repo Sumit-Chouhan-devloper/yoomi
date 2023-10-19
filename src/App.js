@@ -21,15 +21,17 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path={routes.HOME} element={<Main />} />
-          <Route path={"/contact-us"} element={<ContactUs />} />
-          <Route path={"/about"} element={<About />} />
-          <Route path={"/news"} element={<News />} />
-        </Routes>
-      </BrowserRouter>
-      <BackToTop />
+      <div className="max-w-[2200px] mx-auto overflow-hidden">
+        <BrowserRouter>
+          <Routes>
+            <Route path={routes.HOME} element={<Main />} />
+            <Route path={"/contact-us"} element={<ContactUs />} />
+            <Route path={"/about"} element={<About />} />
+            <Route path={"/news"} element={<News />} />
+          </Routes>
+        </BrowserRouter>
+        <BackToTop />
+      </div>
     </>
   );
 }
