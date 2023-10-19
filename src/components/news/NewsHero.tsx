@@ -18,7 +18,7 @@ const NewsHero = () => {
               className="absolute bottom-0 end-0"
             />
             <h2 className="uppercase font-medium text-xs sm:text-sm text-deep-blue">
-              Lastest News
+              Latest News
             </h2>
             <h3 className="text-[32px] sm:text-6xl text-black text-center ff_Jakarta">
               News &<span className="font-semibold">Updates</span>

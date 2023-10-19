@@ -142,7 +142,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="flex items-center sm:justify-center mt-4">
-            <button className="flex justify-center items-center overflow-hidden sm:h-[53px] h-[51px] sm:w-[160px] w-[129px] sm:text-[18px] text-[16px] text-white font-medium bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white text-center rounded-[5px]">
+            <button className="flex justify-center items-center overflow-hidden h-[47px] sm:w-[160px] w-[129px] sm:text-[18px] text-[16px] text-white font-medium bg-deep-blue border-solid border-[2px] border-[#076787] duration-300 ease-linear hover:text-deep-blue hover:bg-white text-center rounded-[5px]">
               Submit
             </button>
           </div>
