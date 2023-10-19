@@ -57,7 +57,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                         <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                           {data.newsMainDate}
                         </h3>
-                        <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                        <button className="py-[9.5px] px-[39px] hover:bg-white border-2 border-transparent hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                           Marketting
                         </button>
                       </div>
@@ -69,7 +69,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                       <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                         {data.newsMainDate}
                       </h3>
-                      <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                      <button className="py-[9.5px] px-[39px] hover:bg-white border-2 border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                         Marketting
                       </button>
                     </div>
@@ -146,7 +146,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                     </p>
                   </div>
                   <div className="flex gap-[22px] items-center mt-6">
-                    <button className="py-[12.5px] px-[42px] hover:bg-white border border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                    <button className="py-[9.5px] px-[42px] hover:bg-white border-2 border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                       Marketing
                     </button>
                     <h4 className="text-black ff_Jakarta text-sm font-normal">
