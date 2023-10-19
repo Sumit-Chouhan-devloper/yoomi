@@ -50,14 +50,14 @@ const MainNews: React.FC<MainNewsProps> = () => {
                               ? "sm:!block"
                               : ""
                           }`}>
-                          {data.newsMainBoldHeading}
+                          &nbsp;{data.newsMainBoldHeading}
                         </span>
                       </h2>
                       <div className=" hidden lg:flex justify-between items-center gap-[22px] w-full lg:w-auto ">
                         <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                           {data.newsMainDate}
                         </h3>
-                        <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                        <button className="py-[9.5px] px-[39px] hover:bg-white border-2 border-transparent hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                           Marketting
                         </button>
                       </div>
@@ -69,7 +69,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                       <h3 className=" ff_Jakarta text-sm font-normal leading-[100%]">
                         {data.newsMainDate}
                       </h3>
-                      <button className="py-[12.5px] px-[39px] hover:bg-white border border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                      <button className="py-[9.5px] px-[39px] hover:bg-white border-2 border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                         Marketting
                       </button>
                     </div>
@@ -126,7 +126,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                 key={i}
                 onClick={() => handleTabClick(i)}>
                 <div className="px-3 pb-5 pt-3 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full">
-                  <div className="lg:min-h-[477px]">
+                  <div className="lg:min-h-[426px] xl:min-h-[477px]">
                     <img src={data.newsImage} alt="sub content" />
                     <h3 className="ff_Jakarta text-xl sm:text-2xl font-medium leading-[120%] mt-[18px] mb-4">
                       {data.newsHeading}
@@ -146,7 +146,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                     </p>
                   </div>
                   <div className="flex gap-[22px] items-center mt-6">
-                    <button className="py-[12.5px] px-[42px] hover:bg-white border border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
+                    <button className="py-[9.5px] px-[42px] hover:bg-white border-2 border-transparent  hover:border-deep-blue hover:text-deep-blue transition-all duration-300 ease-linear bg-[#076787] text-white text-sm font-semibold rounded-[4px]">
                       Marketing
                     </button>
                     <h4 className="text-black ff_Jakarta text-sm font-normal">
