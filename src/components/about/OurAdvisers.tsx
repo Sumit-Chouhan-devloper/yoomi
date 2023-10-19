@@ -69,7 +69,7 @@ const OurAdvisers = () => {
               })} 
             </div>
           </div>
-          <div className="sm:hidden">
+          <div className="sm:hidden max-w-[500px] mx-auto">
             <Slider {...settings} ref={first} className="ourAdvisorSlider">
               {ourAdviser.map((OurData, i) => {
                 return (

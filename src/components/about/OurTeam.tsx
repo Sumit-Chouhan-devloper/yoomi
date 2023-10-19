@@ -64,13 +64,15 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[11px] my-[10px] group overflow-hidden">
-                        <img
-                          className="w-full group-hover:scale-105 transition duration-300"
-                          src={OurData.CardImages}
-                          alt="team-member"
-                        />
-                        <div className="bg-white py-[30px] rounded-b-[5px]">
+                      <div className="mx-[11px] bg-white my-[10px] group overflow-hidden rounded-[5px]">
+                        <div>
+                          <img
+                            className="w-full group-hover:scale-105 rounded-b-[5px] transition duration-300"
+                            src={OurData.CardImages}
+                            alt="team-member"
+                          />
+                        </div>
+                        <div className="py-[30px] rounded-b-[5px]">
                           <h4 className="text-center text-black  mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
@@ -85,7 +87,7 @@ const OurTeam = () => {
               })}
             </div>
           </div>
-          <div className="sm:hidden relative">
+          <div className="sm:hidden relative max-w-[500px] mx-auto">
             <img
               src={Images.our_Work_start}
               alt="common-hero-img-1"
@@ -96,13 +98,13 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[5px] group">
+                      <div className="mx-[5px] group bg-white">
                         <img
                           className="w-full"
                           src={OurData.CardImages}
                           alt="team-member"
                         />
-                        <div className="bg-white py-[30px] rounded-b-[5px]">
+                        <div className=" py-[30px] rounded-b-[5px]">
                           <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
