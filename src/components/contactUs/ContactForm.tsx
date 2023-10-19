@@ -1,35 +1,31 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { Images } from "../../images";
-const ContactForm = () => {
+const Contactform = () => {
   const [phone, setPhone] = useState<string>("");
-  const [TypicalForm, setTypicalForm] = useState({
+  const [typicalform, setTypicalForm] = useState({
     name: "",
     last: "",
-    phone: "",
     textarea: "",
     email: "",
   });
-  const [error, setError] = useState<boolean>(false);
-  const regex: RegExp =
+  const [error, setError] = useState(false);
+  const regex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
   const OnsubmitHandler = (e: React.FormEvent) => {
     e.preventDefault();
     setError(true);
     if (
-      TypicalForm.name !== "" &&
-      TypicalForm.last !== "" &&
-      TypicalForm.phone !== "" &&
-      TypicalForm.textarea !== "" &&
-      TypicalForm.email !== "" &&
-      regex.test(TypicalForm.email)
+      typicalform.name !== "" &&
+      typicalform.last !== "" &&
+      typicalform.textarea !== "" &&
+      typicalform.email !== "" &&
+      regex.test(typicalform.email)
     ) {
       setError(false);
       setTypicalForm({
         name: "",
         last: "",
-        phone: "",
         textarea: "",
         email: "",
       });
@@ -58,12 +54,12 @@ const ContactForm = () => {
                   className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                   placeholder="First Name"
                   onChange={(e) =>
-                    setTypicalForm({ ...TypicalForm, name: e.target.value })
+                    setTypicalForm({ ...typicalform, name: e.target.value })
                   }
-                  value={TypicalForm.name}
+                  value={typicalform.name}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                  {error && TypicalForm.name === ""
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                  {error && typicalform.name === ""
                     ? "First Name is required"
                     : null}
                 </p>
@@ -77,14 +73,12 @@ const ContactForm = () => {
                   placeholder="Last Name"
                   className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                   onChange={(e) =>
-                    setTypicalForm({ ...TypicalForm, last: e.target.value })
+                    setTypicalForm({ ...typicalform, last: e.target.value })
                   }
-                  value={TypicalForm.last}
+                  value={typicalform.last}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                  {error && TypicalForm.last === ""
-                    ? "Last Name is required"
-                    : null}
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                  {error && typicalform.last === "" ? "" : null}
                 </p>
               </div>
             </div>
@@ -99,16 +93,16 @@ const ContactForm = () => {
                   className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] placeholder:opacity-50 placeholder:text-[#000] text-[#000] font-inter text-xs font-normal leading-[normal] h-[57px] ps-[15px]"
                   onChange={(e) =>
                     setTypicalForm({
-                      ...TypicalForm,
+                      ...typicalform,
                       email: e.target.value,
                     })
                   }
-                  value={TypicalForm.email}
+                  value={typicalform.email}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]">
-                  {error && TypicalForm.email === "" ? (
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                  {error && typicalform.email === "" ? (
                     "Email is required"
-                  ) : error && regex.test(TypicalForm.email) === false ? (
+                  ) : error && regex.test(typicalform.email) === false ? (
                     <p className="text-rose-500 font-medium">Email Not Valid</p>
                   ) : (
                     ""
@@ -137,14 +131,12 @@ const ContactForm = () => {
                 <textarea
                   className="w-full border bg-white focus-visible:border-deep-blue focus-visible:outline-none rounded-[5px] border-[rgba(0,0,0,0.10)] text-[#000] font-inter text-xs font-normal leading-[normal] md:h-[195px] sm:h-[100px] ps-[15px] pt-3 h-[93px]"
                   onChange={(e) =>
-                    setTypicalForm({ ...TypicalForm, textarea: e.target.value })
+                    setTypicalForm({ ...typicalform, textarea: e.target.value })
                   }
-                  value={TypicalForm.textarea}
+                  value={typicalform.textarea}
                 />
                 <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] ">
-                  {error && TypicalForm.textarea === ""
-                    ? "Text is required"
-                    : null}
+                  {error && typicalform.textarea === "" ? "" : null}
                 </p>
               </div>
             </div>
@@ -160,4 +152,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Contactform;
