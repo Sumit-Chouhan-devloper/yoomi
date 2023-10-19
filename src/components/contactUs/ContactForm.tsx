@@ -107,7 +107,7 @@ const Contactform = () => {
                   }
                   value={typicalform.email}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]  text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.email === "" ? (
                     "Email is required"
                   ) : error && regex.test(typicalform.email) === false ? (
