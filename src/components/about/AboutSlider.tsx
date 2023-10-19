@@ -44,7 +44,7 @@ const AboutSlider = () => {
             <img className="min-h-[169px] sm:min-h-[284px]" src={Images.aboutTopSlider2} alt="doctor with patient" />
           </div>
         </Slider>
-        <div className="flex justify-center gap-2 sm:gap-4 md:gap-5 pt-[20px] sm:pt-8">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-5 pt-[20px] sm:pt-8 xl:pt-0">
           <div
             className="sm:h-[34px] pe-[1.5px] !relative xl:!absolute xl:top-1/2 slider_arrow  xl:bottom-[-30%]  xl:translate-y-[-50%] xl:left-[-4%] sm:w-[34px] flex justify-center items-center h-[25px] w-[25px] transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
             onClick={() => first.current?.slickNext()}
