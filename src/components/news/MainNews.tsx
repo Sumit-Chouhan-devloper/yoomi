@@ -50,7 +50,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                               ? "sm:!block"
                               : ""
                           }`}>
-                          {data.newsMainBoldHeading}
+                          &nbsp;{data.newsMainBoldHeading}
                         </span>
                       </h2>
                       <div className=" hidden lg:flex justify-between items-center gap-[22px] w-full lg:w-auto ">
