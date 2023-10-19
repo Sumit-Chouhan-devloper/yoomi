@@ -67,7 +67,7 @@ const Footer = () => {
                     <li>
                       <a
                         className=" text-xs  font-normal leading-[normal] text-white  transition-all ease-linear hover:text-[#ddd8d8]"
-                        href="/about#vision"
+                        href="/#vision"
                       >
                         Our Vision
                       </a>
