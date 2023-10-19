@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SignUp from "../common/SignUp";
 import { newsData, mainNewsContent } from "../common/Helper";
 import { Images } from "../../images";
@@ -17,19 +17,19 @@ const MainNews: React.FC<MainNewsProps> = () => {
   };
   // const { pathname } = useLocation(); // Get the current pathname
   // const tryPathname = pathname.split("/");
-
-  window.onload = () => {
+  useEffect(() => {
     var nextTab1 = (0 + 1) % newsData.length;
     var nextTab2 = (0 + 2) % newsData.length;
     if (window.location.pathname === "/news-details/yoomi-Awarded-Rehab") {
       nextTab1 = (1 + 1) % newsData.length;
       nextTab2 = (1 + 2) % newsData.length;
     } else if (window.location.pathname === "/news-details/yoomi-Wins-Hail") {
-      nextTab1 = (1 + 1) % newsData.length;
-      nextTab2 = (1 + 2) % newsData.length;
+      nextTab1 = (2 + 1) % newsData.length;
+      nextTab2 = (2 + 2) % newsData.length;
     }
     setCurrentTabs([nextTab1, nextTab2]);
-  };
+  }, []);
+
   console.log(`Hidden tabs: ${currentTabs.join(", ")}`);
 
   return (
@@ -135,12 +135,12 @@ const MainNews: React.FC<MainNewsProps> = () => {
           <div className=" flex flex-wrap mx-[-24px] mt-8 sm:mt-6 lg:mt-5 justify-evenly">
             {newsData.map((data, i) => (
               <div
-                className={`w-full lg:w-[48%] xl:w-6/12 px-3 mt-8 lg:mt-0 ${
+                className={`w-full sm:w-11/12 lg:w-[48%] xl:w-6/12 px-3 mt-8 lg:mt-0 ${
                   currentTabs.includes(i) ? "block" : "hidden"
                 }`}
                 key={i}
                 onClick={() => handleTabClick(i)}>
-                <div className="px-3 pb-5 pt-3 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full">
+                <div className="p-4 md:p-5 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full max-[639.98px]:max-w-[500px]">
                   <div className="lg:min-h-[426px] xl:min-h-[477px]">
                     <img src={data.newsImage} alt="sub content" />
                     <h3 className="ff_Jakarta text-xl sm:text-2xl font-medium leading-[120%] mt-[18px] mb-4">
