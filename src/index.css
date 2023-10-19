@@ -63,7 +63,3 @@
     height: 490px !important;
   }
 }
-@media (min-width:450px) {
-  .about_hero_card{min-height: 520px;}
-  
-}
