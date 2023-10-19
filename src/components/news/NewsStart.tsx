@@ -1,6 +1,5 @@
 import React from "react";
 import { StartNews } from "../common/Helper";
-import SignUp from "../common/SignUp";
 import { useNavigate } from "react-router-dom";
 const NewsStart = () => {
   const navigate = useNavigate();
@@ -48,7 +47,6 @@ const NewsStart = () => {
             </div>
           );
         })}
-        <SignUp />
       </div>
     </>
   );

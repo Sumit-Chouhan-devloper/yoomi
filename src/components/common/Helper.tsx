@@ -222,16 +222,8 @@ export const StartNews = [
     date: "January 5, 2023",
   },
   {
-    newsPathname: "/news-details/yoomi-Awarded-Rehab",
-    newsImage: Images.newsImage3,
-    heading: "Yoomi Awarded Rehab ",
-    boldHeading: "Price From NIH",
-    para: "Yoomi recieves the National Center for Medical Rehabilitation, NICHD Prize for Assistive/Rehabilitative Technologies.",
-    date: "August 26, 2022",
-  },
-  {
     newsPathname: "/news-details/yoomi-Wins-Hail",
-    newsImage: Images.newsImage2,
+    newsImage: Images.newsImage3,
     heading: "Yoomi Wins Hail ",
     boldHeading: "Mary CVontest",
     para: "Yoomi wins $46k in Dr Pepper Hail Mary Contest, pitching to Mark Cuban, Charlotte Jones, and Jon Seaton.",
