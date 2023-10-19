@@ -7,7 +7,7 @@ const AboutHero = () => {
         <img
           src={Images.commonIcon}
           alt="common-hero-img-1"
-          className="absolute sm:hidden start-0 top-[16%] z-[11] w-[13%]"
+          className="absolute sm:hidden start-0 top-[12%] z-[11] w-[13%]"
         />
         <div className="bg-deep-blue w-full h-[25px] absolute top-[56%] translate-y-[-50%]"></div>
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative z-10">

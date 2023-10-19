@@ -30,7 +30,7 @@ const OurTeam = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-[#F5F8FA] lg:pb-[91px] py-10 sm:py-12 lg:pt-[76px] relative">
+      <div className="bg-[#F5F8FA] lg:pb-[91px] py-10 sm:py-12 lg:pt-[76px] relative" id="team">
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
@@ -103,10 +103,10 @@ const OurTeam = () => {
                           alt="team-member"
                         />
                         <div className="bg-white py-[30px] rounded-b-[5px]">
-                          <h4 className="text-center text-black  mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
+                          <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
-                          <p className="text-center text-black ff_inter text-xl sm:text-[24px] font-normal leading-normal opacity-90 mb-0">
+                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
                             {OurData.para}
                           </p>
                         </div>
