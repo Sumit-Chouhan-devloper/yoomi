@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import SignUp from "../common/SignUp";
-import { newsData, mainNewsContent } from "../common/Helper";
+import { newsData, mainNewsContent, StartNews } from "../common/Helper";
 import { Images } from "../../images";
+import { useNavigate } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
 
 type MainNewsProps = {};
@@ -29,7 +30,11 @@ const MainNews: React.FC<MainNewsProps> = () => {
     }
     setCurrentTabs([nextTab1, nextTab2]);
   }, []);
+  const navigate = useNavigate();
 
+  const handleNavigateToNewsDetails = (i: number) => {
+    navigate(`${StartNews[i].newsPathname}`);
+  };
   console.log(`Hidden tabs: ${currentTabs.join(", ")}`);
 
   return (
@@ -139,7 +144,11 @@ const MainNews: React.FC<MainNewsProps> = () => {
                   currentTabs.includes(i) ? "block" : "hidden"
                 }`}
                 key={i}
-                onClick={() => handleTabClick(i)}>
+                onClick={() => {
+                  // eslint-disable-next-line
+                  handleNavigateToNewsDetails(i);
+                  handleTabClick(i);
+                }}>
                 <div className="p-4 md:p-5 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full max-[639.98px]:max-w-[500px]">
                   <div className="lg:min-h-[426px] xl:min-h-[477px]">
                     <img src={data.newsImage} alt="sub content" />
