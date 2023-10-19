@@ -1,6 +1,5 @@
 import React from "react";
 import { StartNews } from "../common/Helper";
-import SignUp from "../common/SignUp";
 import { useNavigate } from "react-router-dom";
 const NewsStart = () => {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ const NewsStart = () => {
 
   return (
     <>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-[200px] mt-[150px]">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-[200px] mt-[150px] flex items-center flex-col">
         {StartNews.map((data, i) => {
           return (
             <div
@@ -48,7 +47,6 @@ const NewsStart = () => {
             </div>
           );
         })}
-        <SignUp />
       </div>
     </>
   );

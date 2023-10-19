@@ -48,9 +48,9 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[472px] sm:min-h-[450px] md:min-h-[500px] group overflow-hidden">
+                      <div className="m-[10px] bg-[#E6F0F3] rounded-[5px] min-h-[472px] sm:min-h-[450px] hover:scale-[1.02] transition duration-300 md:min-h-[500px]">
                         <img
-                          className="w-full group-hover:scale-105 transition duration-300"
+                          className="w-full"
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
@@ -69,7 +69,7 @@ const OurAdvisers = () => {
               })} 
             </div>
           </div>
-          <div className="sm:hidden">
+          <div className="sm:hidden max-w-[500px] mx-auto">
             <Slider {...settings} ref={first} className="ourAdvisorSlider">
               {ourAdviser.map((OurData, i) => {
                 return (
@@ -99,7 +99,7 @@ const OurAdvisers = () => {
           </div>
           <div className="flex gap-[10px] mt-[22px] justify-center sm:hidden">
             <div
-              className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow h-[25px] w-[25px] about_slider_icon flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}>
               <svg
                 width="7"
@@ -118,7 +118,7 @@ const OurAdvisers = () => {
             </div>
 
             <div
-              className="slider_arrow me-[-1px] h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow me-[-1px] h-[25px] w-[25px] about_slider_icon flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickPrev()}>
               <svg
                 width="7"

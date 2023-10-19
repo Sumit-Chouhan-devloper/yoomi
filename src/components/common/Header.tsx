@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.headerIcon1}
             alt="hero-right"
-            className="absolute z-[-1] top-[100%] xl:w-[6%] lg:w-[5%] md:w-[7%] sm:w-[7%] w-[8%] pointer-events-none"
+            className="absolute z-[-1] top-[100%] xl:w-[6%] lg:w-[5%] md:w-[7%] sm:w-[7%] w-[8%] 2xl:w-[5%] pointer-events-none"
           />
         )}
         {path === "/" ? (

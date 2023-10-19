@@ -11,15 +11,15 @@ const SignUp = () => {
           id="news"
         >
           <img
-            className=" absolute bottom-0 right-0 min-w-[140px] max-w-[15%]"
+            className="absolute bottom-0 right-0 min-w-[140px] max-w-[15%] hidden sm:block"
             src={Images.Yoomi_translatecard_icon}
             alt="Yoomi_translatecard_icon"
           />
           <div className="flex flex-wrap justify-between">
-            <div className="lg:w-6/12">
+            <div className="w-full lg:w-6/12 text-center sm:text-start">
               <div className="flex flex-col justify-center h-full">
                 {" "}
-                <div>
+                <div className="m-auto sm:m-[unset]">
                   {" "}
                   <img
                     className="w-44 sm:w-[200px] h-[45px] md:w-[228px] md:h-[55px]"
@@ -31,7 +31,7 @@ const SignUp = () => {
                   Sign Up to Join
                   <span className=" font-semibold"> Our Newsletter</span>
                 </h2>
-                <form className="w-full sm:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center">
+                <form className="w-full lg:w-[429px] h-[45px] sm:h-[57px] bg-white rounded-[4px] shadow-lg shadow-[0px_4px_15px_0px_rgba(7,103,135,0.15) flex items-center justify-between">
                   <input
                     type="email"
                     placeholder="Enter Your Email"
@@ -44,7 +44,7 @@ const SignUp = () => {
                 </form>
               </div>
             </div>
-            <div className="w-full mt-12 lg:mt-0 lg:w-4/12 flex justify-center">
+            <div className="w-full mt-12 lg:mt-0 lg:w-4/12 hidden sm:flex justify-center">
               <img
                 className="max-[600px]:w-[75%]"
                 src={Images.yomiFooterNewsCharacter}
