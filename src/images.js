@@ -89,4 +89,5 @@ export const Images = {
   newsImage2: "/assets/news-assets/png/News2.png",
   newsImage3: "/assets/news-assets/png/News3.png",
   our_Work_start: "/assets/about-assets/png/our_mission_bottom-start.png",
+  newsSideImage: "/assets/news-assets/svg/sideImg.svg",
 };

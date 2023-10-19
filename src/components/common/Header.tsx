@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.heroLeftIcon}
             alt="hero-left-icon"
-            className="absolute max-[1024px]:top-24 max-[1366px]:top-44 max-[1599px]:top-24 left-0 max-[1366px]:w-[10%] top-40"
+            className="absolute max-[1024px]:top-24 max-[1366px]:top-44 max-[1599px]:top-24 left-0 max-[1366px]:w-[10%]  top-40 pointer-events-none"
           />
         ) : (
           ""
@@ -53,7 +53,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.heroRightIcon}
             alt="hero-right-icon"
-            className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 max-[1599px]:top-36 max-[1366px]:w-[15%] top-56"
+            className="absolute end-0 max-[992px]:top-64 max-[1366px]:top-48 max-[1599px]:top-36 max-[1366px]:w-[15%] top-56 pointer-events-none"
           />
         ) : (
           ""
@@ -62,7 +62,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.heroBottomLayer}
             alt="hero-layer"
-            className="absolute bottom-0 w-full"
+            className="absolute bottom-0 w-full pointer-events-none"
           />
         ) : (
           ""
@@ -71,7 +71,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.heroLeftPot}
             alt="hero-left-pot"
-            className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[19%] 2xl:bottom-[21%]"
+            className="absolute start-8 max-[576px]:w-[12%] max-[1024px]:w-[10%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[19%] 2xl:bottom-[21%] pointer-events-none"
           />
         ) : (
           ""
@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.heroRightPot}
             alt="hero-right-pot"
-            className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[21%]"
+            className="absolute end-[18%] max-[576px]:w-[8%] max-[1024px]:w-[6%] bottom-[8%] md:bottom-[12%] lg:bottom-[19%] xl:bottom-[21%] pointer-events-none"
           />
         ) : (
           ""
@@ -91,7 +91,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.headerIcon1}
             alt="hero-right"
-            className="absolute z-[-1] top-[100%] max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+            className="absolute z-[-1] top-[100%] xl:w-[6%] lg:w-[5%] md:w-[7%] sm:w-[7%] w-[8%] pointer-events-none"
           />
         )}
         {path === "/" ? (
@@ -100,7 +100,7 @@ export const Header: React.FC = () => {
           <img
             src={Images.headerIcon2}
             alt="hero-right"
-            className="absolute z-[-1] top-[85%] sm:top-0 end-0 max-[576px]:w-[8%] max-[1024px]:w-[6%]"
+            className="absolute z-[-1] top-[85%] sm:top-0 end-0 xl:w-[6%] lg:w-[5%] md:w-[7%] sm:w-[7%] w-[8%] pointer-events-none"
           />
         )}
         <div>

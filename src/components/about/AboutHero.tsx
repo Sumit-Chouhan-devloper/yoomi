@@ -9,7 +9,7 @@ const AboutHero = () => {
           alt="common-hero-img-1"
           className="absolute sm:hidden start-0 top-[12%] z-[11] w-[13%]"
         />
-        <div className="bg-deep-blue w-full h-[25px] absolute top-[56%] translate-y-[-50%]"></div>
+        <div className="bg-deep-blue w-full h-[25px] absolute top-[56%] translate-y-[-50%] pointer-events-none"></div>
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 relative z-10">
           <div className="bg-white px-[6px] sm:px-4 md:px-8 lg:px-0 rounded-[32px] shadow-lg shadow-[0px_26px_27px_0px_rgba(0, 0, 0, 0.04)] min-h-[606px] sm:min-h-[432px] flex justify-center items-center flex-col relative">
             <img
@@ -51,7 +51,7 @@ const AboutHero = () => {
                 therapy that more effectively supports patients, while providing
                 physical
                 <span className="font-semibold ps-1">
-                   therapists with the tools
+                  therapists with the tools
                 </span>{" "}
                 and data they need to improve care. The goal is to ensure that
                 no patients goes through the experience Ben and others go
