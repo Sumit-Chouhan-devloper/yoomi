@@ -70,7 +70,7 @@ const OurAdvisers = () => {
             </div>
           </div>
           <div className="sm:hidden">
-            <Slider {...settings} ref={first}>
+            <Slider {...settings} ref={first} className="ourAdvisorSlider">
               {ourAdviser.map((OurData, i) => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
