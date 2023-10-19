@@ -13,6 +13,8 @@
     "activeNavOverlay": "readonly",
     "setActiveNavOverlay": "readonly",
     "MainNewsProps": "readonly",
+    "handleNavigateToNewsDetails": "readonly",
+    "newsPathname": "readonly",
     "active": "readonly"
   },
 
