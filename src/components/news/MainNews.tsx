@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SignUp from "../common/SignUp";
 import { newsData, mainNewsContent } from "../common/Helper";
 import { Images } from "../../images";
+// import { useLocation } from "react-router-dom";
 
 type MainNewsProps = {};
 
@@ -14,7 +15,21 @@ const MainNews: React.FC<MainNewsProps> = () => {
 
     setCurrentTabs([nextTab1, nextTab2]);
   };
+  // const { pathname } = useLocation(); // Get the current pathname
+  // const tryPathname = pathname.split("/");
 
+  window.onload = () => {
+    var nextTab1 = (0 + 1) % newsData.length;
+    var nextTab2 = (0 + 2) % newsData.length;
+    if (window.location.pathname === "/news-details/yoomi-Awarded-Rehab") {
+      nextTab1 = (1 + 1) % newsData.length;
+      nextTab2 = (1 + 2) % newsData.length;
+    } else if (window.location.pathname === "/news-details/yoomi-Wins-Hail") {
+      nextTab1 = (1 + 1) % newsData.length;
+      nextTab2 = (1 + 2) % newsData.length;
+    }
+    setCurrentTabs([nextTab1, nextTab2]);
+  };
   console.log(`Hidden tabs: ${currentTabs.join(", ")}`);
 
   return (
