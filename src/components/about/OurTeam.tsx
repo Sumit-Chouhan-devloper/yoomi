@@ -30,7 +30,7 @@ const OurTeam = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-[#F5F8FA] lg:pb-[91px] py-8 sm:py-12 lg:pt-[76px] relative">
+      <div className="bg-[#F5F8FA] lg:pb-[91px] py-10 sm:py-12 lg:pt-[76px] relative">
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
@@ -40,7 +40,7 @@ const OurTeam = () => {
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
-          className="absolute start-[-10%] xl:bottom-[-3%] lg:bottom-[-2.5%] md:bottom-[-2%]  hidden md:block w-[16%]"
+          className="absolute z-10 bottom-[-8%] sm:bottom-[-3%] start-[-4%] md:start-[-10%] xl:bottom-[-3%] lg:bottom-[-2.5%] md:bottom-[-2%]  w-[16%]"
         />
         <img
           src={Images.our_Work_start}
@@ -48,10 +48,10 @@ const OurTeam = () => {
           className="absolute top-[40%] start-[-13%] hidden lg:block w-[16%]"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <p className="text-deep-blue ff_inter text-xs sm:text-sm font-medium leading-normal text-center uppercase mb-[10px] sm:mb-2">
+          <p className="text-deep-blue ff_inter text-xs sm:text-sm font-medium leading-normal text-center uppercase mb-[10px] sm:mb-[6px]">
             OUR team
           </p>
-          <h2 className="text-black ff_Jakarta text-[32px] md:text-[36px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:mb-[18px]">
+          <h2 className="text-black ff_Jakarta text-[32px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:mb-[14px]">
             The Amazing Team
             <span className="font-semibold"> Behind Our Company</span>
           </h2>
@@ -89,7 +89,7 @@ const OurTeam = () => {
             <img
               src={Images.our_Work_start}
               alt="common-hero-img-1"
-              className="absolute bottom-[-30%] w-[25%] start-[-20%]"
+              className="absolute hidden  bottom-[-30%] w-[25%] start-[-20%]"
             />
             <Slider {...settings} ref={first}>
               {ourTeamData.map((OurData, i) => {
@@ -117,7 +117,7 @@ const OurTeam = () => {
               })}
             </Slider>
           </div>
-          <div className="flex gap-[10px] mt-[24px] justify-center sm:hidden">
+          <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
             <div
               className="slider_arrow h-[25px] w-[25px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}
