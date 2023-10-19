@@ -84,6 +84,7 @@ export const Images = {
   subSecondImageNews: "/assets/news-assets/png/NewsSecondImg-2.webp",
   commaImageNews: "/assets/news-assets/png/comma_news.webp",
   plusImageNews: "/assets/news-assets/png/plus__news.webp",
+  plusImageNewsSec: "/assets/news-assets/png/Plus__page_news.webp",
   // news
   newsImage1: "/assets/news-assets/png/News1.png",
   newsImage2: "/assets/news-assets/png/News2.png",
