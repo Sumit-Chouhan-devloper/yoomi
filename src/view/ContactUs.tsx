@@ -7,11 +7,17 @@ import ContactHero from "../components/contactUs/ContactUsHero";
 const ContactUs: React.FC = () => {
   return (
     <>
-      <Header />
-      <ContactHero />
-      <ContactForm />
-      <SignUp />
-      <Footer />
+      <div className=" relative z-50">
+        {" "}
+        <Header />
+      </div>
+      <div className=" relative z-0">
+        {" "}
+        <ContactHero />
+        <ContactForm />
+        <SignUp />
+        <Footer />
+      </div>
     </>
   );
 };
