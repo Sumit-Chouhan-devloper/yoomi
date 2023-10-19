@@ -80,8 +80,11 @@ export const Images = {
   our_adviser4: "/assets/about-assets/png/our_adviser4.png",
   // News Images
   mainImageNews: "/assets/news-assets/png/NewsHeadImg-1.webp",
+  mainImageNewsSecond: "/assets/news-assets/png/NewsHeadImg-2.webp",
+  mainImageNews3Rd: "../public/assets/news-assets/png/nih--.png",
   subFirstImageNews: "/assets/news-assets/png/NewsSecondImg-1.webp",
   subSecondImageNews: "/assets/news-assets/png/NewsSecondImg-2.webp",
+  subThreeImageNews: "/assets/news-assets/png/NewsSecondImg-3.webp",
   commaImageNews: "/assets/news-assets/png/comma_news.webp",
   plusImageNews: "/assets/news-assets/png/plus__news.webp",
   plusImageNewsSec: "/assets/news-assets/png/Plus__page_news.webp",

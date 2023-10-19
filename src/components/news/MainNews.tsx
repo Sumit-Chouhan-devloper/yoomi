@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SignUp from "../common/SignUp";
-import { newsData, mainNewsContent, StartNews } from "../common/Helper";
+import { newsData, mainNewsContent } from "../common/Helper";
 import { Images } from "../../images";
 import { useNavigate } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
@@ -21,10 +21,10 @@ const MainNews: React.FC<MainNewsProps> = () => {
   useEffect(() => {
     var nextTab1 = (0 + 1) % newsData.length;
     var nextTab2 = (0 + 2) % newsData.length;
-    if (window.location.pathname === "/news-details/yoomi-Awarded-Rehab") {
+    if (window.location.pathname === "/news-details/yoomi-awarded-rehab") {
       nextTab1 = (1 + 1) % newsData.length;
       nextTab2 = (1 + 2) % newsData.length;
-    } else if (window.location.pathname === "/news-details/yoomi-Wins-Hail") {
+    } else if (window.location.pathname === "/news-details/yoomi-wins-hail") {
       nextTab1 = (2 + 1) % newsData.length;
       nextTab2 = (2 + 2) % newsData.length;
     }
@@ -33,7 +33,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
   const navigate = useNavigate();
 
   const handleNavigateToNewsDetails = (i: number) => {
-    navigate(`${StartNews[i].newsPathname}`);
+    navigate(`${newsData[i].newsPathname}`);
   };
   console.log(`Hidden tabs: ${currentTabs.join(", ")}`);
 

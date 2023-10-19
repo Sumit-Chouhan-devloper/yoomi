@@ -149,7 +149,7 @@ export const mainNewsContent = [
       "These virtual sessions are designed to cater to a wide range of conditions, including sports injuries, orthopedic problems, neurological disorders, and chronic pain conditions. Therapists use video conferencing tools to assess patients' movements, monitor progress, and provide real-time feedback. Additionally, they educate patients about proper body mechanics, injury prevention, and self-care techniques.",
   },
   {
-    newsMainImage: Images.mainImageNews,
+    newsMainImage: Images.mainImageNewsSecond,
     newsMainHeading: "Yoomi and Rutger’s partner to Improve",
     newsMainBoldHeading: "physical therapy adherence",
     newsMainDate: "January 5, 2023",
@@ -183,8 +183,11 @@ export const mainNewsContent = [
       "These virtual sessions are designed to cater to a wide range of conditions, including sports injuries, orthopedic problems, neurological disorders, and chronic pain conditions. Therapists use video conferencing tools to assess patients' movements, monitor progress, and provide real-time feedback. Additionally, they educate patients about proper body mechanics, injury prevention, and self-care techniques.",
   },
 ];
+//
+//
 export const newsData = [
   {
+    newsPathname: "/news-details/yoomi-and-rutger-spartner-to-Improve",
     newsImage: Images.subFirstImageNews,
     newsHeading: "Yoomi and Rutger’s partner to Improve ",
     newsHeadingBold: " physical therapy adherence",
@@ -194,6 +197,7 @@ export const newsData = [
     id: 1,
   },
   {
+    newsPathname: "/news-details/yoomi-awarded-rehab",
     newsImage: Images.subSecondImageNews,
     newsHeading: "Yoomi Awarded Rehab ",
     newsHeadingBold: "Price From NIH",
@@ -203,7 +207,9 @@ export const newsData = [
     id: 2,
   },
   {
-    newsImage: Images.subFirstImageNews,
+    newsPathname: "/news-details/yoomi-wins-Hail",
+
+    newsImage: Images.subThreeImageNews,
     newsHeading: "Yoomi Wins ",
     newsHeadingBold: "Hail Mary Contest",
     newsPera:
@@ -212,9 +218,11 @@ export const newsData = [
     id: 3,
   },
 ];
+//
+//
 export const StartNews = [
   {
-    newsPathname: "/news-details/yoomi-and-Rutger-Spartner-to-Improve",
+    newsPathname: "/news-details/yoomi-and-rutger-spartner-to-Improve",
     newsImage: Images.newsImage1,
     heading: "Yoomi and Rutger’s partner to Improve",
     boldHeading: " physical therapy adherence",
@@ -222,7 +230,7 @@ export const StartNews = [
     date: "January 5, 2023",
   },
   {
-    newsPathname: "/news-details/yoomi-Wins-Hail",
+    newsPathname: "/news-details/yoomi-wins-Hail",
     newsImage: Images.newsImage3,
     heading: "Yoomi Wins Hail ",
     boldHeading: "Mary CVontest",
@@ -230,6 +238,7 @@ export const StartNews = [
     date: "November 14, 2022",
   },
   {
+    newsPathname: "/news-details/yoomi-awarded-rehab",
     newsImage: Images.newsImage2,
     heading: "Yoomi Awarded Rehab ",
     boldHeading: "Price From NIH",
