@@ -1,5 +1,6 @@
 import React from "react";
 import { StartNews } from "../common/Helper";
+import { Images } from "../../images";
 const NewsStart = () => {
   return (
     <>
