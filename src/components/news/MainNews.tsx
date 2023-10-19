@@ -126,7 +126,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                 key={i}
                 onClick={() => handleTabClick(i)}>
                 <div className="px-3 pb-5 pt-3 rounded-md shadow-[0px_9px_22px_0px_rgba(0,0,0,0.10)] flex flex-col justify-between h-full">
-                  <div>
+                  <div className="lg:min-h-[477px]">
                     <img src={data.newsImage} alt="sub content" />
                     <h3 className="ff_Jakarta text-xl sm:text-2xl font-medium leading-[120%] mt-[18px] mb-4">
                       {data.newsHeading}
@@ -141,7 +141,7 @@ const MainNews: React.FC<MainNewsProps> = () => {
                         {data.newsHeadingBold}
                       </span>
                     </h3>
-                    <p className="text-sm font-normal opacity-70 text-black leading-[150%]">
+                    <p className="text-sm font-normal opacity-70 text-black leading-[150%] ">
                       {data.newsPera}
                     </p>
                   </div>
