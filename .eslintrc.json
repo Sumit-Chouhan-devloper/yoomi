@@ -12,6 +12,7 @@
     "MobileNavProps": "readonly",
     "activeNavOverlay": "readonly",
     "setActiveNavOverlay": "readonly",
+    "MainNewsProps": "readonly",
     "active": "readonly"
   },
 
