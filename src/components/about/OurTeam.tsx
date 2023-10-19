@@ -64,10 +64,10 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[11px] bg-white my-[10px] group overflow-hidden rounded-[5px]">
+                      <div className="mx-[11px] bg-white my-[10px] hover:scale-[1.02] transition duration-300 overflow-hidden rounded-[5px]">
                         <div>
                           <img
-                            className="w-full group-hover:scale-105 rounded-b-[5px] transition duration-300"
+                            className="w-full rounded-b-[5px]"
                             src={OurData.CardImages}
                             alt="team-member"
                           />
@@ -98,13 +98,13 @@ const OurTeam = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[5px] group bg-white">
+                      <div className="mx-[5px] hover:scale-[1.02] transition duration-300 bg-white">
                         <img
                           className="w-full"
                           src={OurData.CardImages}
                           alt="team-member"
                         />
-                        <div className=" py-[30px] rounded-b-[5px]">
+                        <div className="py-[30px] rounded-b-[5px]">
                           <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
@@ -121,7 +121,7 @@ const OurTeam = () => {
           </div>
           <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
             <div
-              className="slider_arrow h-[25px] w-[25px] ms-[-1px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow h-[25px] w-[25px] about_slider_icon ms-[-1px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickNext()}
             >
               <svg
@@ -141,7 +141,7 @@ const OurTeam = () => {
               </svg>
             </div>
             <div
-              className="slider_arrow h-[25px] me-[-1px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow h-[25px] me-[-1px] w-[25px] about_slider_icon flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickPrev()}
             >
               <svg
