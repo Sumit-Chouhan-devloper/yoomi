@@ -30,7 +30,7 @@ const OurAdvisers = () => {
   const first = React.useRef<Slider | null>(null);
   return (
     <>
-      <div className="bg-white pb-6 pt-[94px] xl:pt-[120px] relative" id="vision">
+      <div className="bg-white pb-6 lg:pb-0 pt-[94px] xl:pt-[120px] relative" id="vision">
       <img
               src={Images.our_Work_start}
               alt="common-hero-img-1"
@@ -118,7 +118,7 @@ const OurAdvisers = () => {
             </div>
 
             <div
-              className="slider_arrow h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
+              className="slider_arrow me-[-1px] h-[25px] w-[25px] flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
               onClick={() => first.current?.slickPrev()}>
               <svg
                 width="7"
