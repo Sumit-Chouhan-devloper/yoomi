@@ -50,8 +50,8 @@ const AboutHero = () => {
                 So he set out to create an accessible solution to physical
                 therapy that more effectively supports patients, while providing
                 physical
-                <span className="font-semibold">
-                  therapists with the tools
+                <span className="font-semibold ps-1">
+                   therapists with the tools
                 </span>{" "}
                 and data they need to improve care. The goal is to ensure that
                 no patients goes through the experience Ben and others go

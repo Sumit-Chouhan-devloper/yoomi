@@ -54,7 +54,7 @@ const OurAdvisers = () => {
                           src={OurData.AdvisedCard}
                           alt="team-member"
                         />
-                        <div className="md:px-[30px] rounded-b-[5px]">
+                        <div className="md:px-2 lg:px-[10px] xl:px-[30px] rounded-b-[5px]">
                           <h4 className="text-center text-black mb-[6px] text-[24px] pt-[29.5px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
