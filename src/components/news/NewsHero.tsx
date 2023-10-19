@@ -31,7 +31,7 @@ const NewsHero = () => {
               Latest News
             </h2>
             <h3 className="text-[32px] sm:text-6xl text-black text-center ff_Jakarta">
-              News &<span className="font-semibold">Updates</span>
+              News &<span className="font-semibold"> Updates</span>
             </h3>
           </div>
         </div>
