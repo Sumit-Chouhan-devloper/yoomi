@@ -7,7 +7,7 @@ const NewsStart = () => {
         {StartNews.map((data, i) => {
           return (
             <div
-              className="flex md:items-center justify-between flex-wrap border border-[rgba(0,0,0,0.10)] rounded sm:mb-[36px] mb-[32px] md:max-w-[100%] max-w-[500px]"
+              className="flex md:items-center justify-between flex-wrap border border-[rgba(0,0,0,0.10)] rounded sm:mb-[36px] mb-[32px] md:max-w-[100%] max-w-[500px] "
               key={i}
             >
               <div className="lg:w-4/12 md:w-5/12 w-full h-full border-l-0 border-t-0 border-b-0 border border-[rgba(0,0,0,0.10)] rounded">
