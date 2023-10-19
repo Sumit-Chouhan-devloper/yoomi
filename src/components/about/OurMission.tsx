@@ -3,7 +3,7 @@ import { Images } from "../../images.js";
 const OurMission = () => {
   return (
     <>
-     <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 py-[95px] lg:py-[145px]">
+     <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 py-[95px] xl:py-[145px]">
           <div className="bg-white sm:px-4 md:px-8 lg:px-0 rounded-[32px] commited_card min-h-[388px] sm:min-h-[366px] flex justify-center items-center flex-col relative">
             <img
               src={Images.commonIcon2}
