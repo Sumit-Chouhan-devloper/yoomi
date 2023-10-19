@@ -66,7 +66,7 @@ const Contactform = () => {
                   }
                   value={typicalform.name}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]  text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.name === ""
                     ? "First Name is required"
                     : null}
@@ -85,7 +85,7 @@ const Contactform = () => {
                   }
                   value={typicalform.last}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px]  text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.last === "" ? "" : null}
                 </p>
               </div>
