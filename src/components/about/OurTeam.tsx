@@ -1,36 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ourTeamData } from "../common/Helper";
-import Slider from "react-slick";
 import { Images } from "../../images.js";
 const OurTeam = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    arrows: false,
-    speed: 500,
-    slidesToShow: 1.03,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1023,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  const first = React.useRef<Slider | null>(null);
+  const [showLess, setShowLess] = useState(0);
+  useEffect(() => {
+    if (window.innerWidth < 639) {
+      setShowLess(3);
+    } else {
+      setShowLess(ourTeamData.length);
+    }
+  }, []);
+
   return (
     <>
-      <div className="bg-[#F5F8FA] lg:pb-[91px] py-10 sm:py-12 lg:pt-[76px] relative" id="team">
+      <div
+        className="bg-[#F5F8FA] lg:pb-[91px] py-10 sm:py-12 lg:pt-[76px] relative"
+        id="team"
+      >
         <img
           src={Images.our_Work_start}
           alt="common-hero-img-1"
@@ -53,18 +39,18 @@ const OurTeam = () => {
           </p>
           <h2 className="text-black ff_Jakarta text-[32px] lg:text-6xl font-normal text-center leading-[110%] mb-4 sm:mb-[14px]">
             The Amazing Team
-            <span className="font-semibold"> Behind Our Company</span>
+            <span className="font-semibold">Behind Our Company</span>
           </h2>
           <p className="text-black text-center ff_inter text-sm sm:text-[24px] font-normal opacity-70 mb-[40px]">
             We’re a dedicated group of individuals
           </p>
-          <div className="hidden sm:block">
+          <div className=" sm:block">
             <div className="flex flex-wrap">
-              {ourTeamData.map((OurData, i) => {
+              {ourTeamData.slice(0, showLess).map((OurData, i) => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[11px] bg-white my-[10px] hover:scale-[1.02] transition duration-300 overflow-hidden rounded-[5px]">
+                      <div className="mx-[11px] bg-white my-[10px] px-3 pt-3 about_us_card transition duration-300 rounded-[5px]">
                         <div>
                           <img
                             className="w-full rounded-b-[5px]"
@@ -85,80 +71,14 @@ const OurTeam = () => {
                   </div>
                 );
               })}
-            </div>
-          </div>
-          <div className="sm:hidden relative max-w-[500px] mx-auto">
-            <img
-              src={Images.our_Work_start}
-              alt="common-hero-img-1"
-              className="absolute hidden  bottom-[-30%] w-[25%] start-[-20%]"
-            />
-            <Slider {...settings} ref={first}>
-              {ourTeamData.map((OurData, i) => {
-                return (
-                  <div key={i} className="lg:w-4/12 sm:w-6/12">
-                    <div>
-                      <div className="mx-[5px] hover:scale-[1.02] transition duration-300 bg-white">
-                        <img
-                          className="w-full"
-                          src={OurData.CardImages}
-                          alt="team-member"
-                        />
-                        <div className="py-[30px] rounded-b-[5px]">
-                          <h4 className="text-center text-black  mb-[6px] text-[24px] font-bold leading-[140%] ff_Jakarta">
-                            {OurData.Heading}
-                          </h4>
-                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
-                            {OurData.para}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </Slider>
-          </div>
-          <div className="flex gap-[10px] mt-[28px] justify-center sm:hidden">
-            <div
-              className="slider_arrow h-[25px] w-[25px] about_slider_icon ms-[-1px] flex justify-center items-center transition duration-300 relative rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-              onClick={() => first.current?.slickNext()}
-            >
-              <svg
-                width="7"
-                height="11"
-                viewBox="0 0 7 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.05726 1.18284L1.67187 5.56823L6.05726 9.95361"
-                  stroke="black"
-                  strokeWidth="1.75416"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </div>
-            <div
-              className="slider_arrow h-[25px] me-[-1px] w-[25px] about_slider_icon flex justify-center items-center relative transition duration-300 rounded-full border border-solid border-black hover:bg-deep-blue hover:border-hidden cursor-pointer"
-              onClick={() => first.current?.slickPrev()}
-            >
-              <svg
-                width="7"
-                height="11"
-                viewBox="0 0 7 11"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.15953 1.18284L5.54492 5.56823L1.15953 9.95361"
-                  stroke="black"
-                  strokeWidth="1.75416"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <div className="sm:hidden">
+                <button
+                  onClick={() => setShowLess(ourTeamData.length)}
+                  className=" bg-deep-blue text-white rounded-[5px] h-[47px] w-[150px]"
+                >
+                  Show {showLess === 3 ? "More" : "Less"}
+                </button>
+              </div>
             </div>
           </div>
         </div>
