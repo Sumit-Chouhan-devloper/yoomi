@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { Images } from "../../images";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 const Contactform = () => {
   const [phone, setPhone] = useState<string>("");
   const [typicalform, setTypicalForm] = useState({
@@ -30,13 +30,13 @@ const Contactform = () => {
       });
       setPhone("");
 
-      Swal.fire({
-        position: "center",
-        icon: "success",
-        title: "Succes",
-        showConfirmButton: false,
-        timer: 1500,
-      });
+      // Swal.fire({
+      //   position: "center",
+      //   icon: "success",
+      //   title: "Succes",
+      //   showConfirmButton: false,
+      //   timer: 1500,
+      // });
     }
   };
   return (

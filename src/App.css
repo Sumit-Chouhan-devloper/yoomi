@@ -152,17 +152,15 @@ html {
 .about_top_slids .slick-slide {
   padding: 0px 5px;
 }
-@media (min-width:640px) {
+@media (min-width: 640px) {
   .about_top_slids .slick-slide {
     padding: 0px 10px;
   }
-  
 }
-@media (min-width: 560px) and (max-width: 1000px) and (min-height:360px) and (max-height:400px) and (orientation : landscape) {
+@media (min-width: 560px) and (max-width: 1000px) and (min-height: 360px) and (max-height: 400px) and (orientation: landscape) {
   .hero_custom_height {
     min-height: 100vh !important;
   }
- 
 
   .heading_size_custom {
     font-size: 28px;
@@ -185,8 +183,9 @@ html {
     padding-top: 0px;
   }
 }
-@media (min-width:500px) {
-  .about_slider_icon{height: 34px;
-  width: 34px;}
-  
+@media (min-width: 500px) {
+  .about_slider_icon {
+    height: 34px;
+    width: 34px;
+  }
 }
