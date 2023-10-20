@@ -152,6 +152,9 @@ html {
 .about_top_slids .slick-slide {
   padding: 0px 5px;
 }
+.slick-slide img {
+  outline: unset !important;
+}
 @media (min-width: 640px) {
   .about_top_slids .slick-slide {
     padding: 0px 10px;

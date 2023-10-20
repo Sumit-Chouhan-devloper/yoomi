@@ -33,7 +33,7 @@ const OurAdvisers = () => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12 w-full max-w-[480px] sm:max-w-[unset]">
                     <div>
-                      <div className="my-[10px] sm:m-[10px] group bg-[#E6F0F3] pt-3 pb-3 sm:pb-0 rounded-[5px] sm:min-h-[410px] md:min-h-[440px] xl:min-h-[465px]">
+                      <div className="my-[10px] sm:m-[10px] group bg-[#E6F0F3] pt-3 sm:pb-0 rounded-[5px] sm:min-h-[410px] md:min-h-[440px] xl:min-h-[465px]">
                         <div className="overflow-hidden mx-3 rounded-[5px]">
                           <img
                             className="w-full group-hover:scale-105 transition duration-300"

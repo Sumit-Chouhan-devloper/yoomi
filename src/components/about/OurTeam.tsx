@@ -61,10 +61,10 @@ const OurTeam = () => {
                           </div>
                         </div>
                         <div className="py-[15px] rounded-b-[5px]">
-                          <h4 className="text-center text-black  text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
+                          <h4 className="text-center text-black text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
-                          <p className="text-center text-black ff_inter text-xl sm:text-[24px] font-normal leading-normal opacity-90 mb-0">
+                          <p className="text-center text-black ff_inter text-[24px] font-normal leading-normal opacity-90 mb-0">
                             {OurData.para}
                           </p>
                         </div>
