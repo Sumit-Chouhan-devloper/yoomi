@@ -187,7 +187,7 @@ export const mainNewsContent = [
 //
 export const newsData = [
   {
-    newsPathname: "/news-details/yoomi-and-rutger-spartner-to-Improve",
+    newsPathname: "/news-details/yoomi-and-rutgers-partner-to-improve",
     newsImage: Images.subFirstImageNews,
     newsHeading: "Yoomi and Rutger’s partner to Improve ",
     newsHeadingBold: " physical therapy adherence",
@@ -207,7 +207,7 @@ export const newsData = [
     id: 2,
   },
   {
-    newsPathname: "/news-details/yoomi-wins-Hail",
+    newsPathname: "/news-details/yoomi-wins-hail",
 
     newsImage: Images.subThreeImageNews,
     newsHeading: "Yoomi Wins ",
@@ -222,7 +222,7 @@ export const newsData = [
 //
 export const StartNews = [
   {
-    newsPathname: "/news-details/yoomi-and-rutger-spartner-to-Improve",
+    newsPathname: "/news-details/yoomi-and-rutgers-partner-to-improve",
     newsImage: Images.newsImage1,
     heading: "Yoomi and Rutger’s partner to Improve",
     boldHeading: " physical therapy adherence",
@@ -230,7 +230,7 @@ export const StartNews = [
     date: "January 5, 2023",
   },
   {
-    newsPathname: "/news-details/yoomi-wins-Hail",
+    newsPathname: "/news-details/yoomi-wins-hail",
     newsImage: Images.newsImage3,
     heading: "Yoomi Wins Hail ",
     boldHeading: "Mary CVontest",
