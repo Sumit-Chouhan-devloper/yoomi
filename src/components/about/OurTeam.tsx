@@ -44,22 +44,24 @@ const OurTeam = () => {
           <p className="text-black text-center ff_inter text-sm sm:text-[24px] font-normal opacity-70 mb-[40px]">
             We’re a dedicated group of individuals
           </p>
-          <div className=" sm:block">
+          <div>
             <div className="flex flex-wrap">
               {ourTeamData.slice(0, showLess).map((OurData, i) => {
                 return (
                   <div key={i} className="lg:w-4/12 sm:w-6/12">
                     <div>
-                      <div className="mx-[11px] bg-white my-[10px] px-3 pt-3 about_us_card transition duration-300 rounded-[5px]">
+                      <div className="mx-[11px] bg-white my-[10px] px-3 pt-3 group transition duration-300 rounded-[5px]">
                         <div>
-                          <img
-                            className="w-full rounded-b-[5px]"
-                            src={OurData.CardImages}
-                            alt="team-member"
-                          />
+                          <div className="overflow-hidden rounded-[5px]">
+                            <img
+                              className="w-full group-hover:scale-105 rounded-b-[5px] transition duration-300"
+                              src={OurData.CardImages}
+                              alt="team-member"
+                            />
+                          </div>
                         </div>
-                        <div className="py-[30px] rounded-b-[5px]">
-                          <h4 className="text-center text-black  mb-[6px] text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
+                        <div className="py-[15px] rounded-b-[5px]">
+                          <h4 className="text-center text-black  text-xl sm:text-[24px] font-bold leading-[140%] ff_Jakarta">
                             {OurData.Heading}
                           </h4>
                           <p className="text-center text-black ff_inter text-xl sm:text-[24px] font-normal leading-normal opacity-90 mb-0">
@@ -74,7 +76,7 @@ const OurTeam = () => {
               <div className="sm:hidden">
                 <button
                   onClick={() => setShowLess(ourTeamData.length)}
-                  className=" bg-deep-blue text-white rounded-[5px] h-[47px] w-[150px]"
+                  className=" bg-deep-blue text-white rounded-[5px] h-[47px] w-[130px] text-sm font-semibold ff_inter"
                 >
                   Show {showLess === 3 ? "More" : "Less"}
                 </button>
