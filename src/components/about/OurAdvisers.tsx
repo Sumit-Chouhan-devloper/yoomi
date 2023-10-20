@@ -36,7 +36,7 @@ const OurAdvisers = () => {
                       <div className="my-[10px] sm:m-[10px] group bg-[#E6F0F3] pt-3 sm:pb-0 rounded-[5px] sm:min-h-[410px] md:min-h-[440px] xl:min-h-[465px]">
                         <div className="overflow-hidden mx-3 rounded-[5px]">
                           <img
-                            className="w-full group-hover:scale-105 transition duration-300"
+                            className="w-full group-hover:scale-105 transition duration-300 lg:min-h-[261px] sm:min-h-[233.61px] min-h-[284.8px] md:min-h-[292px]xl:min-h-[306px]"
                             src={OurData.AdvisedCard}
                             alt="team-member"
                           />

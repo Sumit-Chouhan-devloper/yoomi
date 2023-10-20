@@ -54,7 +54,7 @@ const OurTeam = () => {
                         <div>
                           <div className="overflow-hidden rounded-[5px]">
                             <img
-                              className="w-full group-hover:scale-105 rounded-b-[5px] transition duration-300"
+                              className="w-full group-hover:scale-105 rounded-b-[5px] transition duration-300 lg:min-h-[257px] md:min-h-[290px] sm:min-h-[231px] min-h-[283px] xl:min-h-[304px]"
                               src={OurData.CardImages}
                               alt="team-member"
                             />
