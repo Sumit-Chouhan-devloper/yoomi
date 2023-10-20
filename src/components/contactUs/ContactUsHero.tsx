@@ -30,14 +30,14 @@ const ContactHero = () => {
             <h2 className="uppercase font-medium text-xs sm:text-sm text-deep-blue mb-1">
               Lets work together
             </h2>
-            <h3 className="text-[30px] sm:text-6xl text-black text-center ff_Jakarta md:mb-[33px] mb-5 leading-[110%] px-[29px]">
+            <h3 className="text-[30px] sm:text-6xl text-black text-center ff_Jakarta md:mb-[33px] mb-5 leading-[110%] sm:px-[29px]">
               How Can We<span className="font-semibold"> Help You?</span>
             </h3>
             <p className=" text-center text-[#000] text-sm font-normal leading-[150%] opacity-70 max-w-[633px]">
               Hoping to have a question answered? Curious about using Yoomi for
               your practice?
             </p>
-            <p className=" text-center text-[#000] text-sm font-normal leading-[150%] opacity-70 max-w-[633px] px-[29px]">
+            <p className=" text-center text-[#000] text-sm font-normal leading-[150%] opacity-70 max-w-[633px] sm:px-[29px]">
               Reach out to our team for a quick response!
             </p>
           </div>

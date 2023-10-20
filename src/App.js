@@ -11,6 +11,7 @@ import "animate.css";
 import ContactUs from "./view/ContactUs.tsx";
 import About from "./view/About.tsx";
 import News from "./view/News.tsx";
+import NewsDetails from "./view/NewsDetails";
 import "react-phone-input-2/lib/bootstrap.css";
 import BackToTop from "./components/common/BackToTopButton";
 function App() {
@@ -21,17 +22,16 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[2200px] mx-auto overflow-hidden">
-        <BrowserRouter>
-          <Routes>
-            <Route path={routes.HOME} element={<Main />} />
-            <Route path={"/contact-us"} element={<ContactUs />} />
-            <Route path={"/about"} element={<About />} />
-            <Route path={"/news"} element={<News />} />
-          </Routes>
-        </BrowserRouter>
-        <BackToTop />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path={routes.HOME} element={<Main />} />
+          <Route path={"/contact-us"} element={<ContactUs />} />
+          <Route path={"/about"} element={<About />} />
+          <Route path={"/news"} element={<News />} />
+          <Route path={"/news-details/:id"} element={<NewsDetails />} />
+        </Routes>
+      </BrowserRouter>
+      <BackToTop />
     </>
   );
 }

@@ -1,15 +1,25 @@
 import React from "react";
 import { StartNews } from "../common/Helper";
+import { useNavigate } from "react-router-dom";
 const NewsStart = () => {
+  const navigate = useNavigate();
+
+  const handleNavigateToNewsDetails = (i: number) => {
+    navigate(`${StartNews[i].newsPathname}`);
+  };
+
   return (
     <>
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-[200px] mt-[150px] flex items-center flex-col">
         {StartNews.map((data, i) => {
           return (
             <div
-              className="flex md:items-center justify-between flex-wrap border border-[rgba(0,0,0,0.10)] rounded sm:mb-[36px] mb-[32px] md:max-w-[100%] max-w-[500px]"
-              key={i}
-            >
+              onClick={() => {
+                // eslint-disable-next-line
+                handleNavigateToNewsDetails(i);
+              }}
+              className="flex cursor-pointer md:items-center justify-between flex-wrap border border-[rgba(0,0,0,0.10)] rounded sm:mb-[36px] mb-[32px]"
+              key={i}>
               <div className="lg:w-4/12 md:w-5/12 w-full h-full border-l-0 border-t-0 border-b-0 border border-[rgba(0,0,0,0.10)] rounded">
                 <img
                   src={data.newsImage}

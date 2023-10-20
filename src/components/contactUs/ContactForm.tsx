@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { Images } from "../../images";
+import Swal from "sweetalert2";
 const Contactform = () => {
   const [phone, setPhone] = useState<string>("");
   const [typicalform, setTypicalForm] = useState({
@@ -17,8 +18,6 @@ const Contactform = () => {
     setError(true);
     if (
       typicalform.name !== "" &&
-      typicalform.last !== "" &&
-      typicalform.textarea !== "" &&
       typicalform.email !== "" &&
       regex.test(typicalform.email)
     ) {
@@ -28,6 +27,15 @@ const Contactform = () => {
         last: "",
         textarea: "",
         email: "",
+      });
+      setPhone("");
+
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Succes",
+        showConfirmButton: false,
+        timer: 1500,
       });
     }
   };
@@ -58,7 +66,7 @@ const Contactform = () => {
                   }
                   value={typicalform.name}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.name === ""
                     ? "First Name is required"
                     : null}
@@ -77,7 +85,7 @@ const Contactform = () => {
                   }
                   value={typicalform.last}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.last === "" ? "" : null}
                 </p>
               </div>
@@ -99,7 +107,7 @@ const Contactform = () => {
                   }
                   value={typicalform.email}
                 />
-                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] sm:text-start text-end pe-[15px]">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ps-[15px] text-end pe-[15px] text-xs">
                   {error && typicalform.email === "" ? (
                     "Email is required"
                   ) : error && regex.test(typicalform.email) === false ? (
