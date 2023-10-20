@@ -54,7 +54,8 @@ const OurAdvisers = () => {
                   </div>
                 );
               })}
-               <div className="sm:hidden">
+            </div>
+               <div className="sm:hidden pt-3">
                 <button
                   onClick={() => setShowLess(ourAdviser.length)}
                   className=" bg-deep-blue text-white rounded-[5px] h-[47px] w-[130px] text-sm font-semibold ff_inter"
@@ -62,7 +63,6 @@ const OurAdvisers = () => {
                   Show {showLess === 3 ? "More" : "Less"}
                 </button>
               </div>
-            </div>
           </div>
         </div>
       </div>

@@ -45,12 +45,12 @@ const OurTeam = () => {
             We’re a dedicated group of individuals
           </p>
           <div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center sm:justify-start">
               {ourTeamData.slice(0, showLess).map((OurData, i) => {
                 return (
-                  <div key={i} className="lg:w-4/12 sm:w-6/12">
+                  <div key={i} className="lg:w-4/12 sm:w-6/12 w-full !max-w-[480px]">
                     <div>
-                      <div className="mx-[11px] bg-white my-[10px] px-3 pt-3 group transition duration-300 rounded-[5px]">
+                      <div className="sm:mx-[11px] bg-white my-[10px] px-3 pt-3 group transition duration-300 rounded-[5px]">
                         <div>
                           <div className="overflow-hidden rounded-[5px]">
                             <img
@@ -73,7 +73,8 @@ const OurTeam = () => {
                   </div>
                 );
               })}
-              <div className="sm:hidden">
+            </div>
+              <div className="sm:hidden pt-3">
                 <button
                   onClick={() => setShowLess(ourTeamData.length)}
                   className=" bg-deep-blue text-white rounded-[5px] h-[47px] w-[130px] text-sm font-semibold ff_inter"
@@ -81,7 +82,6 @@ const OurTeam = () => {
                   Show {showLess === 3 ? "More" : "Less"}
                 </button>
               </div>
-            </div>
           </div>
         </div>
       </div>
